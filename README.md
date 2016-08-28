@@ -29,10 +29,12 @@
 	g(全局变量,可以在当前脚本和其他外部脚本中引用), 
 	s(局部变量,仅在当前脚本中起效)
 (3)可在vimrc脚本中加载其他vim脚本
-	格式:execute  ':so'  path/xxx.vim
-	eg:
-		let g:vim_home=expand('~/.vim')
-		execute ':so' g:vim_home."/conf/basic.vim"
+```vim
+格式: execute  ':so'  path/xxx.vim
+eg:
+	let g:vim_home=expand('~/.vim')
+	execute ':so' g:vim_home."/conf/basic.vim"
+```
 
 ​	
 
