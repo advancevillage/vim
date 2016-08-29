@@ -13,3 +13,5 @@
 [(5)目录树形结构: https://github.com/scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
 
 [(6)标签行 https://github.com/vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)
+
+[(7)代码折叠: https://github.com/Yggdroot/indentLine](https://github.com/Yggdroot/indentLine)
