@@ -68,7 +68,9 @@
 
 加载插件
 第一步先将插件地址写入g:vim_home."/conf/pluginmanager.vim"中注意这里使用的是plug.vim插件管理器
+
 第二步编辑插件的配置文件并放在g:vim_home."/conf/pluginconf/xxx.vim"(xxx表示插件的名称);
+
 第三步在pluginmanager.vim脚本中的g:plugins数组中添加xxx;第四步生效vimrc脚本
 
 	execute ':so' g:vim_home."/conf/pluginmanager.vim"
