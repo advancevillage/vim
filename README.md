@@ -65,8 +65,8 @@
 加载快键键重映射,根据自己的习惯定义
 
 	execute ':so' g:vim_home."/conf/keymap.vim"
-
 加载插件
+
 第一步先将插件地址写入g:vim_home."/conf/pluginmanager.vim"中注意这里使用的是plug.vim插件管理器
 
 第二步编辑插件的配置文件并放在g:vim_home."/conf/pluginconf/xxx.vim"(xxx表示插件的名称);
