@@ -48,22 +48,31 @@
 	代码类设置
 	(4)自动补全:  auto-pairs
 	(5)代码折叠:  indentLine
+	(6)代码自动补全: YouCompleteMe
 
 ######加载过程
 
-	"设置一个全局变量,VIM自动加载vimrc文件,所以从vimrc设置使它自动加载其他vim脚本
-	"定义一个全局变量,使VIM从当前目录下.vim加载配置文件
+设置一个全局变量,VIM自动加载vimrc文件,所以从vimrc设置使它自动加载其他vim脚本
+定义一个全局变量,使VIM从当前目录下.vim加载配置文件
+
 	let g:vim_home = expand('~/.vim')
-	"设置加载的VIM脚本, . 表示字符串连接符, 先加载VIM基本配置脚本,basic.vim中定义
-	"常规设置,例如显示行号, 编码设置,鼠标任意点击等
+
+设置加载的VIM脚本, . 表示字符串连接符, 先加载VIM基本配置脚本,basic.vim中定义
+常规设置,例如显示行号, 编码设置,鼠标任意点击等
+
 	execute ':so' g:vim_home."/conf/basic.vim"
-	"加载快键键重映射,根据自己的习惯定义
+
+加载快键键重映射,根据自己的习惯定义
+
 	execute ':so' g:vim_home."/conf/keymap.vim"
-	"加载插件:第一步先将插件地址写入g:vim_home."/conf/pluginmanager.vim"中
-	"注意这里使用的是plug.vim插件管理器;第二步编辑插件的配置文件并放在g:vim_home
-	"."/conf/pluginconf/xxx.vim"(xxx表示插件的名称);第三步在				   	 "pluginmanager.vim脚本中的g:plugins数组中添加xxx;第四步生效vimrc脚本
+
+加载插件
+:第一步先将插件地址写入g:vim_home."/conf/pluginmanager.vim"中注意这里使用的是plug.vim插件管理器;
+第二步编辑插件的配置文件并放在g:vim_home."/conf/pluginconf/xxx.vim"(xxx表示插件的名称);
+第三步在pluginmanager.vim脚本中的g:plugins数组中添加xxx;第四步生效vimrc脚本
+
 	execute ':so' g:vim_home."/conf/pluginmanager.vim"
-	
-	
-	
+
+​	
+​	
 

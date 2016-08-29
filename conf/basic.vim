@@ -81,7 +81,7 @@ filetype plugin on
 "在处理为保存或只读文件的时候弹出确认
 set confirm
 "与windows共享剪贴板
-set clipboard=unnamedplus
+set clipboard=unnamed
 "为特定的文件类型载入相关的缩进文件
 filetype indent on
 "保存全局变量

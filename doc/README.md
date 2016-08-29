@@ -15,3 +15,5 @@
 [(6)标签行 https://github.com/vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)
 
 [(7)代码折叠: https://github.com/Yggdroot/indentLine](https://github.com/Yggdroot/indentLine)
+
+[(8)代码自动补全: https://github.com/Valloric/YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
