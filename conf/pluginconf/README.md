@@ -1,5 +1,4 @@
 ######YouCompleteMe安装简单说明
----
 [官方YouCompleteMe安装说明](https://github.com/Valloric/YouCompleteMe#full-installation-guide)
 
 (1)检查VIM的版本和python的版本。要求 VIM > 7.3 && (Python >  2 || Python > 3)
@@ -31,3 +30,15 @@
 ---
 ###截图
 ![YomCompleteMe效果截图](http://obp7hxe1q.bkt.clouddn.com/ycm.png)
+
+---
+
+######vim-cpp-enhanced-highlight安装简单说明
+
+(1)使用plug.vim插件安装vim-cpp-enhanced-highlight会在.vim/plugged/vim-cpp-enhanced-highlight
+目下生成after/syntax目录
+(2)由于vim-cpp-enhanced-highlight插件在 .vim/after/syntax/目录下加载所需文件。
+
+	mkdir -p .vim/after/syntax
+	cp .vim/plugged/vim-cpp-enhanced-highlight/after/syntax/*  .vim/after/syntax/
+

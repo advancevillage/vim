@@ -9,8 +9,8 @@
 	 |
 	 |------after(此目录是插件vim-cpp-enhanced-highlight需要而创建的)
 	 |		  	|------syntax
-	 |			| 			|------cpp.vim
-	 |			|			|------c.vim
+	 |			 			|------cpp.vim
+	 |						|------c.vim
 	 |
 	 |------conf (配置vim的脚本文件夹)
 	 |			|
@@ -54,6 +54,7 @@
 	(4)自动补全:  auto-pairs
 	(5)代码折叠:  indentLine
 	(6)代码自动补全: YouCompleteMe
+	(7)关键字高亮显示: vim-cpp-enhanced-highlight
 
 ######加载过程
 

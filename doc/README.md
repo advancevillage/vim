@@ -17,3 +17,5 @@
 [(7)代码折叠: https://github.com/Yggdroot/indentLine](https://github.com/Yggdroot/indentLine)
 
 [(8)代码自动补全: https://github.com/Valloric/YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+
+[(9)关键字高亮显示: https://github.com/octol/vim-cpp-enhanced-highlight](https://github.com/octol/vim-cpp-enhanced-highlight)
