@@ -7,6 +7,11 @@
 	 |
 	 |------plugged  (插件目录)
 	 |
+	 |------after(此目录是插件vim-cpp-enhanced-highlight需要而创建的)
+	 |		  	|------syntax
+	 |			| 			|------cpp.vim
+	 |			|			|------c.vim
+	 |
 	 |------conf (配置vim的脚本文件夹)
 	 |			|
 	 |			|------basic.vim	(vim基本配置)
