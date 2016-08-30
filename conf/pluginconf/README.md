@@ -18,7 +18,7 @@
 
 (4)cd xxx/YouCompleteMe/目录下
 
-	./install.py  -clang-completer
+	./install.py  --clang-completer
 
 (5)在YouCompleteMe配置文件中设置属性,注意 .ycm_extra_conf.py很重要
 
