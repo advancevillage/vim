@@ -37,6 +37,7 @@
 
 (1)使用plug.vim插件安装vim-cpp-enhanced-highlight会在.vim/plugged/vim-cpp-enhanced-highlight
 目下生成after/syntax目录
+
 (2)由于vim-cpp-enhanced-highlight插件在 .vim/after/syntax/目录下加载所需文件。
 
 	mkdir -p .vim/after/syntax

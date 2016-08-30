@@ -80,7 +80,7 @@
 第三步在pluginmanager.vim脚本中的g:plugins数组中添加xxx;第四步生效vimrc脚本
 
 	execute ':so' g:vim_home."/conf/pluginmanager.vim"
+---
+###LICIENCE
 
-​	
-​	
-
+CUG@2016 SUN-HE
