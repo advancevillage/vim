@@ -82,6 +82,10 @@
 
 	execute ':so' g:vim_home."/conf/pluginmanager.vim"
 ---
+###效果
+![个性化配置VIM效果动图](http://obp7hxe1q.bkt.clouddn.com/vimconf.gif)
+
+---
 ###LICIENCE
 
 CUG@2016 SUN-HE
