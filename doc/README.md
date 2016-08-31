@@ -19,3 +19,5 @@
 [(8)代码自动补全: https://github.com/Valloric/YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 
 [(9)关键字高亮显示: https://github.com/octol/vim-cpp-enhanced-highlight](https://github.com/octol/vim-cpp-enhanced-highlight)
+
+[(10)语法错误: https://github.com/scrooloose/syntastic](https://github.com/scrooloose/syntastic)

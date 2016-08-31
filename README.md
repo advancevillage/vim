@@ -55,6 +55,7 @@
 	(5)代码折叠:  indentLine
 	(6)代码自动补全: YouCompleteMe
 	(7)关键字高亮显示: vim-cpp-enhanced-highlight
+	(8)语法错误: syntastic
 
 ######加载过程
 
