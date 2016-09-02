@@ -1,0 +1,2386 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ACCESSPERMS	stat.h	198;"	d
+ACCT_BYTEORDER	acct.h	95;"	d
+ACCT_BYTEORDER	acct.h	97;"	d
+ACCT_COMM	acct.h	30;"	d
+ACORE	acct.h	/^    ACORE = 0x08,		\/* Dumped core.  *\/$/;"	e	enum:__anon8
+ADDR_COMPAT_LAYOUT	personality.h	/^    ADDR_COMPAT_LAYOUT = 0x0200000,$/;"	e	enum:__anon4
+ADDR_LIMIT_32BIT	personality.h	/^    ADDR_LIMIT_32BIT = 0x0800000,$/;"	e	enum:__anon4
+ADDR_LIMIT_3GB	personality.h	/^    ADDR_LIMIT_3GB = 	0x8000000$/;"	e	enum:__anon4
+ADDR_NO_RANDOMIZE	personality.h	/^    ADDR_NO_RANDOMIZE = 0x0040000,$/;"	e	enum:__anon4
+AFORK	acct.h	/^    AFORK = 0x01,		\/* Has executed fork, but no exec.  *\/$/;"	e	enum:__anon8
+AHZ	acct.h	100;"	d
+ALLPERMS	stat.h	199;"	d
+ARCDENSITY	gmon.h	108;"	d
+ARCINDEX	gmon.h	120;"	d
+ASU	acct.h	/^    ASU = 0x02,			\/* Used super-user privileges.  *\/$/;"	e	enum:__anon8
+AXSIG	acct.h	/^    AXSIG = 0x10		\/* Killed by a signal.  *\/$/;"	e	enum:__anon8
+BLKBSZGET	mount.h	116;"	d
+BLKBSZSET	mount.h	117;"	d
+BLKFLSBUF	mount.h	108;"	d
+BLKFRAGET	mount.h	112;"	d
+BLKFRASET	mount.h	111;"	d
+BLKGETSIZE	mount.h	107;"	d
+BLKGETSIZE64	mount.h	118;"	d
+BLKRAGET	mount.h	110;"	d
+BLKRASET	mount.h	109;"	d
+BLKROGET	mount.h	105;"	d
+BLKROSET	mount.h	104;"	d
+BLKRRPART	mount.h	106;"	d
+BLKSECTGET	mount.h	114;"	d
+BLKSECTSET	mount.h	113;"	d
+BLKSSZGET	mount.h	115;"	d
+BLOCK_SIZE	mount.h	27;"	d
+BLOCK_SIZE_BITS	mount.h	28;"	d
+CANBSIZ	param.h	45;"	d
+CBRK	ttydefaults.h	83;"	d
+CDISCARD	ttydefaults.h	78;"	d
+CDSUSP	ttydefaults.h	74;"	d
+CEOF	ttydefaults.h	56;"	d
+CEOL	ttydefaults.h	58;"	d
+CEOL	ttydefaults.h	60;"	d
+CEOT	ttydefaults.h	81;"	d
+CERASE	ttydefaults.h	62;"	d
+CFLUSH	ttydefaults.h	85;"	d
+CINTR	ttydefaults.h	63;"	d
+CIRCLEQ_EMPTY	queue.h	559;"	d
+CIRCLEQ_ENTRY	queue.h	479;"	d
+CIRCLEQ_FIRST	queue.h	560;"	d
+CIRCLEQ_FOREACH	queue.h	546;"	d
+CIRCLEQ_FOREACH_REVERSE	queue.h	551;"	d
+CIRCLEQ_HEAD	queue.h	470;"	d
+CIRCLEQ_HEAD_INITIALIZER	queue.h	476;"	d
+CIRCLEQ_INIT	queue.h	488;"	d
+CIRCLEQ_INSERT_AFTER	queue.h	493;"	d
+CIRCLEQ_INSERT_BEFORE	queue.h	503;"	d
+CIRCLEQ_INSERT_HEAD	queue.h	513;"	d
+CIRCLEQ_INSERT_TAIL	queue.h	523;"	d
+CIRCLEQ_LAST	queue.h	561;"	d
+CIRCLEQ_LOOP_NEXT	queue.h	565;"	d
+CIRCLEQ_LOOP_PREV	queue.h	569;"	d
+CIRCLEQ_NEXT	queue.h	562;"	d
+CIRCLEQ_PREV	queue.h	563;"	d
+CIRCLEQ_REMOVE	queue.h	533;"	d
+CKILL	ttydefaults.h	69;"	d
+CLNEXT	ttydefaults.h	77;"	d
+CMIN	ttydefaults.h	70;"	d
+CODE	syslog.h	/^} CODE;$/;"	t	typeref:struct:_code
+CQUIT	ttydefaults.h	71;"	d
+CREPRINT	ttydefaults.h	80;"	d
+CRPRNT	ttydefaults.h	84;"	d
+CS	reg.h	43;"	d
+CS	reg.h	71;"	d
+CSTART	ttydefaults.h	75;"	d
+CSTATUS	ttydefaults.h	65;"	d
+CSTATUS	ttydefaults.h	67;"	d
+CSTOP	ttydefaults.h	76;"	d
+CSUSP	ttydefaults.h	72;"	d
+CTIME	ttydefaults.h	73;"	d
+CTRL	ttydefaults.h	55;"	d
+CWERASE	ttydefaults.h	79;"	d
+DEFFILEMODE	stat.h	200;"	d
+DEFTAPE	mtio.h	273;"	d
+DEV_BSIZE	param.h	78;"	d
+DR_CONTROL	debugreg.h	27;"	d
+DR_CONTROL_RESERVED	debugreg.h	81;"	d
+DR_CONTROL_RESERVED	debugreg.h	83;"	d
+DR_CONTROL_SHIFT	debugreg.h	47;"	d
+DR_CONTROL_SIZE	debugreg.h	48;"	d
+DR_ENABLE_SIZE	debugreg.h	70;"	d
+DR_FIRSTADDR	debugreg.h	23;"	d
+DR_GLOBAL_ENABLE_MASK	debugreg.h	73;"	d
+DR_GLOBAL_ENABLE_SHIFT	debugreg.h	69;"	d
+DR_GLOBAL_SLOWDOWN	debugreg.h	86;"	d
+DR_LASTADDR	debugreg.h	24;"	d
+DR_LEN_1	debugreg.h	54;"	d
+DR_LEN_2	debugreg.h	55;"	d
+DR_LEN_4	debugreg.h	56;"	d
+DR_LEN_8	debugreg.h	58;"	d
+DR_LOCAL_ENABLE_MASK	debugreg.h	72;"	d
+DR_LOCAL_ENABLE_SHIFT	debugreg.h	68;"	d
+DR_LOCAL_SLOWDOWN	debugreg.h	85;"	d
+DR_RW_EXECUTE	debugreg.h	50;"	d
+DR_RW_READ	debugreg.h	52;"	d
+DR_RW_WRITE	debugreg.h	51;"	d
+DR_STATUS	debugreg.h	26;"	d
+DR_STEP	debugreg.h	38;"	d
+DR_SWITCH	debugreg.h	39;"	d
+DR_TRAP0	debugreg.h	33;"	d
+DR_TRAP1	debugreg.h	34;"	d
+DR_TRAP2	debugreg.h	35;"	d
+DR_TRAP3	debugreg.h	36;"	d
+DS	reg.h	49;"	d
+DS	reg.h	65;"	d
+EAX	reg.h	64;"	d
+EBP	reg.h	63;"	d
+EBX	reg.h	58;"	d
+ECX	reg.h	59;"	d
+EDI	reg.h	62;"	d
+EDX	reg.h	60;"	d
+EFL	reg.h	72;"	d
+EFLAGS	reg.h	44;"	d
+EIP	reg.h	70;"	d
+ELF_NGREG	procfs.h	48;"	d
+ELF_PRARGSZ	procfs.h	101;"	d
+EPOLLERR	epoll.h	/^    EPOLLERR = 0x008,$/;"	e	enum:EPOLL_EVENTS
+EPOLLERR	epoll.h	59;"	d
+EPOLLET	epoll.h	/^    EPOLLET = 1u << 31$/;"	e	enum:EPOLL_EVENTS
+EPOLLET	epoll.h	69;"	d
+EPOLLHUP	epoll.h	/^    EPOLLHUP = 0x010,$/;"	e	enum:EPOLL_EVENTS
+EPOLLHUP	epoll.h	61;"	d
+EPOLLIN	epoll.h	/^    EPOLLIN = 0x001,$/;"	e	enum:EPOLL_EVENTS
+EPOLLIN	epoll.h	43;"	d
+EPOLLMSG	epoll.h	/^    EPOLLMSG = 0x400,$/;"	e	enum:EPOLL_EVENTS
+EPOLLMSG	epoll.h	57;"	d
+EPOLLONESHOT	epoll.h	/^    EPOLLONESHOT = 1u << 30,$/;"	e	enum:EPOLL_EVENTS
+EPOLLONESHOT	epoll.h	67;"	d
+EPOLLOUT	epoll.h	/^    EPOLLOUT = 0x004,$/;"	e	enum:EPOLL_EVENTS
+EPOLLOUT	epoll.h	47;"	d
+EPOLLPRI	epoll.h	/^    EPOLLPRI = 0x002,$/;"	e	enum:EPOLL_EVENTS
+EPOLLPRI	epoll.h	45;"	d
+EPOLLRDBAND	epoll.h	/^    EPOLLRDBAND = 0x080,$/;"	e	enum:EPOLL_EVENTS
+EPOLLRDBAND	epoll.h	51;"	d
+EPOLLRDHUP	epoll.h	/^    EPOLLRDHUP = 0x2000,$/;"	e	enum:EPOLL_EVENTS
+EPOLLRDHUP	epoll.h	63;"	d
+EPOLLRDNORM	epoll.h	/^    EPOLLRDNORM = 0x040,$/;"	e	enum:EPOLL_EVENTS
+EPOLLRDNORM	epoll.h	49;"	d
+EPOLLWAKEUP	epoll.h	/^    EPOLLWAKEUP = 1u << 29,$/;"	e	enum:EPOLL_EVENTS
+EPOLLWAKEUP	epoll.h	65;"	d
+EPOLLWRBAND	epoll.h	/^    EPOLLWRBAND = 0x200,$/;"	e	enum:EPOLL_EVENTS
+EPOLLWRBAND	epoll.h	55;"	d
+EPOLLWRNORM	epoll.h	/^    EPOLLWRNORM = 0x100,$/;"	e	enum:EPOLL_EVENTS
+EPOLLWRNORM	epoll.h	53;"	d
+EPOLL_CTL_ADD	epoll.h	74;"	d
+EPOLL_CTL_DEL	epoll.h	75;"	d
+EPOLL_CTL_MOD	epoll.h	76;"	d
+EPOLL_EVENTS	epoll.h	/^enum EPOLL_EVENTS$/;"	g
+ES	reg.h	50;"	d
+ES	reg.h	66;"	d
+ESI	reg.h	61;"	d
+FDPIC_FUNCPTRS	personality.h	/^    FDPIC_FUNCPTRS = 0x0080000,$/;"	e	enum:__anon4
+FD_CLR	select.h	91;"	d
+FD_ISSET	select.h	92;"	d
+FD_SET	select.h	90;"	d
+FD_SETSIZE	select.h	78;"	d
+FD_ZERO	select.h	93;"	d
+FS	reg.h	51;"	d
+FS	reg.h	67;"	d
+FS_BASE	reg.h	47;"	d
+GMON_MAGIC	gmon_out.h	32;"	d
+GMON_PROF_BUSY	gmon.h	177;"	d
+GMON_PROF_ERROR	gmon.h	178;"	d
+GMON_PROF_OFF	gmon.h	179;"	d
+GMON_PROF_ON	gmon.h	176;"	d
+GMON_Record_Tag	gmon_out.h	/^  } GMON_Record_Tag;$/;"	t	typeref:enum:__anon9
+GMON_SHOBJ_VERSION	gmon_out.h	36;"	d
+GMON_TAG_BB_COUNT	gmon_out.h	/^    GMON_TAG_BB_COUNT = 2$/;"	e	enum:__anon9
+GMON_TAG_CG_ARC	gmon_out.h	/^    GMON_TAG_CG_ARC = 1,$/;"	e	enum:__anon9
+GMON_TAG_TIME_HIST	gmon_out.h	/^    GMON_TAG_TIME_HIST = 0,$/;"	e	enum:__anon9
+GMON_VERSION	gmon_out.h	33;"	d
+GMT_BOT	mtio.h	212;"	d
+GMT_DR_OPEN	mtio.h	224;"	d
+GMT_D_1600	mtio.h	220;"	d
+GMT_D_6250	mtio.h	219;"	d
+GMT_D_800	mtio.h	221;"	d
+GMT_EOD	mtio.h	215;"	d
+GMT_EOF	mtio.h	211;"	d
+GMT_EOT	mtio.h	213;"	d
+GMT_IM_REP_EN	mtio.h	226;"	d
+GMT_ONLINE	mtio.h	218;"	d
+GMT_SM	mtio.h	214;"	d
+GMT_WR_PROT	mtio.h	216;"	d
+GPROF_COUNT	gmon.h	185;"	d
+GPROF_FROMS	gmon.h	186;"	d
+GPROF_GMONPARAM	gmon.h	188;"	d
+GPROF_STATE	gmon.h	184;"	d
+GPROF_TOS	gmon.h	187;"	d
+GRPQUOTA	quota.h	76;"	d
+GS	reg.h	52;"	d
+GS	reg.h	68;"	d
+GS_BASE	reg.h	48;"	d
+HASHFRACTION	gmon.h	96;"	d
+HISTCOUNTER	gmon.h	61;"	d
+HISTFRACTION	gmon.h	66;"	d
+HOST_STACK_END_ADDR	user.h	178;"	d
+HOST_TEXT_START_ADDR	user.h	177;"	d
+IIF_ALL	quota.h	207;"	d
+IIF_BGRACE	quota.h	204;"	d
+IIF_FLAGS	quota.h	206;"	d
+IIF_IGRACE	quota.h	205;"	d
+INFINITY	vlimit.h	57;"	d
+INITQFNAMES	quota.h	81;"	d
+INTERNAL_MARK	syslog.h	68;"	d
+INTERNAL_NOPRI	syslog.h	66;"	d
+IN_ACCESS	inotify.h	39;"	d
+IN_ALL_EVENTS	inotify.h	75;"	d
+IN_ATTRIB	inotify.h	41;"	d
+IN_CLOSE	inotify.h	44;"	d
+IN_CLOSE	inotify.h	60;"	d
+IN_CLOSE_NOWRITE	inotify.h	43;"	d
+IN_CLOSE_WRITE	inotify.h	42;"	d
+IN_CREATE	inotify.h	49;"	d
+IN_DELETE	inotify.h	50;"	d
+IN_DELETE_SELF	inotify.h	51;"	d
+IN_DONT_FOLLOW	inotify.h	66;"	d
+IN_EXCL_UNLINK	inotify.h	67;"	d
+IN_IGNORED	inotify.h	57;"	d
+IN_ISDIR	inotify.h	71;"	d
+IN_MASK_ADD	inotify.h	69;"	d
+IN_MODIFY	inotify.h	40;"	d
+IN_MOVE	inotify.h	48;"	d
+IN_MOVE	inotify.h	61;"	d
+IN_MOVED_FROM	inotify.h	46;"	d
+IN_MOVED_TO	inotify.h	47;"	d
+IN_MOVE_SELF	inotify.h	52;"	d
+IN_ONESHOT	inotify.h	72;"	d
+IN_ONLYDIR	inotify.h	64;"	d
+IN_OPEN	inotify.h	45;"	d
+IN_Q_OVERFLOW	inotify.h	56;"	d
+IN_UNMOUNT	inotify.h	55;"	d
+ITIMER_PROF	time.h	/^    ITIMER_PROF = 2$/;"	e	enum:__itimer_which
+ITIMER_PROF	time.h	102;"	d
+ITIMER_REAL	time.h	/^    ITIMER_REAL = 0,$/;"	e	enum:__itimer_which
+ITIMER_REAL	time.h	95;"	d
+ITIMER_VIRTUAL	time.h	/^    ITIMER_VIRTUAL = 1,$/;"	e	enum:__itimer_which
+ITIMER_VIRTUAL	time.h	98;"	d
+LIM_CORE	vlimit.h	/^  LIM_CORE,$/;"	e	enum:__vlimit_resource
+LIM_CPU	vlimit.h	/^  LIM_CPU,$/;"	e	enum:__vlimit_resource
+LIM_DATA	vlimit.h	/^  LIM_DATA,$/;"	e	enum:__vlimit_resource
+LIM_FSIZE	vlimit.h	/^  LIM_FSIZE,$/;"	e	enum:__vlimit_resource
+LIM_MAXRSS	vlimit.h	/^  LIM_MAXRSS$/;"	e	enum:__vlimit_resource
+LIM_NORAISE	vlimit.h	/^  LIM_NORAISE,$/;"	e	enum:__vlimit_resource
+LIM_STACK	vlimit.h	/^  LIM_STACK,$/;"	e	enum:__vlimit_resource
+LIST_EMPTY	queue.h	142;"	d
+LIST_ENTRY	queue.h	92;"	d
+LIST_FIRST	queue.h	143;"	d
+LIST_FOREACH	queue.h	134;"	d
+LIST_HEAD	queue.h	84;"	d
+LIST_HEAD_INITIALIZER	queue.h	89;"	d
+LIST_INIT	queue.h	101;"	d
+LIST_INSERT_AFTER	queue.h	105;"	d
+LIST_INSERT_BEFORE	queue.h	113;"	d
+LIST_INSERT_HEAD	queue.h	120;"	d
+LIST_NEXT	queue.h	144;"	d
+LIST_REMOVE	queue.h	127;"	d
+LOCK_EX	file.h	41;"	d
+LOCK_NB	file.h	46;"	d
+LOCK_SH	file.h	40;"	d
+LOCK_UN	file.h	42;"	d
+LOG_ALERT	syslog.h	52;"	d
+LOG_AUTH	syslog.h	97;"	d
+LOG_AUTHPRIV	syslog.h	103;"	d
+LOG_CONS	syslog.h	163;"	d
+LOG_CRIT	syslog.h	53;"	d
+LOG_CRON	syslog.h	102;"	d
+LOG_DAEMON	syslog.h	96;"	d
+LOG_DEBUG	syslog.h	58;"	d
+LOG_EMERG	syslog.h	51;"	d
+LOG_ERR	syslog.h	54;"	d
+LOG_FAC	syslog.h	119;"	d
+LOG_FACMASK	syslog.h	117;"	d
+LOG_FTP	syslog.h	104;"	d
+LOG_INFO	syslog.h	57;"	d
+LOG_KERN	syslog.h	93;"	d
+LOG_LOCAL0	syslog.h	107;"	d
+LOG_LOCAL1	syslog.h	108;"	d
+LOG_LOCAL2	syslog.h	109;"	d
+LOG_LOCAL3	syslog.h	110;"	d
+LOG_LOCAL4	syslog.h	111;"	d
+LOG_LOCAL5	syslog.h	112;"	d
+LOG_LOCAL6	syslog.h	113;"	d
+LOG_LOCAL7	syslog.h	114;"	d
+LOG_LPR	syslog.h	99;"	d
+LOG_MAIL	syslog.h	95;"	d
+LOG_MAKEPRI	syslog.h	63;"	d
+LOG_MASK	syslog.h	153;"	d
+LOG_NDELAY	syslog.h	165;"	d
+LOG_NEWS	syslog.h	100;"	d
+LOG_NFACILITIES	syslog.h	116;"	d
+LOG_NOTICE	syslog.h	56;"	d
+LOG_NOWAIT	syslog.h	166;"	d
+LOG_ODELAY	syslog.h	164;"	d
+LOG_PERROR	syslog.h	167;"	d
+LOG_PID	syslog.h	162;"	d
+LOG_PRI	syslog.h	62;"	d
+LOG_PRIMASK	syslog.h	60;"	d
+LOG_SYSLOG	syslog.h	98;"	d
+LOG_UPTO	syslog.h	154;"	d
+LOG_USER	syslog.h	94;"	d
+LOG_UUCP	syslog.h	101;"	d
+LOG_WARNING	syslog.h	55;"	d
+L_INCR	file.h	34;"	d
+L_SET	file.h	33;"	d
+L_XTND	file.h	35;"	d
+MAP_FAILED	mman.h	44;"	d
+MAX	param.h	103;"	d
+MAXARCS	gmon.h	130;"	d
+MAXHOSTNAMELEN	param.h	54;"	d
+MAXPATHLEN	param.h	48;"	d
+MAXQUOTAS	quota.h	74;"	d
+MAXSYMLINKS	param.h	42;"	d
+MAXTC	timex.h	53;"	d
+MAX_DQ_TIME	quota.h	72;"	d
+MAX_IQ_TIME	quota.h	71;"	d
+MIN	param.h	102;"	d
+MINARCS	gmon.h	115;"	d
+MMAP_PAGE_ZERO	personality.h	/^    MMAP_PAGE_ZERO = 0x0100000,$/;"	e	enum:__anon4
+MNT_DETACH	mount.h	/^  MNT_DETACH = 2,		\/* Just detach from the tree.  *\/$/;"	e	enum:__anon17
+MNT_DETACH	mount.h	127;"	d
+MNT_EXPIRE	mount.h	/^  MNT_EXPIRE = 4,		\/* Mark for expiry.  *\/$/;"	e	enum:__anon17
+MNT_EXPIRE	mount.h	129;"	d
+MNT_FORCE	mount.h	/^  MNT_FORCE = 1,		\/* Force unmounting.  *\/$/;"	e	enum:__anon17
+MNT_FORCE	mount.h	125;"	d
+MS_ACTIVE	mount.h	/^  MS_ACTIVE = 1 << 30,$/;"	e	enum:__anon16
+MS_ACTIVE	mount.h	84;"	d
+MS_BIND	mount.h	/^  MS_BIND = 4096,		\/* Bind directory at different place.  *\/$/;"	e	enum:__anon16
+MS_BIND	mount.h	56;"	d
+MS_DIRSYNC	mount.h	/^  MS_DIRSYNC = 128,		\/* Directory modifications are synchronous.  *\/$/;"	e	enum:__anon16
+MS_DIRSYNC	mount.h	50;"	d
+MS_I_VERSION	mount.h	/^  MS_I_VERSION =  1 << 23,	\/* Update inode I_version field.  *\/$/;"	e	enum:__anon16
+MS_I_VERSION	mount.h	78;"	d
+MS_KERNMOUNT	mount.h	/^  MS_KERNMOUNT = 1 << 22,	\/* This is a kern_mount call.  *\/$/;"	e	enum:__anon16
+MS_KERNMOUNT	mount.h	76;"	d
+MS_LAZYTIME	mount.h	/^  MS_LAZYTIME = 1 << 25,	\/* Update the on-disk [acm]times lazily.  *\/$/;"	e	enum:__anon16
+MS_LAZYTIME	mount.h	82;"	d
+MS_MANDLOCK	mount.h	/^  MS_MANDLOCK = 64,		\/* Allow mandatory locks on an FS.  *\/$/;"	e	enum:__anon16
+MS_MANDLOCK	mount.h	48;"	d
+MS_MGC_MSK	mount.h	97;"	d
+MS_MGC_VAL	mount.h	96;"	d
+MS_MOVE	mount.h	/^  MS_MOVE = 8192,$/;"	e	enum:__anon16
+MS_MOVE	mount.h	58;"	d
+MS_NOATIME	mount.h	/^  MS_NOATIME = 1024,		\/* Do not update access times.  *\/$/;"	e	enum:__anon16
+MS_NOATIME	mount.h	52;"	d
+MS_NODEV	mount.h	/^  MS_NODEV = 4,			\/* Disallow access to device special files.  *\/$/;"	e	enum:__anon16
+MS_NODEV	mount.h	40;"	d
+MS_NODIRATIME	mount.h	/^  MS_NODIRATIME = 2048,		\/* Do not update directory access times.  *\/$/;"	e	enum:__anon16
+MS_NODIRATIME	mount.h	54;"	d
+MS_NOEXEC	mount.h	/^  MS_NOEXEC = 8,		\/* Disallow program execution.  *\/$/;"	e	enum:__anon16
+MS_NOEXEC	mount.h	42;"	d
+MS_NOSUID	mount.h	/^  MS_NOSUID = 2,		\/* Ignore suid and sgid bits.  *\/$/;"	e	enum:__anon16
+MS_NOSUID	mount.h	38;"	d
+MS_NOUSER	mount.h	/^  MS_NOUSER = 1 << 31$/;"	e	enum:__anon16
+MS_NOUSER	mount.h	86;"	d
+MS_POSIXACL	mount.h	/^  MS_POSIXACL = 1 << 16,	\/* VFS does not apply the umask.  *\/$/;"	e	enum:__anon16
+MS_POSIXACL	mount.h	64;"	d
+MS_PRIVATE	mount.h	/^  MS_PRIVATE = 1 << 18,		\/* Change to private.  *\/$/;"	e	enum:__anon16
+MS_PRIVATE	mount.h	68;"	d
+MS_RDONLY	mount.h	/^  MS_RDONLY = 1,		\/* Mount read-only.  *\/$/;"	e	enum:__anon16
+MS_RDONLY	mount.h	36;"	d
+MS_REC	mount.h	/^  MS_REC = 16384,$/;"	e	enum:__anon16
+MS_REC	mount.h	60;"	d
+MS_RELATIME	mount.h	/^  MS_RELATIME = 1 << 21,	\/* Update atime relative to mtime\/ctime.  *\/$/;"	e	enum:__anon16
+MS_RELATIME	mount.h	74;"	d
+MS_REMOUNT	mount.h	/^  MS_REMOUNT = 32,		\/* Alter flags of a mounted FS.  *\/$/;"	e	enum:__anon16
+MS_REMOUNT	mount.h	46;"	d
+MS_RMT_MASK	mount.h	90;"	d
+MS_SHARED	mount.h	/^  MS_SHARED = 1 << 20,		\/* Change to shared.  *\/$/;"	e	enum:__anon16
+MS_SHARED	mount.h	72;"	d
+MS_SILENT	mount.h	/^  MS_SILENT = 32768,$/;"	e	enum:__anon16
+MS_SILENT	mount.h	62;"	d
+MS_SLAVE	mount.h	/^  MS_SLAVE = 1 << 19,		\/* Change to slave.  *\/$/;"	e	enum:__anon16
+MS_SLAVE	mount.h	70;"	d
+MS_STRICTATIME	mount.h	/^  MS_STRICTATIME = 1 << 24,	\/* Always perform atime updates.  *\/$/;"	e	enum:__anon16
+MS_STRICTATIME	mount.h	80;"	d
+MS_SYNCHRONOUS	mount.h	/^  MS_SYNCHRONOUS = 16,		\/* Writes are synced at once.  *\/$/;"	e	enum:__anon16
+MS_SYNCHRONOUS	mount.h	44;"	d
+MS_UNBINDABLE	mount.h	/^  MS_UNBINDABLE = 1 << 17,	\/* Change to unbindable.  *\/$/;"	e	enum:__anon16
+MS_UNBINDABLE	mount.h	66;"	d
+MTBSF	mtio.h	42;"	d
+MTBSFM	mtio.h	50;"	d
+MTBSR	mtio.h	44;"	d
+MTBSS	mtio.h	68;"	d
+MTCOMPRESSION	mtio.h	75;"	d
+MTEOM	mtio.h	52;"	d
+MTERASE	mtio.h	55;"	d
+MTFSF	mtio.h	40;"	d
+MTFSFM	mtio.h	51;"	d
+MTFSR	mtio.h	43;"	d
+MTFSS	mtio.h	67;"	d
+MTIOCGET	mtio.h	198;"	d
+MTIOCGETCONFIG	mtio.h	203;"	d
+MTIOCPOS	mtio.h	199;"	d
+MTIOCSETCONFIG	mtio.h	204;"	d
+MTIOCTOP	mtio.h	197;"	d
+MTLOAD	mtio.h	73;"	d
+MTLOCK	mtio.h	71;"	d
+MTMKPART	mtio.h	77;"	d
+MTNOP	mtio.h	48;"	d
+MTOFFL	mtio.h	47;"	d
+MTRAS1	mtio.h	57;"	d
+MTRAS2	mtio.h	58;"	d
+MTRAS3	mtio.h	59;"	d
+MTRESET	mtio.h	39;"	d
+MTRETEN	mtio.h	49;"	d
+MTREW	mtio.h	46;"	d
+MTSEEK	mtio.h	63;"	d
+MTSETBLK	mtio.h	61;"	d
+MTSETDENSITY	mtio.h	62;"	d
+MTSETDRVBUFFER	mtio.h	65;"	d
+MTSETPART	mtio.h	76;"	d
+MTTELL	mtio.h	64;"	d
+MTUNLOAD	mtio.h	74;"	d
+MTUNLOCK	mtio.h	72;"	d
+MTWEOF	mtio.h	45;"	d
+MTWSM	mtio.h	69;"	d
+MT_ISARCHIVESC499	mtio.h	111;"	d
+MT_ISARCHIVE_2060L	mtio.h	110;"	d
+MT_ISARCHIVE_2150L	mtio.h	109;"	d
+MT_ISARCHIVE_5945L2	mtio.h	105;"	d
+MT_ISARCHIVE_VP60I	mtio.h	108;"	d
+MT_ISCMSJ500	mtio.h	106;"	d
+MT_ISDDS1	mtio.h	117;"	d
+MT_ISDDS2	mtio.h	118;"	d
+MT_ISEVEREX_FT40A	mtio.h	116;"	d
+MT_ISFTAPE_FLAG	mtio.h	125;"	d
+MT_ISFTAPE_UNKNOWN	mtio.h	124;"	d
+MT_ISQIC02	mtio.h	103;"	d
+MT_ISQIC02_ALL_FEATURES	mtio.h	112;"	d
+MT_ISSCSI1	mtio.h	119;"	d
+MT_ISSCSI2	mtio.h	120;"	d
+MT_ISTDC3610	mtio.h	107;"	d
+MT_ISTEAC_MT2ST	mtio.h	114;"	d
+MT_ISUNKNOWN	mtio.h	102;"	d
+MT_ISWT5099EEN24	mtio.h	113;"	d
+MT_ISWT5150	mtio.h	104;"	d
+MT_ST_ASYNC_WRITES	mtio.h	249;"	d
+MT_ST_AUTO_LOCK	mtio.h	254;"	d
+MT_ST_BLKSIZE_MASK	mtio.h	232;"	d
+MT_ST_BLKSIZE_SHIFT	mtio.h	231;"	d
+MT_ST_BOOLEANS	mtio.h	241;"	d
+MT_ST_BUFFER_WRITES	mtio.h	248;"	d
+MT_ST_CAN_BSR	mtio.h	256;"	d
+MT_ST_CAN_PARTITIONS	mtio.h	258;"	d
+MT_ST_CLEARBOOLEANS	mtio.h	243;"	d
+MT_ST_CLEAR_DEFAULT	mtio.h	262;"	d
+MT_ST_DEBUGGING	mtio.h	251;"	d
+MT_ST_DEF_BLKSIZE	mtio.h	245;"	d
+MT_ST_DEF_COMPRESSION	mtio.h	264;"	d
+MT_ST_DEF_DENSITY	mtio.h	263;"	d
+MT_ST_DEF_DRVBUFFER	mtio.h	265;"	d
+MT_ST_DEF_OPTIONS	mtio.h	246;"	d
+MT_ST_DEF_WRITES	mtio.h	255;"	d
+MT_ST_DENSITY_MASK	mtio.h	234;"	d
+MT_ST_DENSITY_SHIFT	mtio.h	233;"	d
+MT_ST_FAST_MTEOM	mtio.h	253;"	d
+MT_ST_HPLOADER_OFFSET	mtio.h	268;"	d
+MT_ST_NO_BLKLIMS	mtio.h	257;"	d
+MT_ST_OPTIONS	mtio.h	240;"	d
+MT_ST_READ_AHEAD	mtio.h	250;"	d
+MT_ST_SCSI2LOGICAL	mtio.h	259;"	d
+MT_ST_SETBOOLEANS	mtio.h	242;"	d
+MT_ST_SOFTERR_MASK	mtio.h	237;"	d
+MT_ST_SOFTERR_SHIFT	mtio.h	236;"	d
+MT_ST_TWO_FM	mtio.h	252;"	d
+MT_ST_WRITE_THRESHOLD	mtio.h	244;"	d
+MT_TAPE_INFO	mtio.h	133;"	d
+NBBY	param.h	36;"	d
+NBPG	user.h	175;"	d
+NCARGS	param.h	58;"	d
+NCARGS	param.h	62;"	d
+NFDBITS	select.h	85;"	d
+NGREG	ucontext.h	149;"	d
+NGREG	ucontext.h	34;"	d
+NGROUPS	param.h	39;"	d
+NODEV	param.h	72;"	d
+NOFILE	param.h	51;"	d
+NOGROUP	param.h	69;"	d
+NR_DQHASH	quota.h	90;"	d
+NR_DQUOTS	quota.h	91;"	d
+NTP_API	timex.h	28;"	d
+ORIG_EAX	reg.h	69;"	d
+ORIG_RAX	reg.h	41;"	d
+PAGE_MASK	user.h	174;"	d
+PAGE_SHIFT	user.h	172;"	d
+PAGE_SIZE	user.h	173;"	d
+PER_BSD	personality.h	/^    PER_BSD = 0x0006,$/;"	e	enum:__anon5
+PER_HPUX	personality.h	/^    PER_HPUX = 0x0010,$/;"	e	enum:__anon5
+PER_IRIX32	personality.h	/^    PER_IRIX32 = 0x0009 | STICKY_TIMEOUTS,	\/* IRIX5 32-bit *\/$/;"	e	enum:__anon5
+PER_IRIX64	personality.h	/^    PER_IRIX64 = 0x000b | STICKY_TIMEOUTS,	\/* IRIX6 64-bit *\/$/;"	e	enum:__anon5
+PER_IRIXN32	personality.h	/^    PER_IRIXN32 = 0x000a | STICKY_TIMEOUTS,	\/* IRIX6 new 32-bit *\/$/;"	e	enum:__anon5
+PER_ISCR4	personality.h	/^    PER_ISCR4 = 0x0005 | STICKY_TIMEOUTS,$/;"	e	enum:__anon5
+PER_LINUX	personality.h	/^    PER_LINUX = 0x0000,$/;"	e	enum:__anon5
+PER_LINUX32	personality.h	/^    PER_LINUX32 = 0x0008,$/;"	e	enum:__anon5
+PER_LINUX32_3GB	personality.h	/^    PER_LINUX32_3GB = 0x0008 | ADDR_LIMIT_3GB,$/;"	e	enum:__anon5
+PER_LINUX_32BIT	personality.h	/^    PER_LINUX_32BIT = 0x0000 | ADDR_LIMIT_32BIT,$/;"	e	enum:__anon5
+PER_LINUX_FDPIC	personality.h	/^    PER_LINUX_FDPIC = 0x0000 | FDPIC_FUNCPTRS,$/;"	e	enum:__anon5
+PER_MASK	personality.h	/^    PER_MASK = 0x00ff,$/;"	e	enum:__anon5
+PER_OSF4	personality.h	/^    PER_OSF4 = 0x000f,$/;"	e	enum:__anon5
+PER_OSR5	personality.h	/^    PER_OSR5 = 0x0003 | STICKY_TIMEOUTS | WHOLE_SECONDS,$/;"	e	enum:__anon5
+PER_RISCOS	personality.h	/^    PER_RISCOS = 0x000c,$/;"	e	enum:__anon5
+PER_SCOSVR3	personality.h	/^    PER_SCOSVR3 = 0x0003 | STICKY_TIMEOUTS | WHOLE_SECONDS | SHORT_INODE,$/;"	e	enum:__anon5
+PER_SOLARIS	personality.h	/^    PER_SOLARIS = 0x000d | STICKY_TIMEOUTS,$/;"	e	enum:__anon5
+PER_SUNOS	personality.h	/^    PER_SUNOS = 0x0006 | STICKY_TIMEOUTS,$/;"	e	enum:__anon5
+PER_SVR3	personality.h	/^    PER_SVR3 = 0x0002 | STICKY_TIMEOUTS | SHORT_INODE,$/;"	e	enum:__anon5
+PER_SVR4	personality.h	/^    PER_SVR4 = 0x0001 | STICKY_TIMEOUTS | MMAP_PAGE_ZERO,$/;"	e	enum:__anon5
+PER_UW7	personality.h	/^    PER_UW7 = 0x000e | STICKY_TIMEOUTS | MMAP_PAGE_ZERO,$/;"	e	enum:__anon5
+PER_WYSEV386	personality.h	/^    PER_WYSEV386 = 0x0004 | STICKY_TIMEOUTS | SHORT_INODE,$/;"	e	enum:__anon5
+PER_XENIX	personality.h	/^    PER_XENIX = 0x0007 | STICKY_TIMEOUTS | SHORT_INODE,$/;"	e	enum:__anon5
+PROF_FAST	profil.h	/^    PROF_FAST   = 1 << 1	\/* profile faster than usual *\/$/;"	e	enum:__anon7
+PROF_UINT	profil.h	/^    PROF_UINT	= 1 << 0,	\/* use 32-bit counters *\/$/;"	e	enum:__anon7
+PROF_USHORT	profil.h	/^    PROF_USHORT	= 0,		\/* use 16-bit counters (default) *\/$/;"	e	enum:__anon7
+PTRACE_ATTACH	ptrace.h	/^  PTRACE_ATTACH = 16,$/;"	e	enum:__ptrace_request
+PTRACE_CONT	ptrace.h	/^  PTRACE_CONT = 7,$/;"	e	enum:__ptrace_request
+PTRACE_DETACH	ptrace.h	/^  PTRACE_DETACH = 17,$/;"	e	enum:__ptrace_request
+PTRACE_EVENT_CLONE	ptrace.h	/^  PTRACE_EVENT_CLONE	= 3,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_EXEC	ptrace.h	/^  PTRACE_EVENT_EXEC	= 4,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_EXIT	ptrace.h	/^  PTRACE_EVENT_EXIT	= 6,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_FORK	ptrace.h	/^  PTRACE_EVENT_FORK	= 1,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_SECCOMP	ptrace.h	/^  PTRACE_EVENT_SECCOMP  = 7$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_VFORK	ptrace.h	/^  PTRACE_EVENT_VFORK	= 2,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_VFORK_DONE	ptrace.h	/^  PTRACE_EVENT_VFORK_DONE = 5,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_GETEVENTMSG	ptrace.h	/^  PTRACE_GETEVENTMSG = 0x4201,$/;"	e	enum:__ptrace_request
+PTRACE_GETFPREGS	ptrace.h	/^   PTRACE_GETFPREGS = 14,$/;"	e	enum:__ptrace_request
+PTRACE_GETFPXREGS	ptrace.h	/^   PTRACE_GETFPXREGS = 18,$/;"	e	enum:__ptrace_request
+PTRACE_GETREGS	ptrace.h	/^   PTRACE_GETREGS = 12,$/;"	e	enum:__ptrace_request
+PTRACE_GETREGSET	ptrace.h	/^  PTRACE_GETREGSET = 0x4204,$/;"	e	enum:__ptrace_request
+PTRACE_GETREGSET	ptrace.h	133;"	d
+PTRACE_GETSIGINFO	ptrace.h	/^  PTRACE_GETSIGINFO = 0x4202,$/;"	e	enum:__ptrace_request
+PTRACE_GETSIGMASK	ptrace.h	/^  PTRACE_GETSIGMASK = 0x420a,$/;"	e	enum:__ptrace_request
+PTRACE_GETSIGMASK	ptrace.h	156;"	d
+PTRACE_INTERRUPT	ptrace.h	/^  PTRACE_INTERRUPT = 0x4207,$/;"	e	enum:__ptrace_request
+PTRACE_INTERRUPT	ptrace.h	146;"	d
+PTRACE_KILL	ptrace.h	/^  PTRACE_KILL = 8,$/;"	e	enum:__ptrace_request
+PTRACE_LISTEN	ptrace.h	/^  PTRACE_LISTEN = 0x4208,$/;"	e	enum:__ptrace_request
+PTRACE_LISTEN	ptrace.h	150;"	d
+PTRACE_O_EXITKILL	ptrace.h	/^  PTRACE_O_EXITKILL	= 0x00100000,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_MASK	ptrace.h	/^  PTRACE_O_MASK		= 0x003000ff$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_SUSPEND_SECCOMP	ptrace.h	/^  PTRACE_O_SUSPEND_SECCOMP	= 0x00200000,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACECLONE	ptrace.h	/^  PTRACE_O_TRACECLONE	= 0x00000008,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACEEXEC	ptrace.h	/^  PTRACE_O_TRACEEXEC	= 0x00000010,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACEEXIT	ptrace.h	/^  PTRACE_O_TRACEEXIT	= 0x00000040,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACEFORK	ptrace.h	/^  PTRACE_O_TRACEFORK	= 0x00000002,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACESECCOMP	ptrace.h	/^  PTRACE_O_TRACESECCOMP = 0x00000080,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACESYSGOOD	ptrace.h	/^  PTRACE_O_TRACESYSGOOD	= 0x00000001,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACEVFORK	ptrace.h	/^  PTRACE_O_TRACEVFORK   = 0x00000004,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACEVFORKDONE	ptrace.h	/^  PTRACE_O_TRACEVFORKDONE = 0x00000020,$/;"	e	enum:__ptrace_setoptions
+PTRACE_PEEKDATA	ptrace.h	/^  PTRACE_PEEKDATA = 2,$/;"	e	enum:__ptrace_request
+PTRACE_PEEKSIGINFO	ptrace.h	/^  PTRACE_PEEKSIGINFO = 0x4209,$/;"	e	enum:__ptrace_request
+PTRACE_PEEKSIGINFO	ptrace.h	153;"	d
+PTRACE_PEEKSIGINFO_SHARED	ptrace.h	/^  PTRACE_PEEKSIGINFO_SHARED = (1 << 0)$/;"	e	enum:__ptrace_peeksiginfo_flags
+PTRACE_PEEKTEXT	ptrace.h	/^  PTRACE_PEEKTEXT = 1,$/;"	e	enum:__ptrace_request
+PTRACE_PEEKUSER	ptrace.h	/^  PTRACE_PEEKUSER = 3,$/;"	e	enum:__ptrace_request
+PTRACE_POKEDATA	ptrace.h	/^  PTRACE_POKEDATA = 5,$/;"	e	enum:__ptrace_request
+PTRACE_POKETEXT	ptrace.h	/^  PTRACE_POKETEXT = 4,$/;"	e	enum:__ptrace_request
+PTRACE_POKEUSER	ptrace.h	/^  PTRACE_POKEUSER = 6,$/;"	e	enum:__ptrace_request
+PTRACE_SECCOMP_GET_FILTER	ptrace.h	/^  PTRACE_SECCOMP_GET_FILTER = 0x420c$/;"	e	enum:__ptrace_request
+PTRACE_SECCOMP_GET_FILTER	ptrace.h	162;"	d
+PTRACE_SEIZE	ptrace.h	/^  PTRACE_SEIZE = 0x4206,$/;"	e	enum:__ptrace_request
+PTRACE_SEIZE	ptrace.h	142;"	d
+PTRACE_SEIZE_DEVEL	ptrace.h	/^  PTRACE_SEIZE_DEVEL = 0x80000000$/;"	e	enum:__ptrace_flags
+PTRACE_SETFPREGS	ptrace.h	/^   PTRACE_SETFPREGS = 15,$/;"	e	enum:__ptrace_request
+PTRACE_SETFPXREGS	ptrace.h	/^   PTRACE_SETFPXREGS = 19,$/;"	e	enum:__ptrace_request
+PTRACE_SETOPTIONS	ptrace.h	/^  PTRACE_SETOPTIONS = 0x4200,$/;"	e	enum:__ptrace_request
+PTRACE_SETREGS	ptrace.h	/^   PTRACE_SETREGS = 13,$/;"	e	enum:__ptrace_request
+PTRACE_SETREGSET	ptrace.h	/^  PTRACE_SETREGSET = 0x4205,$/;"	e	enum:__ptrace_request
+PTRACE_SETREGSET	ptrace.h	137;"	d
+PTRACE_SETSIGINFO	ptrace.h	/^  PTRACE_SETSIGINFO = 0x4203,$/;"	e	enum:__ptrace_request
+PTRACE_SETSIGMASK	ptrace.h	/^  PTRACE_SETSIGMASK = 0x420b,$/;"	e	enum:__ptrace_request
+PTRACE_SETSIGMASK	ptrace.h	159;"	d
+PTRACE_SINGLESTEP	ptrace.h	/^  PTRACE_SINGLESTEP = 9,$/;"	e	enum:__ptrace_request
+PTRACE_SYSCALL	ptrace.h	/^  PTRACE_SYSCALL = 24,$/;"	e	enum:__ptrace_request
+PTRACE_TRACEME	ptrace.h	/^  PTRACE_TRACEME = 0,$/;"	e	enum:__ptrace_request
+PT_ATTACH	ptrace.h	95;"	d
+PT_CONTINUE	ptrace.h	62;"	d
+PT_DETACH	ptrace.h	99;"	d
+PT_GETEVENTMSG	ptrace.h	121;"	d
+PT_GETFPREGS	ptrace.h	86;"	d
+PT_GETFPXREGS	ptrace.h	104;"	d
+PT_GETREGS	ptrace.h	76;"	d
+PT_GETSIGINFO	ptrace.h	125;"	d
+PT_KILL	ptrace.h	66;"	d
+PT_READ_D	ptrace.h	42;"	d
+PT_READ_I	ptrace.h	38;"	d
+PT_READ_U	ptrace.h	46;"	d
+PT_SETFPREGS	ptrace.h	91;"	d
+PT_SETFPXREGS	ptrace.h	109;"	d
+PT_SETOPTIONS	ptrace.h	117;"	d
+PT_SETREGS	ptrace.h	81;"	d
+PT_SETSIGINFO	ptrace.h	129;"	d
+PT_STEP	ptrace.h	71;"	d
+PT_SYSCALL	ptrace.h	113;"	d
+PT_TRACE_ME	ptrace.h	34;"	d
+PT_WRITE_D	ptrace.h	54;"	d
+PT_WRITE_I	ptrace.h	50;"	d
+PT_WRITE_U	ptrace.h	58;"	d
+QCMD	quota.h	101;"	d
+QIF_ALL	quota.h	153;"	d
+QIF_BLIMITS	quota.h	144;"	d
+QIF_BTIME	quota.h	148;"	d
+QIF_ILIMITS	quota.h	146;"	d
+QIF_INODES	quota.h	147;"	d
+QIF_ITIME	quota.h	149;"	d
+QIF_LIMITS	quota.h	150;"	d
+QIF_SPACE	quota.h	145;"	d
+QIF_TIMES	quota.h	152;"	d
+QIF_USAGE	quota.h	151;"	d
+QUOTAFILENAME	quota.h	87;"	d
+QUOTAGROUP	quota.h	88;"	d
+Q_GETFMT	quota.h	117;"	d
+Q_GETINFO	quota.h	118;"	d
+Q_GETQUOTA	quota.h	106;"	d
+Q_GETQUOTA	quota.h	120;"	d
+Q_GETSTATS	quota.h	111;"	d
+Q_QUOTAOFF	quota.h	105;"	d
+Q_QUOTAOFF	quota.h	116;"	d
+Q_QUOTAON	quota.h	104;"	d
+Q_QUOTAON	quota.h	115;"	d
+Q_RSQUASH	quota.h	112;"	d
+Q_SETINFO	quota.h	119;"	d
+Q_SETQLIM	quota.h	110;"	d
+Q_SETQUOTA	quota.h	107;"	d
+Q_SETQUOTA	quota.h	121;"	d
+Q_SETUSE	quota.h	108;"	d
+Q_SYNC	quota.h	109;"	d
+Q_SYNC	quota.h	114;"	d
+R10	reg.h	33;"	d
+R11	reg.h	32;"	d
+R12	reg.h	29;"	d
+R13	reg.h	28;"	d
+R14	reg.h	27;"	d
+R15	reg.h	26;"	d
+R8	reg.h	35;"	d
+R9	reg.h	34;"	d
+RAW_GETBIND	raw.h	29;"	d
+RAW_MAJOR	raw.h	25;"	d
+RAW_SETBIND	raw.h	28;"	d
+RAX	reg.h	36;"	d
+RBP	reg.h	30;"	d
+RBX	reg.h	31;"	d
+RB_AUTOBOOT	reboot.h	27;"	d
+RB_DISABLE_CAD	reboot.h	36;"	d
+RB_ENABLE_CAD	reboot.h	33;"	d
+RB_HALT_SYSTEM	reboot.h	30;"	d
+RB_KEXEC	reboot.h	45;"	d
+RB_POWER_OFF	reboot.h	39;"	d
+RB_SW_SUSPEND	reboot.h	42;"	d
+RCX	reg.h	37;"	d
+RDI	reg.h	40;"	d
+RDX	reg.h	38;"	d
+READ_IMPLIES_EXEC	personality.h	/^    READ_IMPLIES_EXEC = 0x0400000,$/;"	e	enum:__anon4
+REG_CR2	ucontext.h	/^  REG_CR2$/;"	e	enum:__anon11
+REG_CR2	ucontext.h	88;"	d
+REG_CS	ucontext.h	/^  REG_CS,$/;"	e	enum:__anon13
+REG_CS	ucontext.h	189;"	d
+REG_CSGSFS	ucontext.h	/^  REG_CSGSFS,		\/* Actually short cs, gs, fs, __pad0.  *\/$/;"	e	enum:__anon11
+REG_CSGSFS	ucontext.h	80;"	d
+REG_DS	ucontext.h	/^  REG_DS,$/;"	e	enum:__anon13
+REG_DS	ucontext.h	165;"	d
+REG_EAX	ucontext.h	/^  REG_EAX,$/;"	e	enum:__anon13
+REG_EAX	ucontext.h	181;"	d
+REG_EBP	ucontext.h	/^  REG_EBP,$/;"	e	enum:__anon13
+REG_EBP	ucontext.h	171;"	d
+REG_EBX	ucontext.h	/^  REG_EBX,$/;"	e	enum:__anon13
+REG_EBX	ucontext.h	175;"	d
+REG_ECX	ucontext.h	/^  REG_ECX,$/;"	e	enum:__anon13
+REG_ECX	ucontext.h	179;"	d
+REG_EDI	ucontext.h	/^  REG_EDI,$/;"	e	enum:__anon13
+REG_EDI	ucontext.h	167;"	d
+REG_EDX	ucontext.h	/^  REG_EDX,$/;"	e	enum:__anon13
+REG_EDX	ucontext.h	177;"	d
+REG_EFL	ucontext.h	/^  REG_EFL,$/;"	e	enum:__anon11
+REG_EFL	ucontext.h	/^  REG_EFL,$/;"	e	enum:__anon13
+REG_EFL	ucontext.h	191;"	d
+REG_EFL	ucontext.h	78;"	d
+REG_EIP	ucontext.h	/^  REG_EIP,$/;"	e	enum:__anon13
+REG_EIP	ucontext.h	187;"	d
+REG_ERR	ucontext.h	/^  REG_ERR,$/;"	e	enum:__anon11
+REG_ERR	ucontext.h	/^  REG_ERR,$/;"	e	enum:__anon13
+REG_ERR	ucontext.h	185;"	d
+REG_ERR	ucontext.h	82;"	d
+REG_ES	ucontext.h	/^  REG_ES,$/;"	e	enum:__anon13
+REG_ES	ucontext.h	163;"	d
+REG_ESI	ucontext.h	/^  REG_ESI,$/;"	e	enum:__anon13
+REG_ESI	ucontext.h	169;"	d
+REG_ESP	ucontext.h	/^  REG_ESP,$/;"	e	enum:__anon13
+REG_ESP	ucontext.h	173;"	d
+REG_FS	ucontext.h	/^  REG_FS,$/;"	e	enum:__anon13
+REG_FS	ucontext.h	161;"	d
+REG_GS	ucontext.h	/^  REG_GS = 0,$/;"	e	enum:__anon13
+REG_GS	ucontext.h	159;"	d
+REG_OLDMASK	ucontext.h	/^  REG_OLDMASK,$/;"	e	enum:__anon11
+REG_OLDMASK	ucontext.h	86;"	d
+REG_R10	ucontext.h	/^  REG_R10,$/;"	e	enum:__anon11
+REG_R10	ucontext.h	48;"	d
+REG_R11	ucontext.h	/^  REG_R11,$/;"	e	enum:__anon11
+REG_R11	ucontext.h	50;"	d
+REG_R12	ucontext.h	/^  REG_R12,$/;"	e	enum:__anon11
+REG_R12	ucontext.h	52;"	d
+REG_R13	ucontext.h	/^  REG_R13,$/;"	e	enum:__anon11
+REG_R13	ucontext.h	54;"	d
+REG_R14	ucontext.h	/^  REG_R14,$/;"	e	enum:__anon11
+REG_R14	ucontext.h	56;"	d
+REG_R15	ucontext.h	/^  REG_R15,$/;"	e	enum:__anon11
+REG_R15	ucontext.h	58;"	d
+REG_R8	ucontext.h	/^  REG_R8 = 0,$/;"	e	enum:__anon11
+REG_R8	ucontext.h	44;"	d
+REG_R9	ucontext.h	/^  REG_R9,$/;"	e	enum:__anon11
+REG_R9	ucontext.h	46;"	d
+REG_RAX	ucontext.h	/^  REG_RAX,$/;"	e	enum:__anon11
+REG_RAX	ucontext.h	70;"	d
+REG_RBP	ucontext.h	/^  REG_RBP,$/;"	e	enum:__anon11
+REG_RBP	ucontext.h	64;"	d
+REG_RBX	ucontext.h	/^  REG_RBX,$/;"	e	enum:__anon11
+REG_RBX	ucontext.h	66;"	d
+REG_RCX	ucontext.h	/^  REG_RCX,$/;"	e	enum:__anon11
+REG_RCX	ucontext.h	72;"	d
+REG_RDI	ucontext.h	/^  REG_RDI,$/;"	e	enum:__anon11
+REG_RDI	ucontext.h	60;"	d
+REG_RDX	ucontext.h	/^  REG_RDX,$/;"	e	enum:__anon11
+REG_RDX	ucontext.h	68;"	d
+REG_RIP	ucontext.h	/^  REG_RIP,$/;"	e	enum:__anon11
+REG_RIP	ucontext.h	76;"	d
+REG_RSI	ucontext.h	/^  REG_RSI,$/;"	e	enum:__anon11
+REG_RSI	ucontext.h	62;"	d
+REG_RSP	ucontext.h	/^  REG_RSP,$/;"	e	enum:__anon11
+REG_RSP	ucontext.h	74;"	d
+REG_SS	ucontext.h	/^  REG_SS$/;"	e	enum:__anon13
+REG_SS	ucontext.h	195;"	d
+REG_TRAPNO	ucontext.h	/^  REG_TRAPNO,$/;"	e	enum:__anon11
+REG_TRAPNO	ucontext.h	/^  REG_TRAPNO,$/;"	e	enum:__anon13
+REG_TRAPNO	ucontext.h	183;"	d
+REG_TRAPNO	ucontext.h	84;"	d
+REG_UESP	ucontext.h	/^  REG_UESP,$/;"	e	enum:__anon13
+REG_UESP	ucontext.h	193;"	d
+RIP	reg.h	42;"	d
+ROUNDDOWN	gmon.h	151;"	d
+ROUNDUP	gmon.h	152;"	d
+RSI	reg.h	39;"	d
+RSP	reg.h	45;"	d
+SHORT_INODE	personality.h	/^    SHORT_INODE = 0x1000000,$/;"	e	enum:__anon4
+SHUT_RD	socket.h	/^  SHUT_RD = 0,		\/* No more receptions.  *\/$/;"	e	enum:__anon1
+SHUT_RD	socket.h	55;"	d
+SHUT_RDWR	socket.h	/^  SHUT_RDWR		\/* No more receptions or transmissions.  *\/$/;"	e	enum:__anon1
+SHUT_RDWR	socket.h	59;"	d
+SHUT_WR	socket.h	/^  SHUT_WR,		\/* No more transmissions.  *\/$/;"	e	enum:__anon1
+SHUT_WR	socket.h	57;"	d
+SIMPLEQ_EMPTY	queue.h	359;"	d
+SIMPLEQ_ENTRY	queue.h	302;"	d
+SIMPLEQ_FIRST	queue.h	360;"	d
+SIMPLEQ_FOREACH	queue.h	351;"	d
+SIMPLEQ_HEAD	queue.h	293;"	d
+SIMPLEQ_HEAD_INITIALIZER	queue.h	299;"	d
+SIMPLEQ_INIT	queue.h	310;"	d
+SIMPLEQ_INSERT_AFTER	queue.h	327;"	d
+SIMPLEQ_INSERT_HEAD	queue.h	315;"	d
+SIMPLEQ_INSERT_TAIL	queue.h	321;"	d
+SIMPLEQ_NEXT	queue.h	361;"	d
+SIMPLEQ_REMOVE	queue.h	338;"	d
+SIMPLEQ_REMOVE_HEAD	queue.h	333;"	d
+SLIST_EMPTY	queue.h	203;"	d
+SLIST_ENTRY	queue.h	158;"	d
+SLIST_FIRST	queue.h	204;"	d
+SLIST_FOREACH	queue.h	197;"	d
+SLIST_HEAD	queue.h	150;"	d
+SLIST_HEAD_INITIALIZER	queue.h	155;"	d
+SLIST_INIT	queue.h	166;"	d
+SLIST_INSERT_AFTER	queue.h	170;"	d
+SLIST_INSERT_HEAD	queue.h	175;"	d
+SLIST_NEXT	queue.h	205;"	d
+SLIST_REMOVE	queue.h	184;"	d
+SLIST_REMOVE_HEAD	queue.h	180;"	d
+SS	reg.h	46;"	d
+SS	reg.h	74;"	d
+STAILQ_CONCAT	queue.h	274;"	d
+STAILQ_EMPTY	queue.h	285;"	d
+STAILQ_ENTRY	queue.h	220;"	d
+STAILQ_FIRST	queue.h	286;"	d
+STAILQ_FOREACH	queue.h	269;"	d
+STAILQ_HEAD	queue.h	211;"	d
+STAILQ_HEAD_INITIALIZER	queue.h	217;"	d
+STAILQ_INIT	queue.h	228;"	d
+STAILQ_INSERT_AFTER	queue.h	245;"	d
+STAILQ_INSERT_HEAD	queue.h	233;"	d
+STAILQ_INSERT_TAIL	queue.h	239;"	d
+STAILQ_NEXT	queue.h	287;"	d
+STAILQ_REMOVE	queue.h	256;"	d
+STAILQ_REMOVE_HEAD	queue.h	251;"	d
+STICKY_TIMEOUTS	personality.h	/^    STICKY_TIMEOUTS = 0x4000000,$/;"	e	enum:__anon4
+SUBCMDMASK	quota.h	99;"	d
+SUBCMDSHIFT	quota.h	100;"	d
+SUN_LEN	un.h	40;"	d
+SWAP_FLAG_DISCARD	swap.h	30;"	d
+SWAP_FLAG_PREFER	swap.h	27;"	d
+SWAP_FLAG_PRIO_MASK	swap.h	28;"	d
+SWAP_FLAG_PRIO_SHIFT	swap.h	29;"	d
+SYS_NMLN	utsname.h	76;"	d
+S_BLKSIZE	stat.h	202;"	d
+S_IEXEC	stat.h	180;"	d
+S_IFBLK	stat.h	110;"	d
+S_IFCHR	stat.h	109;"	d
+S_IFDIR	stat.h	108;"	d
+S_IFIFO	stat.h	113;"	d
+S_IFLNK	stat.h	116;"	d
+S_IFMT	stat.h	107;"	d
+S_IFREG	stat.h	111;"	d
+S_IFSOCK	stat.h	120;"	d
+S_IREAD	stat.h	178;"	d
+S_IRGRP	stat.h	183;"	d
+S_IROTH	stat.h	189;"	d
+S_IRUSR	stat.h	171;"	d
+S_IRWXG	stat.h	187;"	d
+S_IRWXO	stat.h	193;"	d
+S_IRWXU	stat.h	175;"	d
+S_ISBLK	stat.h	130;"	d
+S_ISCHR	stat.h	129;"	d
+S_ISDIR	stat.h	128;"	d
+S_ISFIFO	stat.h	133;"	d
+S_ISGID	stat.h	164;"	d
+S_ISLNK	stat.h	136;"	d
+S_ISLNK	stat.h	140;"	d
+S_ISREG	stat.h	131;"	d
+S_ISSOCK	stat.h	145;"	d
+S_ISUID	stat.h	163;"	d
+S_ISVTX	stat.h	168;"	d
+S_IWGRP	stat.h	184;"	d
+S_IWOTH	stat.h	190;"	d
+S_IWRITE	stat.h	179;"	d
+S_IWUSR	stat.h	172;"	d
+S_IXGRP	stat.h	185;"	d
+S_IXOTH	stat.h	191;"	d
+S_IXUSR	stat.h	173;"	d
+S_TYPEISMQ	stat.h	155;"	d
+S_TYPEISSEM	stat.h	156;"	d
+S_TYPEISSHM	stat.h	157;"	d
+TAILQ_CONCAT	queue.h	445;"	d
+TAILQ_EMPTY	queue.h	457;"	d
+TAILQ_ENTRY	queue.h	382;"	d
+TAILQ_FIRST	queue.h	458;"	d
+TAILQ_FOREACH	queue.h	435;"	d
+TAILQ_FOREACH_REVERSE	queue.h	440;"	d
+TAILQ_HEAD	queue.h	372;"	d
+TAILQ_HEAD_INITIALIZER	queue.h	374;"	d
+TAILQ_INIT	queue.h	387;"	d
+TAILQ_INSERT_AFTER	queue.h	409;"	d
+TAILQ_INSERT_BEFORE	queue.h	419;"	d
+TAILQ_INSERT_HEAD	queue.h	392;"	d
+TAILQ_INSERT_TAIL	queue.h	402;"	d
+TAILQ_LAST	queue.h	461;"	d
+TAILQ_NEXT	queue.h	459;"	d
+TAILQ_PREV	queue.h	463;"	d
+TAILQ_REMOVE	queue.h	426;"	d
+TFD_TIMER_ABSTIME	timerfd.h	/^    TFD_TIMER_ABSTIME = 1 << 0$/;"	e	enum:__anon15
+TFD_TIMER_ABSTIME	timerfd.h	31;"	d
+TIMESPEC_TO_TIMEVAL	time.h	45;"	d
+TIMEVAL_TO_TIMESPEC	time.h	41;"	d
+TIME_BAD	timex.h	50;"	d
+TIME_DEL	timex.h	46;"	d
+TIME_ERROR	timex.h	49;"	d
+TIME_INS	timex.h	45;"	d
+TIME_OK	timex.h	44;"	d
+TIME_OOP	timex.h	47;"	d
+TIME_WAIT	timex.h	48;"	d
+TTYDEFCHARS	ttydefaults.h	99;"	d
+TTYDEF_CFLAG	ttydefaults.h	49;"	d
+TTYDEF_IFLAG	ttydefaults.h	46;"	d
+TTYDEF_LFLAG	ttydefaults.h	48;"	d
+TTYDEF_OFLAG	ttydefaults.h	47;"	d
+TTYDEF_SPEED	ttydefaults.h	50;"	d
+UESP	reg.h	73;"	d
+UMOUNT_NOFOLLOW	mount.h	/^  UMOUNT_NOFOLLOW = 8		\/* Don't follow symlink on umount.  *\/$/;"	e	enum:__anon17
+UMOUNT_NOFOLLOW	mount.h	131;"	d
+UNAME26	personality.h	/^    UNAME26 = 0x0020000,$/;"	e	enum:__anon4
+UPAGES	user.h	176;"	d
+USRQUOTA	quota.h	75;"	d
+VTIMES_UNITS_PER_SECOND	vtimes.h	29;"	d
+WAIT_ANY	wait.h	106;"	d
+WAIT_MYPGRP	wait.h	107;"	d
+WCOREDUMP	wait.h	92;"	d
+WCOREFLAG	wait.h	91;"	d
+WEXITSTATUS	wait.h	79;"	d
+WHOLE_SECONDS	personality.h	/^    WHOLE_SECONDS = 0x2000000,$/;"	e	enum:__anon4
+WIFCONTINUED	wait.h	86;"	d
+WIFEXITED	wait.h	82;"	d
+WIFSIGNALED	wait.h	83;"	d
+WIFSTOPPED	wait.h	84;"	d
+WSTOPSIG	wait.h	81;"	d
+WTERMSIG	wait.h	80;"	d
+W_EXITCODE	wait.h	93;"	d
+W_STOPCODE	wait.h	94;"	d
+XATTR_CREATE	xattr.h	/^  XATTR_CREATE = 1,	\/* set value, fail if attr already exists.  *\/$/;"	e	enum:__anon10
+XATTR_CREATE	xattr.h	33;"	d
+XATTR_REPLACE	xattr.h	/^  XATTR_REPLACE = 2	\/* set value, fail if attr does not exist.  *\/$/;"	e	enum:__anon10
+XATTR_REPLACE	xattr.h	35;"	d
+_IOT_mtconfiginfo	mtio.h	192;"	d
+_IOT_mtget	mtio.h	96;"	d
+_IOT_mtop	mtio.h	35;"	d
+_IOT_mtpos	mtio.h	161;"	d
+_LINUX_KERNEL_H	sysctl.h	26;"	d
+_LINUX_KERNEL_H	sysctl.h	46;"	d
+_LINUX_LIST_H	sysctl.h	34;"	d
+_LINUX_LIST_H	sysctl.h	54;"	d
+_LINUX_QUOTA_VERSION	quota.h	46;"	d
+_LINUX_TYPES_H	kd.h	23;"	d
+_LINUX_TYPES_H	kd.h	30;"	d
+_LINUX_TYPES_H	sysctl.h	30;"	d
+_LINUX_TYPES_H	sysctl.h	50;"	d
+_MKNOD_VER	stat.h	393;"	d
+_Noreturn	cdefs.h	396;"	d
+_Noreturn	cdefs.h	398;"	d
+_PROFIL_H	profil.h	19;"	d
+_STAT_VER	stat.h	390;"	d
+_SYSCALL_H	syscall.h	19;"	d
+_SYS_ACCT_H	acct.h	19;"	d
+_SYS_AUXV_H	auxv.h	20;"	d
+_SYS_CDEFS_H	cdefs.h	19;"	d
+_SYS_DEBUGREG_H	debugreg.h	19;"	d
+_SYS_DIR_H	dir.h	19;"	d
+_SYS_ELF_H	elf.h	19;"	d
+_SYS_EPOLL_H	epoll.h	19;"	d
+_SYS_EVENTFD_H	eventfd.h	19;"	d
+_SYS_FANOTIFY_H	fanotify.h	19;"	d
+_SYS_FILE_H	file.h	19;"	d
+_SYS_FSUID_H	fsuid.h	19;"	d
+_SYS_GMON_H	gmon.h	33;"	d
+_SYS_GMON_OUT_H	gmon_out.h	28;"	d
+_SYS_INOTIFY_H	inotify.h	19;"	d
+_SYS_IOCTL_H	ioctl.h	19;"	d
+_SYS_IO_H	io.h	19;"	d
+_SYS_IPC_H	ipc.h	19;"	d
+_SYS_KD_H	kd.h	19;"	d
+_SYS_KLOG_H	klog.h	20;"	d
+_SYS_MMAN_H	mman.h	20;"	d
+_SYS_MOUNT_H	mount.h	22;"	d
+_SYS_MSG_H	msg.h	19;"	d
+_SYS_MTIO_H	mtio.h	22;"	d
+_SYS_PARAM_H	param.h	20;"	d
+_SYS_PCI_H	pci.h	19;"	d
+_SYS_PERM_H	perm.h	20;"	d
+_SYS_PERSONALITY_H	personality.h	21;"	d
+_SYS_POLL_H	poll.h	20;"	d
+_SYS_PRCTL_H	prctl.h	19;"	d
+_SYS_PROCFS_H	procfs.h	19;"	d
+_SYS_PTRACE_H	ptrace.h	20;"	d
+_SYS_QUEUE_H_	queue.h	33;"	d
+_SYS_QUOTA_H	quota.h	36;"	d
+_SYS_RAW_H	raw.h	19;"	d
+_SYS_REBOOT_H	reboot.h	22;"	d
+_SYS_REG_H	reg.h	19;"	d
+_SYS_RESOURCE_H	resource.h	19;"	d
+_SYS_SELECT_H	select.h	22;"	d
+_SYS_SEM_H	sem.h	19;"	d
+_SYS_SENDFILE_H	sendfile.h	20;"	d
+_SYS_SHM_H	shm.h	19;"	d
+_SYS_SIGNALFD_H	signalfd.h	19;"	d
+_SYS_SOCKET_H	socket.h	20;"	d
+_SYS_STATFS_H	statfs.h	20;"	d
+_SYS_STATVFS_H	statvfs.h	20;"	d
+_SYS_STAT_H	stat.h	23;"	d
+_SYS_SWAP_H	swap.h	21;"	d
+_SYS_SYSCTL_H	sysctl.h	19;"	d
+_SYS_SYSINFO_H	sysinfo.h	19;"	d
+_SYS_SYSLOG_H	syslog.h	33;"	d
+_SYS_SYSMACROS_H	sysmacros.h	20;"	d
+_SYS_TERMIOS_H	termios.h	2;"	d
+_SYS_TIMEB_H	timeb.h	19;"	d
+_SYS_TIMERFD_H	timerfd.h	19;"	d
+_SYS_TIMES_H	times.h	23;"	d
+_SYS_TIMEX_H	timex.h	19;"	d
+_SYS_TIME_H	time.h	19;"	d
+_SYS_TTYCHARS_H	ttychars.h	38;"	d
+_SYS_TTYDEFAULTS_H_	ttydefaults.h	41;"	d
+_SYS_TYPES_H	types.h	23;"	d
+_SYS_UCONTEXT_H	ucontext.h	19;"	d
+_SYS_UIO_H	uio.h	19;"	d
+_SYS_UN_H	un.h	19;"	d
+_SYS_USER_H	user.h	19;"	d
+_SYS_USTAT_H	ustat.h	24;"	d
+_SYS_UTSNAME_H	utsname.h	23;"	d
+_SYS_VLIMIT_H	vlimit.h	19;"	d
+_SYS_VM86_H	vm86.h	20;"	d
+_SYS_VTIMES_H	vtimes.h	19;"	d
+_SYS_WAIT_H	wait.h	23;"	d
+_SYS_XATTR_H	xattr.h	19;"	d
+_Static_assert	cdefs.h	405;"	d
+_TAILQ_ENTRY	queue.h	377;"	d
+_TAILQ_HEAD	queue.h	367;"	d
+_UTSNAME_MACHINE_LENGTH	utsname.h	44;"	d
+_UTSNAME_NODENAME_LENGTH	utsname.h	35;"	d
+_UTSNAME_RELEASE_LENGTH	utsname.h	38;"	d
+_UTSNAME_SYSNAME_LENGTH	utsname.h	32;"	d
+_UTSNAME_VERSION_LENGTH	utsname.h	41;"	d
+__ASMNAME	cdefs.h	189;"	d
+__ASMNAME2	cdefs.h	190;"	d
+__BEGIN_DECLS	cdefs.h	101;"	d
+__BEGIN_DECLS	cdefs.h	98;"	d
+__BEGIN_NAMESPACE_C99	cdefs.h	115;"	d
+__BEGIN_NAMESPACE_C99	cdefs.h	125;"	d
+__BEGIN_NAMESPACE_STD	cdefs.h	112;"	d
+__BEGIN_NAMESPACE_STD	cdefs.h	122;"	d
+__BIT_TYPES_DEFINED__	types.h	211;"	d
+__CONCAT	cdefs.h	88;"	d
+__CONST_SOCKADDR_ARG	socket.h	/^	      } __CONST_SOCKADDR_ARG __attribute__ ((__transparent_union__));$/;"	t	typeref:union:__anon3
+__CONST_SOCKADDR_ARG	socket.h	70;"	d
+__END_DECLS	cdefs.h	102;"	d
+__END_DECLS	cdefs.h	99;"	d
+__END_NAMESPACE_C99	cdefs.h	116;"	d
+__END_NAMESPACE_C99	cdefs.h	126;"	d
+__END_NAMESPACE_STD	cdefs.h	113;"	d
+__END_NAMESPACE_STD	cdefs.h	123;"	d
+__EPOLL_PACKED	epoll.h	/^} __EPOLL_PACKED;$/;"	v	typeref:struct:epoll_event
+__EPOLL_PACKED	epoll.h	36;"	d
+__FDS_BITS	select.h	70;"	d
+__FD_ELT	select.h	60;"	d
+__FD_MASK	select.h	61;"	d
+__LDBL_COMPAT	cdefs.h	413;"	d
+__LDBL_REDIR	cdefs.h	416;"	d
+__LDBL_REDIR	cdefs.h	433;"	d
+__LDBL_REDIR1	cdefs.h	415;"	d
+__LDBL_REDIR1	cdefs.h	432;"	d
+__LDBL_REDIR1_DECL	cdefs.h	421;"	d
+__LDBL_REDIR1_NTH	cdefs.h	418;"	d
+__LDBL_REDIR1_NTH	cdefs.h	434;"	d
+__LDBL_REDIR_DECL	cdefs.h	423;"	d
+__LDBL_REDIR_DECL	cdefs.h	436;"	d
+__LDBL_REDIR_NTH	cdefs.h	419;"	d
+__LDBL_REDIR_NTH	cdefs.h	435;"	d
+__LEAF	cdefs.h	42;"	d
+__LEAF	cdefs.h	45;"	d
+__LEAF_ATTR	cdefs.h	43;"	d
+__LEAF_ATTR	cdefs.h	46;"	d
+__LINUX_COMPILER_H	sysctl.h	38;"	d
+__LINUX_COMPILER_H	sysctl.h	58;"	d
+__LOCK_ATOMIC	file.h	43;"	d
+__NFDBITS	select.h	57;"	d
+__NFDBITS	select.h	59;"	d
+__NTH	cdefs.h	57;"	d
+__NTH	cdefs.h	62;"	d
+__NTH	cdefs.h	66;"	d
+__NTH	cdefs.h	76;"	d
+__P	cdefs.h	34;"	d
+__P	cdefs.h	82;"	d
+__PMT	cdefs.h	35;"	d
+__PMT	cdefs.h	83;"	d
+__REDIRECT	cdefs.h	177;"	d
+__REDIRECT_LDBL	cdefs.h	425;"	d
+__REDIRECT_LDBL	cdefs.h	438;"	d
+__REDIRECT_NTH	cdefs.h	179;"	d
+__REDIRECT_NTH	cdefs.h	184;"	d
+__REDIRECT_NTH	resource.h	/^extern int __REDIRECT_NTH (getrlimit, (__rlimit_resource_t __resource,$/;"	p	signature:(getrlimit, (__rlimit_resource_t __resource, struct rlimit *__rlimits), getrlimit64)
+__REDIRECT_NTH	resource.h	/^extern int __REDIRECT_NTH (setrlimit, (__rlimit_resource_t __resource,$/;"	p	signature:(setrlimit, (__rlimit_resource_t __resource, const struct rlimit *__rlimits), setrlimit64)
+__REDIRECT_NTH	timex.h	/^extern int __REDIRECT_NTH (ntp_gettime, (struct ntptimeval *__ntv),$/;"	p	signature:(ntp_gettime, (struct ntptimeval *__ntv), ntp_gettimex)
+__REDIRECT_NTHNL	cdefs.h	181;"	d
+__REDIRECT_NTHNL	cdefs.h	186;"	d
+__REDIRECT_NTH_LDBL	cdefs.h	427;"	d
+__REDIRECT_NTH_LDBL	cdefs.h	439;"	d
+__SOCKADDR_ALLTYPES	socket.h	74;"	d
+__SOCKADDR_ARG	socket.h	/^	      } __SOCKADDR_ARG __attribute__ ((__transparent_union__));$/;"	t	typeref:union:__anon2
+__SOCKADDR_ARG	socket.h	69;"	d
+__SOCKADDR_COMMON	un.h	/^    __SOCKADDR_COMMON (sun_);$/;"	p	struct:sockaddr_un	access:public	signature:(sun_)
+__SOCKADDR_ONETYPE	socket.h	89;"	d
+__SOCKADDR_ONETYPE	socket.h	92;"	d
+__SOCKADDR_ONETYPE	socket.h	93;"	d
+__SOCKADDR_ONETYPE	socket.h	96;"	d
+__STRING	cdefs.h	89;"	d
+__S_ISTYPE	stat.h	126;"	d
+__THROW	cdefs.h	55;"	d
+__THROW	cdefs.h	60;"	d
+__THROW	cdefs.h	64;"	d
+__THROW	cdefs.h	74;"	d
+__THROW	signalfd.h	/^  __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	stat.h	/^		       struct stat64 *__stat_buf) __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	stat.h	/^		      struct stat64 *__stat_buf) __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	stat.h	/^		     __dev_t *__dev) __THROW __nonnull ((2, 4));$/;"	p	signature:(2, 4)
+__THROW	stat.h	/^		     struct stat *__stat_buf) __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	stat.h	/^		    __dev_t __dev) __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	stat.h	/^		    struct stat *__stat_buf) __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	stat.h	/^		   struct stat64 *__restrict __buf) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	stat.h	/^		  struct stat *__restrict __buf) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	stat.h	/^		 struct stat *__restrict __buf) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	stat.h	/^     __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	stat.h	/^     __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	stat.h	/^     __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	stat.h	/^     __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	stat.h	/^     __THROW __nonnull ((3));$/;"	p	signature:(3)
+__THROW	stat.h	/^     __THROW __nonnull ((3, 4));$/;"	p	signature:(3, 4)
+__THROW	stat.h	/^     __THROW __nonnull ((3, 5));$/;"	p	signature:(3, 5)
+__THROW	stat.h	/^extern int fstat (int __fd, struct stat *__buf) __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	stat.h	/^extern int fstat64 (int __fd, struct stat64 *__buf) __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	statfs.h	/^     __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	statfs.h	/^     __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	statvfs.h	/^     __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	statvfs.h	/^     __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	time.h	/^			 __timezone_ptr_t __tz) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	time.h	/^     __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROWNL	cdefs.h	56;"	d
+__THROWNL	cdefs.h	61;"	d
+__THROWNL	cdefs.h	65;"	d
+__THROWNL	cdefs.h	75;"	d
+__USING_NAMESPACE_C99	cdefs.h	117;"	d
+__USING_NAMESPACE_C99	cdefs.h	127;"	d
+__USING_NAMESPACE_STD	cdefs.h	114;"	d
+__USING_NAMESPACE_STD	cdefs.h	124;"	d
+__WAIT_INT	wait.h	43;"	d
+__WAIT_STATUS	wait.h	56;"	d
+__WAIT_STATUS_DEFN	wait.h	57;"	d
+__always_inline	cdefs.h	307;"	d
+__always_inline	cdefs.h	309;"	d
+__anon12::__reserved1	ucontext.h	/^    __extension__ unsigned long long __reserved1 [8];$/;"	m	struct:__anon12	access:public
+__anon12::fpregs	ucontext.h	/^    fpregset_t fpregs;$/;"	m	struct:__anon12	access:public
+__anon12::gregs	ucontext.h	/^    gregset_t gregs;$/;"	m	struct:__anon12	access:public
+__anon14::cr2	ucontext.h	/^    unsigned long int cr2;$/;"	m	struct:__anon14	access:public
+__anon14::fpregs	ucontext.h	/^    fpregset_t fpregs;$/;"	m	struct:__anon14	access:public
+__anon14::gregs	ucontext.h	/^    gregset_t gregs;$/;"	m	struct:__anon14	access:public
+__anon14::oldmask	ucontext.h	/^    unsigned long int oldmask;$/;"	m	struct:__anon14	access:public
+__anon6::fds_bits	select.h	/^    __fd_mask fds_bits[__FD_SETSIZE \/ __NFDBITS];$/;"	m	struct:__anon6	access:public
+__attribute__	cdefs.h	204;"	d
+__attribute_alloc_size__	cdefs.h	219;"	d
+__attribute_alloc_size__	cdefs.h	222;"	d
+__attribute_artificial__	cdefs.h	315;"	d
+__attribute_artificial__	cdefs.h	317;"	d
+__attribute_const__	cdefs.h	236;"	d
+__attribute_const__	cdefs.h	238;"	d
+__attribute_const__	sysmacros.h	/^     __THROW __attribute_const__;$/;"	v
+__attribute_deprecated__	cdefs.h	254;"	d
+__attribute_deprecated__	cdefs.h	256;"	d
+__attribute_format_arg__	cdefs.h	266;"	d
+__attribute_format_arg__	cdefs.h	268;"	d
+__attribute_format_strfmon__	cdefs.h	276;"	d
+__attribute_format_strfmon__	cdefs.h	279;"	d
+__attribute_malloc__	cdefs.h	211;"	d
+__attribute_malloc__	cdefs.h	213;"	d
+__attribute_noinline__	cdefs.h	246;"	d
+__attribute_noinline__	cdefs.h	249;"	d
+__attribute_pure__	cdefs.h	229;"	d
+__attribute_pure__	cdefs.h	231;"	d
+__attribute_used__	cdefs.h	245;"	d
+__attribute_used__	cdefs.h	248;"	d
+__attribute_warn_unused_result__	cdefs.h	293;"	d
+__attribute_warn_unused_result__	cdefs.h	299;"	d
+__bb	gmon.h	/^struct __bb$/;"	s
+__bb::addresses	gmon.h	/^  const unsigned long	*addresses;$/;"	m	struct:__bb	access:public
+__bb::counts	gmon.h	/^  long			*counts;$/;"	m	struct:__bb	access:public
+__bb::filename	gmon.h	/^  const char		*filename;$/;"	m	struct:__bb	access:public
+__bb::ncounts	gmon.h	/^  long			ncounts;$/;"	m	struct:__bb	access:public
+__bb::next	gmon.h	/^  struct __bb		*next;$/;"	m	struct:__bb	typeref:struct:__bb::__bb	access:public
+__bb::zero_word	gmon.h	/^  long			zero_word;$/;"	m	struct:__bb	access:public
+__blkcnt_t_defined	stat.h	93;"	d
+__blkcnt_t_defined	types.h	236;"	d
+__blkcnt_t_defined	types.h	249;"	d
+__blksize_t_defined	stat.h	98;"	d
+__blksize_t_defined	types.h	229;"	d
+__bos	cdefs.h	132;"	d
+__bos0	cdefs.h	133;"	d
+__daddr_t_defined	types.h	117;"	d
+__dev_t_defined	stat.h	44;"	d
+__dev_t_defined	types.h	61;"	d
+__domainname	utsname.h	/^    char __domainname[_UTSNAME_DOMAIN_LENGTH];$/;"	m	struct:utsname	access:public
+__errordecl	cdefs.h	139;"	d
+__errordecl	cdefs.h	144;"	d
+__extension__	cdefs.h	358;"	d
+__extern_always_inline	cdefs.h	334;"	d
+__extern_always_inline	cdefs.h	338;"	d
+__extern_inline	cdefs.h	333;"	d
+__extern_inline	cdefs.h	337;"	d
+__fd_mask	select.h	/^typedef long int __fd_mask;$/;"	t
+__flexarr	cdefs.h	150;"	d
+__flexarr	cdefs.h	153;"	d
+__flexarr	cdefs.h	156;"	d
+__flexarr	cdefs.h	159;"	d
+__flexarr	inotify.h	/^  char name __flexarr;	\/* Name.  *\/$/;"	m	struct:inotify_event	access:public
+__fortify_function	cdefs.h	343;"	d
+__fpregs_mem	ucontext.h	/^    struct _libc_fpstate __fpregs_mem;$/;"	m	struct:ucontext	typeref:struct:ucontext::_libc_fpstate	access:public
+__fsblkcnt_t_defined	statvfs.h	30;"	d
+__fsblkcnt_t_defined	statvfs.h	39;"	d
+__fsblkcnt_t_defined	types.h	240;"	d
+__fsblkcnt_t_defined	types.h	253;"	d
+__fsfilcnt_t_defined	statvfs.h	34;"	d
+__fsfilcnt_t_defined	statvfs.h	43;"	d
+__fsfilcnt_t_defined	types.h	244;"	d
+__fsfilcnt_t_defined	types.h	257;"	d
+__fxstat	stat.h	424;"	d
+__gid_t_defined	ipc.h	38;"	d
+__gid_t_defined	stat.h	49;"	d
+__gid_t_defined	types.h	66;"	d
+__glibc_likely	cdefs.h	386;"	d
+__glibc_likely	cdefs.h	389;"	d
+__glibc_reserved1	timex.h	/^  long int __glibc_reserved1;$/;"	m	struct:ntptimeval	access:public
+__glibc_reserved2	timex.h	/^  long int __glibc_reserved2;$/;"	m	struct:ntptimeval	access:public
+__glibc_reserved3	timex.h	/^  long int __glibc_reserved3;$/;"	m	struct:ntptimeval	access:public
+__glibc_reserved4	timex.h	/^  long int __glibc_reserved4;$/;"	m	struct:ntptimeval	access:public
+__glibc_unlikely	cdefs.h	385;"	d
+__glibc_unlikely	cdefs.h	388;"	d
+__id_t_defined	resource.h	28;"	d
+__id_t_defined	types.h	105;"	d
+__id_t_defined	wait.h	131;"	d
+__inline	cdefs.h	72;"	d
+__ino64_t_defined	types.h	56;"	d
+__ino_t_defined	stat.h	58;"	d
+__ino_t_defined	types.h	52;"	d
+__int8_t_defined	types.h	161;"	d
+__int8_t_defined	types.h	193;"	d
+__intN_t	types.h	187;"	d
+__itimer_which	time.h	/^enum __itimer_which$/;"	g
+__itimer_which_t	time.h	/^typedef enum __itimer_which __itimer_which_t;$/;"	t	typeref:enum:__itimer_which
+__itimer_which_t	time.h	/^typedef int __itimer_which_t;$/;"	t
+__key_t_defined	ipc.h	48;"	d
+__key_t_defined	types.h	123;"	d
+__long_double_t	cdefs.h	93;"	d
+__lxstat	stat.h	426;"	d
+__mode_t_defined	ipc.h	43;"	d
+__mode_t_defined	mman.h	38;"	d
+__mode_t_defined	stat.h	63;"	d
+__mode_t_defined	types.h	71;"	d
+__need_NULL	param.h	22;"	d
+__need___va_list	syslog.h	36;"	d
+__need_clock_t	times.h	27;"	d
+__need_clock_t	types.h	127;"	d
+__need_clockid_t	types.h	131;"	d
+__need_siginfo_t	wait.h	134;"	d
+__need_sigset_t	signalfd.h	21;"	d
+__need_size_t	mman.h	24;"	d
+__need_size_t	msg.h	23;"	d
+__need_size_t	sem.h	23;"	d
+__need_size_t	shm.h	23;"	d
+__need_size_t	socket.h	27;"	d
+__need_size_t	sysctl.h	22;"	d
+__need_size_t	types.h	145;"	d
+__need_time_t	acct.h	24;"	d
+__need_time_t	msg.h	33;"	d
+__need_time_t	select.h	41;"	d
+__need_time_t	shm.h	33;"	d
+__need_time_t	stat.h	31;"	d
+__need_time_t	time.h	24;"	d
+__need_time_t	timeb.h	23;"	d
+__need_time_t	types.h	129;"	d
+__need_timer_t	types.h	130;"	d
+__need_timespec	poll.h	30;"	d
+__need_timespec	select.h	42;"	d
+__need_timespec	sem.h	33;"	d
+__need_timespec	stat.h	34;"	d
+__need_timeval	select.h	44;"	d
+__need_timeval	time.h	26;"	d
+__nlink_t_defined	stat.h	68;"	d
+__nlink_t_defined	types.h	76;"	d
+__nonnull	cdefs.h	285;"	d
+__nonnull	cdefs.h	287;"	d
+__off64_t_defined	types.h	94;"	d
+__off_t_defined	mman.h	33;"	d
+__off_t_defined	stat.h	77;"	d
+__off_t_defined	types.h	90;"	d
+__pad	signalfd.h	/^  uint8_t __pad[48];$/;"	m	struct:signalfd_siginfo	access:public
+__pid_t_defined	msg.h	38;"	d
+__pid_t_defined	shm.h	39;"	d
+__pid_t_defined	types.h	99;"	d
+__priority_which_t	resource.h	/^typedef enum __priority_which __priority_which_t;$/;"	t	typeref:enum:__priority_which
+__ptr_t	cdefs.h	92;"	d
+__ptrace_eventcodes	ptrace.h	/^enum __ptrace_eventcodes$/;"	g
+__ptrace_flags	ptrace.h	/^enum __ptrace_flags$/;"	g
+__ptrace_peeksiginfo_args	ptrace.h	/^struct __ptrace_peeksiginfo_args$/;"	s
+__ptrace_peeksiginfo_args::flags	ptrace.h	/^  __uint32_t flags;	\/* Flags for peeksiginfo.  *\/$/;"	m	struct:__ptrace_peeksiginfo_args	access:public
+__ptrace_peeksiginfo_args::nr	ptrace.h	/^  __int32_t nr;		\/* How many siginfos to take.  *\/$/;"	m	struct:__ptrace_peeksiginfo_args	access:public
+__ptrace_peeksiginfo_args::off	ptrace.h	/^  __uint64_t off;	\/* From which siginfo to start.  *\/$/;"	m	struct:__ptrace_peeksiginfo_args	access:public
+__ptrace_peeksiginfo_flags	ptrace.h	/^enum __ptrace_peeksiginfo_flags$/;"	g
+__ptrace_request	ptrace.h	/^enum __ptrace_request$/;"	g
+__ptrace_setoptions	ptrace.h	/^enum __ptrace_setoptions$/;"	g
+__reserved1	ucontext.h	/^    __extension__ unsigned long long __reserved1 [8];$/;"	m	struct:__anon12	access:public
+__restrict	cdefs.h	363;"	d
+__restrict_arr	cdefs.h	370;"	d
+__restrict_arr	cdefs.h	373;"	d
+__restrict_arr	cdefs.h	376;"	d
+__restrict_arr	cdefs.h	379;"	d
+__rlimit_resource_t	resource.h	/^typedef enum __rlimit_resource __rlimit_resource_t;$/;"	t	typeref:enum:__rlimit_resource
+__rusage_who_t	resource.h	/^typedef enum __rusage_who __rusage_who_t;$/;"	t	typeref:enum:__rusage_who
+__sigset_t_defined	epoll.h	28;"	d
+__sigset_t_defined	select.h	36;"	d
+__ssize_t_defined	msg.h	43;"	d
+__ssize_t_defined	types.h	110;"	d
+__suseconds_t_defined	select.h	49;"	d
+__suseconds_t_defined	time.h	33;"	d
+__suseconds_t_defined	types.h	141;"	d
+__timezone_ptr_t	time.h	/^typedef struct timezone *__restrict __timezone_ptr_t;$/;"	t	typeref:struct:__restrict
+__u_ar0_word	user.h	/^      __extension__ unsigned long long int	__u_ar0_word;$/;"	m	union:user::__anon18
+__u_char_defined	types.h	40;"	d
+__u_fpstate_word	user.h	/^      __extension__ unsigned long long int	__u_fpstate_word;$/;"	m	union:user::__anon19
+__u_intN_t	types.h	189;"	d
+__uid_t_defined	ipc.h	33;"	d
+__uid_t_defined	stat.h	82;"	d
+__uid_t_defined	types.h	81;"	d
+__undef_LINUX_KERNEL_H	sysctl.h	27;"	d
+__undef_LINUX_KERNEL_H	sysctl.h	47;"	d
+__undef_LINUX_LIST_H	sysctl.h	35;"	d
+__undef_LINUX_LIST_H	sysctl.h	55;"	d
+__undef_LINUX_TYPES_H	kd.h	24;"	d
+__undef_LINUX_TYPES_H	kd.h	31;"	d
+__undef_LINUX_TYPES_H	sysctl.h	31;"	d
+__undef_LINUX_TYPES_H	sysctl.h	51;"	d
+__undef__LINUX_COMPILER_H	sysctl.h	40;"	d
+__undef__LINUX_COMPILER_H	sysctl.h	60;"	d
+__useconds_t_defined	types.h	137;"	d
+__user	sysctl.h	39;"	d
+__user	sysctl.h	59;"	d
+__va_arg_pack	cdefs.h	349;"	d
+__va_arg_pack_len	cdefs.h	350;"	d
+__vlimit_resource	vlimit.h	/^enum __vlimit_resource$/;"	g
+__warnattr	cdefs.h	138;"	d
+__warnattr	cdefs.h	143;"	d
+__warndecl	cdefs.h	136;"	d
+__warndecl	cdefs.h	142;"	d
+__wur	cdefs.h	296;"	d
+__wur	cdefs.h	302;"	d
+__xstat	stat.h	425;"	d
+_code	syslog.h	/^typedef struct _code {$/;"	s
+_code::c_name	syslog.h	/^	char	*c_name;$/;"	m	struct:_code	access:public
+_code::c_val	syslog.h	/^	int	c_val;$/;"	m	struct:_code	access:public
+_libc_fpreg	ucontext.h	/^struct _libc_fpreg$/;"	s
+_libc_fpreg::exponent	ucontext.h	/^  unsigned short int exponent;$/;"	m	struct:_libc_fpreg	access:public
+_libc_fpreg::significand	ucontext.h	/^  unsigned short int significand[4];$/;"	m	struct:_libc_fpreg	access:public
+_libc_fpstate	ucontext.h	/^struct _libc_fpstate$/;"	s
+_libc_fpstate::_st	ucontext.h	/^  struct _libc_fpreg _st[8];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_fpreg	access:public
+_libc_fpstate::_st	ucontext.h	/^  struct _libc_fpxreg	_st[8];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_fpxreg	access:public
+_libc_fpstate::_xmm	ucontext.h	/^  struct _libc_xmmreg	_xmm[16];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_xmmreg	access:public
+_libc_fpstate::cssel	ucontext.h	/^  unsigned long int cssel;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::cw	ucontext.h	/^  unsigned long int cw;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::cwd	ucontext.h	/^  __uint16_t		cwd;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::dataoff	ucontext.h	/^  unsigned long int dataoff;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::datasel	ucontext.h	/^  unsigned long int datasel;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::fop	ucontext.h	/^  __uint16_t		fop;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::ftw	ucontext.h	/^  __uint16_t		ftw;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::ipoff	ucontext.h	/^  unsigned long int ipoff;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::mxcr_mask	ucontext.h	/^  __uint32_t		mxcr_mask;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::mxcsr	ucontext.h	/^  __uint32_t		mxcsr;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::padding	ucontext.h	/^  __uint32_t		padding[24];$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::rdp	ucontext.h	/^  __uint64_t		rdp;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::rip	ucontext.h	/^  __uint64_t		rip;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::status	ucontext.h	/^  unsigned long int status;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::sw	ucontext.h	/^  unsigned long int sw;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::swd	ucontext.h	/^  __uint16_t		swd;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::tag	ucontext.h	/^  unsigned long int tag;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpxreg	ucontext.h	/^struct _libc_fpxreg$/;"	s
+_libc_fpxreg::exponent	ucontext.h	/^  unsigned short int exponent;$/;"	m	struct:_libc_fpxreg	access:public
+_libc_fpxreg::padding	ucontext.h	/^  unsigned short int padding[3];$/;"	m	struct:_libc_fpxreg	access:public
+_libc_fpxreg::significand	ucontext.h	/^  unsigned short int significand[4];$/;"	m	struct:_libc_fpxreg	access:public
+_libc_xmmreg	ucontext.h	/^struct _libc_xmmreg$/;"	s
+_libc_xmmreg::element	ucontext.h	/^  __uint32_t	element[4];$/;"	m	struct:_libc_xmmreg	access:public
+_st	ucontext.h	/^  struct _libc_fpreg _st[8];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_fpreg	access:public
+_st	ucontext.h	/^  struct _libc_fpxreg	_st[8];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_fpxreg	access:public
+_xmm	ucontext.h	/^  struct _libc_xmmreg	_xmm[16];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_xmmreg	access:public
+ac_btime	acct.h	/^  u_int32_t ac_btime;		\/* Beginning time.  *\/$/;"	m	struct:acct	access:public
+ac_btime	acct.h	/^  u_int32_t ac_btime;		\/* Process Creation Time *\/$/;"	m	struct:acct_v3	access:public
+ac_comm	acct.h	/^  char ac_comm[ACCT_COMM+1];	\/* Command name.  *\/$/;"	m	struct:acct	access:public
+ac_comm	acct.h	/^  char ac_comm[ACCT_COMM];	\/* Command Name *\/$/;"	m	struct:acct_v3	access:public
+ac_etime	acct.h	/^  comp_t ac_etime;		\/* Elapsed time.  *\/$/;"	m	struct:acct	access:public
+ac_etime	acct.h	/^  float ac_etime;		\/* Elapsed Time *\/$/;"	m	struct:acct_v3	access:public
+ac_exitcode	acct.h	/^  u_int32_t ac_exitcode;	\/* Exitcode *\/$/;"	m	struct:acct_v3	access:public
+ac_exitcode	acct.h	/^  u_int32_t ac_exitcode;	\/* Process exitcode.  *\/$/;"	m	struct:acct	access:public
+ac_flag	acct.h	/^  char ac_flag;			\/* Flags *\/$/;"	m	struct:acct_v3	access:public
+ac_flag	acct.h	/^  char ac_flag;			\/* Flags.  *\/$/;"	m	struct:acct	access:public
+ac_gid	acct.h	/^  u_int16_t ac_gid;		\/* Real group ID.  *\/$/;"	m	struct:acct	access:public
+ac_gid	acct.h	/^  u_int32_t ac_gid;		\/* Real Group ID *\/$/;"	m	struct:acct_v3	access:public
+ac_io	acct.h	/^  comp_t ac_io;			\/* Chars Transferred *\/$/;"	m	struct:acct_v3	access:public
+ac_io	acct.h	/^  comp_t ac_io;			\/* Chars transferred.  *\/$/;"	m	struct:acct	access:public
+ac_majflt	acct.h	/^  comp_t ac_majflt;		\/* Major Pagefaults *\/$/;"	m	struct:acct_v3	access:public
+ac_majflt	acct.h	/^  comp_t ac_majflt;		\/* Major pagefaults.  *\/$/;"	m	struct:acct	access:public
+ac_mem	acct.h	/^  comp_t ac_mem;		\/* Average Memory Usage *\/$/;"	m	struct:acct_v3	access:public
+ac_mem	acct.h	/^  comp_t ac_mem;		\/* Average memory usage.  *\/$/;"	m	struct:acct	access:public
+ac_minflt	acct.h	/^  comp_t ac_minflt;		\/* Minor Pagefaults *\/$/;"	m	struct:acct_v3	access:public
+ac_minflt	acct.h	/^  comp_t ac_minflt;		\/* Minor pagefaults.  *\/$/;"	m	struct:acct	access:public
+ac_pad	acct.h	/^  char ac_pad[10];		\/* Padding bytes.  *\/$/;"	m	struct:acct	access:public
+ac_pid	acct.h	/^  u_int32_t ac_pid;		\/* Process ID *\/$/;"	m	struct:acct_v3	access:public
+ac_ppid	acct.h	/^  u_int32_t ac_ppid;		\/* Parent Process ID *\/$/;"	m	struct:acct_v3	access:public
+ac_rw	acct.h	/^  comp_t ac_rw;			\/* Blocks Read or Written *\/$/;"	m	struct:acct_v3	access:public
+ac_rw	acct.h	/^  comp_t ac_rw;			\/* Blocks read or written.  *\/$/;"	m	struct:acct	access:public
+ac_stime	acct.h	/^  comp_t ac_stime;		\/* System Time *\/$/;"	m	struct:acct_v3	access:public
+ac_stime	acct.h	/^  comp_t ac_stime;		\/* System time.  *\/$/;"	m	struct:acct	access:public
+ac_swaps	acct.h	/^  comp_t ac_swaps;		\/* Number of Swaps *\/$/;"	m	struct:acct_v3	access:public
+ac_swaps	acct.h	/^  comp_t ac_swaps;		\/* Number of swaps.  *\/$/;"	m	struct:acct	access:public
+ac_tty	acct.h	/^  u_int16_t ac_tty;		\/* Control Terminal *\/$/;"	m	struct:acct_v3	access:public
+ac_tty	acct.h	/^  u_int16_t ac_tty;		\/* Controlling terminal.  *\/$/;"	m	struct:acct	access:public
+ac_uid	acct.h	/^  u_int16_t ac_uid;		\/* Real user ID.  *\/$/;"	m	struct:acct	access:public
+ac_uid	acct.h	/^  u_int32_t ac_uid;		\/* Real User ID *\/$/;"	m	struct:acct_v3	access:public
+ac_utime	acct.h	/^  comp_t ac_utime;		\/* User Time *\/$/;"	m	struct:acct_v3	access:public
+ac_utime	acct.h	/^  comp_t ac_utime;		\/* User time.  *\/$/;"	m	struct:acct	access:public
+ac_version	acct.h	/^  char ac_version;		\/* Always set to ACCT_VERSION *\/$/;"	m	struct:acct_v3	access:public
+accept	socket.h	/^extern int accept (int __fd, __SOCKADDR_ARG __addr,$/;"	p	signature:(int __fd, __SOCKADDR_ARG __addr, socklen_t *__restrict __addr_len)
+accept4	socket.h	/^extern int accept4 (int __fd, __SOCKADDR_ARG __addr,$/;"	p	signature:(int __fd, __SOCKADDR_ARG __addr, socklen_t *__restrict __addr_len, int __flags)
+acct	acct.h	/^struct acct$/;"	s
+acct::ac_btime	acct.h	/^  u_int32_t ac_btime;		\/* Beginning time.  *\/$/;"	m	struct:acct	access:public
+acct::ac_comm	acct.h	/^  char ac_comm[ACCT_COMM+1];	\/* Command name.  *\/$/;"	m	struct:acct	access:public
+acct::ac_etime	acct.h	/^  comp_t ac_etime;		\/* Elapsed time.  *\/$/;"	m	struct:acct	access:public
+acct::ac_exitcode	acct.h	/^  u_int32_t ac_exitcode;	\/* Process exitcode.  *\/$/;"	m	struct:acct	access:public
+acct::ac_flag	acct.h	/^  char ac_flag;			\/* Flags.  *\/$/;"	m	struct:acct	access:public
+acct::ac_gid	acct.h	/^  u_int16_t ac_gid;		\/* Real group ID.  *\/$/;"	m	struct:acct	access:public
+acct::ac_io	acct.h	/^  comp_t ac_io;			\/* Chars transferred.  *\/$/;"	m	struct:acct	access:public
+acct::ac_majflt	acct.h	/^  comp_t ac_majflt;		\/* Major pagefaults.  *\/$/;"	m	struct:acct	access:public
+acct::ac_mem	acct.h	/^  comp_t ac_mem;		\/* Average memory usage.  *\/$/;"	m	struct:acct	access:public
+acct::ac_minflt	acct.h	/^  comp_t ac_minflt;		\/* Minor pagefaults.  *\/$/;"	m	struct:acct	access:public
+acct::ac_pad	acct.h	/^  char ac_pad[10];		\/* Padding bytes.  *\/$/;"	m	struct:acct	access:public
+acct::ac_rw	acct.h	/^  comp_t ac_rw;			\/* Blocks read or written.  *\/$/;"	m	struct:acct	access:public
+acct::ac_stime	acct.h	/^  comp_t ac_stime;		\/* System time.  *\/$/;"	m	struct:acct	access:public
+acct::ac_swaps	acct.h	/^  comp_t ac_swaps;		\/* Number of swaps.  *\/$/;"	m	struct:acct	access:public
+acct::ac_tty	acct.h	/^  u_int16_t ac_tty;		\/* Controlling terminal.  *\/$/;"	m	struct:acct	access:public
+acct::ac_uid	acct.h	/^  u_int16_t ac_uid;		\/* Real user ID.  *\/$/;"	m	struct:acct	access:public
+acct::ac_utime	acct.h	/^  comp_t ac_utime;		\/* User time.  *\/$/;"	m	struct:acct	access:public
+acct_v3	acct.h	/^struct acct_v3$/;"	s
+acct_v3::ac_btime	acct.h	/^  u_int32_t ac_btime;		\/* Process Creation Time *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_comm	acct.h	/^  char ac_comm[ACCT_COMM];	\/* Command Name *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_etime	acct.h	/^  float ac_etime;		\/* Elapsed Time *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_exitcode	acct.h	/^  u_int32_t ac_exitcode;	\/* Exitcode *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_flag	acct.h	/^  char ac_flag;			\/* Flags *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_gid	acct.h	/^  u_int32_t ac_gid;		\/* Real Group ID *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_io	acct.h	/^  comp_t ac_io;			\/* Chars Transferred *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_majflt	acct.h	/^  comp_t ac_majflt;		\/* Major Pagefaults *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_mem	acct.h	/^  comp_t ac_mem;		\/* Average Memory Usage *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_minflt	acct.h	/^  comp_t ac_minflt;		\/* Minor Pagefaults *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_pid	acct.h	/^  u_int32_t ac_pid;		\/* Process ID *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_ppid	acct.h	/^  u_int32_t ac_ppid;		\/* Parent Process ID *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_rw	acct.h	/^  comp_t ac_rw;			\/* Blocks Read or Written *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_stime	acct.h	/^  comp_t ac_stime;		\/* System Time *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_swaps	acct.h	/^  comp_t ac_swaps;		\/* Number of Swaps *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_tty	acct.h	/^  u_int16_t ac_tty;		\/* Control Terminal *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_uid	acct.h	/^  u_int32_t ac_uid;		\/* Real User ID *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_utime	acct.h	/^  comp_t ac_utime;		\/* User Time *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_version	acct.h	/^  char ac_version;		\/* Always set to ACCT_VERSION *\/$/;"	m	struct:acct_v3	access:public
+addresses	gmon.h	/^  const unsigned long	*addresses;$/;"	m	struct:__bb	access:public
+allocated_dquots	quota.h	/^    u_int32_t allocated_dquots;$/;"	m	struct:dqstats	access:public
+blkcnt64_t	types.h	/^typedef __blkcnt64_t blkcnt64_t;     \/* Type to count number of disk blocks. *\/$/;"	t
+blkcnt_t	stat.h	/^typedef __blkcnt64_t blkcnt_t;$/;"	t
+blkcnt_t	stat.h	/^typedef __blkcnt_t blkcnt_t;$/;"	t
+blkcnt_t	types.h	/^typedef __blkcnt64_t blkcnt_t;	   \/* Type to count number of disk blocks.  *\/$/;"	t
+blkcnt_t	types.h	/^typedef __blkcnt_t blkcnt_t;	 \/* Type to count number of disk blocks.  *\/$/;"	t
+blksize_t	stat.h	/^typedef __blksize_t blksize_t;$/;"	t
+blksize_t	types.h	/^typedef __blksize_t blksize_t;$/;"	t
+block_major	raw.h	/^  uint64_t block_major;$/;"	m	struct:raw_config_request	access:public
+block_minor	raw.h	/^  uint64_t block_minor;$/;"	m	struct:raw_config_request	access:public
+btodb	quota.h	54;"	d
+c_name	syslog.h	/^	char	*c_name;$/;"	m	struct:_code	access:public
+c_val	syslog.h	/^	int	c_val;$/;"	m	struct:_code	access:public
+cache_hits	quota.h	/^    u_int32_t cache_hits;$/;"	m	struct:dqstats	access:public
+caddr_t	types.h	/^typedef __caddr_t caddr_t;$/;"	t
+closelog	syslog.h	/^extern void closelog (void);$/;"	p	signature:(void)
+clrbit	param.h	84;"	d
+comp_t	acct.h	/^typedef u_int16_t comp_t;$/;"	t
+connect	socket.h	/^extern int connect (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len);$/;"	p	signature:(int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len)
+cookie	gmon_out.h	/^    char cookie[4];$/;"	m	struct:gmon_hdr	access:public
+cookie	inotify.h	/^  uint32_t cookie;	\/* Cookie to synchronize two events.  *\/$/;"	m	struct:inotify_event	access:public
+count	gmon.h	/^	long		count;$/;"	m	struct:tostruct	access:public
+count	gmon_out.h	/^    char count[4];			\/* number of arc traversals *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+counts	gmon.h	/^  long			*counts;$/;"	m	struct:__bb	access:public
+cr2	ucontext.h	/^    unsigned long int cr2;$/;"	m	struct:__anon14	access:public
+cs	user.h	/^  __extension__ unsigned long long int cs;$/;"	m	struct:user_regs_struct	access:public
+cssel	ucontext.h	/^  unsigned long int cssel;$/;"	m	struct:_libc_fpstate	access:public
+cw	ucontext.h	/^  unsigned long int cw;$/;"	m	struct:_libc_fpstate	access:public
+cwd	ucontext.h	/^  __uint16_t		cwd;$/;"	m	struct:_libc_fpstate	access:public
+cwd	user.h	/^  long int cwd;$/;"	m	struct:user_fpregs_struct	access:public
+cwd	user.h	/^  unsigned short int	cwd;$/;"	m	struct:user_fpregs_struct	access:public
+cwd	user.h	/^  unsigned short int cwd;$/;"	m	struct:user_fpxregs_struct	access:public
+daddr_t	types.h	/^typedef __daddr_t daddr_t;$/;"	t
+data	epoll.h	/^  epoll_data_t data;	\/* User data variable *\/$/;"	m	struct:epoll_event	access:public
+dataoff	ucontext.h	/^  unsigned long int dataoff;$/;"	m	struct:_libc_fpstate	access:public
+datasel	ucontext.h	/^  unsigned long int datasel;$/;"	m	struct:_libc_fpstate	access:public
+dbtob	quota.h	53;"	d
+debug	mtio.h	/^    unsigned long int debug;	\/* Debugging flags.  *\/$/;"	m	struct:mtconfiginfo	access:public
+dev_t	stat.h	/^typedef __dev_t dev_t;$/;"	t
+dev_t	types.h	/^typedef __dev_t dev_t;$/;"	t
+dimen	gmon_out.h	/^    char dimen[15];			\/* phys. dim., usually "seconds" *\/$/;"	m	struct:gmon_hist_hdr	access:public
+dimen_abbrev	gmon_out.h	/^    char dimen_abbrev;			\/* usually 's' for "seconds" *\/$/;"	m	struct:gmon_hist_hdr	access:public
+direct	dir.h	25;"	d
+dmanr	mtio.h	/^    unsigned short int dmanr;	\/* DMA channel to use.  *\/$/;"	m	struct:mtconfiginfo	access:public
+domainname	utsname.h	/^    char domainname[_UTSNAME_DOMAIN_LENGTH];$/;"	m	struct:utsname	access:public
+dq_bhardlimit	quota.h	172;"	d
+dq_bsoftlimit	quota.h	173;"	d
+dq_btime	quota.h	183;"	d
+dq_curblocks	quota.h	175;"	d
+dq_curinodes	quota.h	182;"	d
+dq_curspace	quota.h	177;"	d
+dq_ihardlimit	quota.h	180;"	d
+dq_isoftlimit	quota.h	181;"	d
+dq_itime	quota.h	184;"	d
+dq_valid	quota.h	178;"	d
+dqb_bhardlimit	quota.h	/^    u_int32_t dqb_bhardlimit;	\/* absolute limit on disk blks alloc *\/$/;"	m	struct:dqblk	access:public
+dqb_bhardlimit	quota.h	/^    u_int64_t dqb_bhardlimit;	\/* absolute limit on disk quota blocks alloc *\/$/;"	m	struct:dqblk	access:public
+dqb_bsoftlimit	quota.h	/^    u_int32_t dqb_bsoftlimit;	\/* preferred limit on disk blks *\/$/;"	m	struct:dqblk	access:public
+dqb_bsoftlimit	quota.h	/^    u_int64_t dqb_bsoftlimit;	\/* preferred limit on disk quota blocks *\/$/;"	m	struct:dqblk	access:public
+dqb_btime	quota.h	/^    time_t dqb_btime;		\/* time limit for excessive disk use *\/$/;"	m	struct:dqblk	access:public
+dqb_btime	quota.h	/^    u_int64_t dqb_btime;	\/* time limit for excessive disk use *\/$/;"	m	struct:dqblk	access:public
+dqb_curblocks	quota.h	/^    u_int32_t dqb_curblocks;	\/* current block count *\/$/;"	m	struct:dqblk	access:public
+dqb_curinodes	quota.h	/^    u_int32_t dqb_curinodes;	\/* current # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqb_curinodes	quota.h	/^    u_int64_t dqb_curinodes;	\/* current # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqb_curspace	quota.h	/^    u_int64_t dqb_curspace;	\/* current quota block count *\/$/;"	m	struct:dqblk	access:public
+dqb_ihardlimit	quota.h	/^    u_int32_t dqb_ihardlimit;	\/* maximum # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqb_ihardlimit	quota.h	/^    u_int64_t dqb_ihardlimit;	\/* maximum # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqb_isoftlimit	quota.h	/^    u_int32_t dqb_isoftlimit;	\/* preferred inode limit *\/$/;"	m	struct:dqblk	access:public
+dqb_isoftlimit	quota.h	/^    u_int64_t dqb_isoftlimit;	\/* preferred inode limit *\/$/;"	m	struct:dqblk	access:public
+dqb_itime	quota.h	/^    time_t dqb_itime;		\/* time limit for excessive files *\/$/;"	m	struct:dqblk	access:public
+dqb_itime	quota.h	/^    u_int64_t dqb_itime;	\/* time limit for excessive files *\/$/;"	m	struct:dqblk	access:public
+dqb_valid	quota.h	/^    u_int32_t dqb_valid;	\/* bitmask of QIF_* constants *\/$/;"	m	struct:dqblk	access:public
+dqblk	quota.h	/^struct dqblk$/;"	s
+dqblk::dqb_bhardlimit	quota.h	/^    u_int32_t dqb_bhardlimit;	\/* absolute limit on disk blks alloc *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_bhardlimit	quota.h	/^    u_int64_t dqb_bhardlimit;	\/* absolute limit on disk quota blocks alloc *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_bsoftlimit	quota.h	/^    u_int32_t dqb_bsoftlimit;	\/* preferred limit on disk blks *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_bsoftlimit	quota.h	/^    u_int64_t dqb_bsoftlimit;	\/* preferred limit on disk quota blocks *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_btime	quota.h	/^    time_t dqb_btime;		\/* time limit for excessive disk use *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_btime	quota.h	/^    u_int64_t dqb_btime;	\/* time limit for excessive disk use *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_curblocks	quota.h	/^    u_int32_t dqb_curblocks;	\/* current block count *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_curinodes	quota.h	/^    u_int32_t dqb_curinodes;	\/* current # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_curinodes	quota.h	/^    u_int64_t dqb_curinodes;	\/* current # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_curspace	quota.h	/^    u_int64_t dqb_curspace;	\/* current quota block count *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_ihardlimit	quota.h	/^    u_int32_t dqb_ihardlimit;	\/* maximum # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_ihardlimit	quota.h	/^    u_int64_t dqb_ihardlimit;	\/* maximum # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_isoftlimit	quota.h	/^    u_int32_t dqb_isoftlimit;	\/* preferred inode limit *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_isoftlimit	quota.h	/^    u_int64_t dqb_isoftlimit;	\/* preferred inode limit *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_itime	quota.h	/^    time_t dqb_itime;		\/* time limit for excessive files *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_itime	quota.h	/^    u_int64_t dqb_itime;	\/* time limit for excessive files *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_valid	quota.h	/^    u_int32_t dqb_valid;	\/* bitmask of QIF_* constants *\/$/;"	m	struct:dqblk	access:public
+dqi_bgrace	quota.h	/^    u_int64_t dqi_bgrace;$/;"	m	struct:dqinfo	access:public
+dqi_flags	quota.h	/^    u_int32_t dqi_flags;$/;"	m	struct:dqinfo	access:public
+dqi_igrace	quota.h	/^    u_int64_t dqi_igrace;$/;"	m	struct:dqinfo	access:public
+dqi_valid	quota.h	/^    u_int32_t dqi_valid;$/;"	m	struct:dqinfo	access:public
+dqinfo	quota.h	/^struct dqinfo$/;"	s
+dqinfo::dqi_bgrace	quota.h	/^    u_int64_t dqi_bgrace;$/;"	m	struct:dqinfo	access:public
+dqinfo::dqi_flags	quota.h	/^    u_int32_t dqi_flags;$/;"	m	struct:dqinfo	access:public
+dqinfo::dqi_igrace	quota.h	/^    u_int64_t dqi_igrace;$/;"	m	struct:dqinfo	access:public
+dqinfo::dqi_valid	quota.h	/^    u_int32_t dqi_valid;$/;"	m	struct:dqinfo	access:public
+dqoff	quota.h	186;"	d
+dqstats	quota.h	/^struct dqstats$/;"	s
+dqstats::allocated_dquots	quota.h	/^    u_int32_t allocated_dquots;$/;"	m	struct:dqstats	access:public
+dqstats::cache_hits	quota.h	/^    u_int32_t cache_hits;$/;"	m	struct:dqstats	access:public
+dqstats::drops	quota.h	/^    u_int32_t drops;$/;"	m	struct:dqstats	access:public
+dqstats::free_dquots	quota.h	/^    u_int32_t free_dquots;$/;"	m	struct:dqstats	access:public
+dqstats::lookups	quota.h	/^    u_int32_t lookups;$/;"	m	struct:dqstats	access:public
+dqstats::pages_allocated	quota.h	/^    u_int32_t pages_allocated;$/;"	m	struct:dqstats	access:public
+dqstats::reads	quota.h	/^    u_int32_t reads;$/;"	m	struct:dqstats	access:public
+dqstats::syncs	quota.h	/^    u_int32_t syncs;$/;"	m	struct:dqstats	access:public
+dqstats::writes	quota.h	/^    u_int32_t writes;$/;"	m	struct:dqstats	access:public
+drops	quota.h	/^    u_int32_t drops;$/;"	m	struct:dqstats	access:public
+ds	user.h	/^  __extension__ unsigned long long int ds;$/;"	m	struct:user_regs_struct	access:public
+dstflag	timeb.h	/^    short int dstflag;		\/* Nonzero if Daylight Savings Time used.  *\/$/;"	m	struct:timeb	access:public
+eax	user.h	/^  long int eax;$/;"	m	struct:user_regs_struct	access:public
+ebp	user.h	/^  long int ebp;$/;"	m	struct:user_regs_struct	access:public
+ebx	user.h	/^  long int ebx;$/;"	m	struct:user_regs_struct	access:public
+ecx	user.h	/^  long int ecx;$/;"	m	struct:user_regs_struct	access:public
+edi	user.h	/^  long int edi;$/;"	m	struct:user_regs_struct	access:public
+edx	user.h	/^  long int edx;$/;"	m	struct:user_regs_struct	access:public
+eflags	user.h	/^  __extension__ unsigned long long int eflags;$/;"	m	struct:user_regs_struct	access:public
+eflags	user.h	/^  long int eflags;$/;"	m	struct:user_regs_struct	access:public
+eip	user.h	/^  long int eip;$/;"	m	struct:user_regs_struct	access:public
+element	ucontext.h	/^  __uint32_t	element[4];$/;"	m	struct:_libc_xmmreg	access:public
+elf_fpregset_t	procfs.h	/^typedef struct user_fpregs_struct elf_fpregset_t;$/;"	t	typeref:struct:user_fpregs_struct
+elf_fpxregset_t	procfs.h	/^typedef struct user_fpxregs_struct elf_fpxregset_t;$/;"	t	typeref:struct:user_fpxregs_struct
+elf_greg_t	procfs.h	/^__extension__ typedef unsigned long long elf_greg_t;$/;"	t
+elf_gregset_t	procfs.h	/^typedef elf_greg_t elf_gregset_t[ELF_NGREG];$/;"	t
+elf_prpsinfo	procfs.h	/^struct elf_prpsinfo$/;"	s
+elf_prpsinfo::pr_flag	procfs.h	/^    unsigned long int pr_flag;		\/* Flags.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_fname	procfs.h	/^    char pr_fname[16];			\/* Filename of executable.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_gid	procfs.h	/^    unsigned int pr_gid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_gid	procfs.h	/^    unsigned short int pr_gid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_nice	procfs.h	/^    char pr_nice;			\/* Nice val.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_pgrp	procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_pid	procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_ppid	procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_psargs	procfs.h	/^    char pr_psargs[ELF_PRARGSZ];	\/* Initial part of arg list.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_sid	procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_sname	procfs.h	/^    char pr_sname;			\/* Char for pr_state.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_state	procfs.h	/^    char pr_state;			\/* Numeric process state.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_uid	procfs.h	/^    unsigned int pr_uid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_uid	procfs.h	/^    unsigned short int pr_uid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_zomb	procfs.h	/^    char pr_zomb;			\/* Zombie.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prstatus	procfs.h	/^struct elf_prstatus$/;"	s
+elf_prstatus::pr_cstime	procfs.h	/^    struct timeval pr_cstime;		\/* Cumulative system time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+elf_prstatus::pr_cursig	procfs.h	/^    short int pr_cursig;		\/* Current signal.  *\/$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_cutime	procfs.h	/^    struct timeval pr_cutime;		\/* Cumulative user time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+elf_prstatus::pr_fpvalid	procfs.h	/^    int pr_fpvalid;			\/* True if math copro being used.  *\/$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_info	procfs.h	/^    struct elf_siginfo pr_info;		\/* Info associated with signal.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::elf_siginfo	access:public
+elf_prstatus::pr_pgrp	procfs.h	/^    __pid_t pr_pgrp;$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_pid	procfs.h	/^    __pid_t pr_pid;$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_ppid	procfs.h	/^    __pid_t pr_ppid;$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_reg	procfs.h	/^    elf_gregset_t pr_reg;		\/* GP registers.  *\/$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_sid	procfs.h	/^    __pid_t pr_sid;$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_sighold	procfs.h	/^    unsigned long int pr_sighold;	\/* Set of held signals.  *\/$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_sigpend	procfs.h	/^    unsigned long int pr_sigpend;	\/* Set of pending signals.  *\/$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_stime	procfs.h	/^    struct timeval pr_stime;		\/* System time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+elf_prstatus::pr_utime	procfs.h	/^    struct timeval pr_utime;		\/* User time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+elf_siginfo	procfs.h	/^struct elf_siginfo$/;"	s
+elf_siginfo::si_code	procfs.h	/^    int si_code;			\/* Extra code.  *\/$/;"	m	struct:elf_siginfo	access:public
+elf_siginfo::si_errno	procfs.h	/^    int si_errno;			\/* Errno.  *\/$/;"	m	struct:elf_siginfo	access:public
+elf_siginfo::si_signo	procfs.h	/^    int si_signo;			\/* Signal number.  *\/$/;"	m	struct:elf_siginfo	access:public
+epoll_data	epoll.h	/^typedef union epoll_data$/;"	u
+epoll_data::fd	epoll.h	/^  int fd;$/;"	m	union:epoll_data
+epoll_data::ptr	epoll.h	/^  void *ptr;$/;"	m	union:epoll_data
+epoll_data::u32	epoll.h	/^  uint32_t u32;$/;"	m	union:epoll_data
+epoll_data::u64	epoll.h	/^  uint64_t u64;$/;"	m	union:epoll_data
+epoll_data_t	epoll.h	/^} epoll_data_t;$/;"	t	typeref:union:epoll_data
+epoll_event	epoll.h	/^struct epoll_event$/;"	s
+epoll_event::data	epoll.h	/^  epoll_data_t data;	\/* User data variable *\/$/;"	m	struct:epoll_event	access:public
+epoll_event::events	epoll.h	/^  uint32_t events;	\/* Epoll events *\/$/;"	m	struct:epoll_event	access:public
+epoll_pwait	epoll.h	/^extern int epoll_pwait (int __epfd, struct epoll_event *__events,$/;"	p	signature:(int __epfd, struct epoll_event *__events, int __maxevents, int __timeout, const __sigset_t *__ss)
+epoll_wait	epoll.h	/^extern int epoll_wait (int __epfd, struct epoll_event *__events,$/;"	p	signature:(int __epfd, struct epoll_event *__events, int __maxevents, int __timeout)
+es	user.h	/^  __extension__ unsigned long long int es;$/;"	m	struct:user_regs_struct	access:public
+esi	user.h	/^  long int esi;$/;"	m	struct:user_regs_struct	access:public
+esp	user.h	/^  long int esp;$/;"	m	struct:user_regs_struct	access:public
+esterror	timex.h	/^  long int esterror;	\/* estimated error (us) (ro) *\/$/;"	m	struct:ntptimeval	access:public
+eventfd_read	eventfd.h	/^extern int eventfd_read (int __fd, eventfd_t *__value);$/;"	p	signature:(int __fd, eventfd_t *__value)
+eventfd_t	eventfd.h	/^typedef uint64_t eventfd_t;$/;"	t
+eventfd_write	eventfd.h	/^extern int eventfd_write (int __fd, eventfd_t __value);$/;"	p	signature:(int __fd, eventfd_t __value)
+events	epoll.h	/^  uint32_t events;	\/* Epoll events *\/$/;"	m	struct:epoll_event	access:public
+events	poll.h	/^    short int events;		\/* Types of events poller cares about.  *\/$/;"	m	struct:pollfd	access:public
+exponent	ucontext.h	/^  unsigned short int exponent;$/;"	m	struct:_libc_fpreg	access:public
+exponent	ucontext.h	/^  unsigned short int exponent;$/;"	m	struct:_libc_fpxreg	access:public
+facilitynames	syslog.h	/^CODE facilitynames[] =$/;"	v
+fcs	user.h	/^  long int fcs;$/;"	m	struct:user_fpregs_struct	access:public
+fcs	user.h	/^  long int fcs;$/;"	m	struct:user_fpxregs_struct	access:public
+fd	epoll.h	/^  int fd;$/;"	m	union:epoll_data
+fd	poll.h	/^    int fd;			\/* File descriptor to poll.  *\/$/;"	m	struct:pollfd	access:public
+fd_mask	select.h	/^typedef __fd_mask fd_mask;$/;"	t
+fd_set	select.h	/^  } fd_set;$/;"	t	typeref:struct:__anon6
+fds_bits	select.h	/^    __fd_mask fds_bits[__FD_SETSIZE \/ __NFDBITS];$/;"	m	struct:__anon6	access:public
+filename	gmon.h	/^  const char		*filename;$/;"	m	struct:__bb	access:public
+fip	user.h	/^  long int fip;$/;"	m	struct:user_fpregs_struct	access:public
+fip	user.h	/^  long int fip;$/;"	m	struct:user_fpxregs_struct	access:public
+flags	ptrace.h	/^  __uint32_t flags;	\/* Flags for peeksiginfo.  *\/$/;"	m	struct:__ptrace_peeksiginfo_args	access:public
+foo	user.h	/^  long int foo;$/;"	m	struct:user_fpregs_struct	access:public
+foo	user.h	/^  long int foo;$/;"	m	struct:user_fpxregs_struct	access:public
+fop	ucontext.h	/^  __uint16_t		fop;$/;"	m	struct:_libc_fpstate	access:public
+fop	user.h	/^  unsigned short int	fop;$/;"	m	struct:user_fpregs_struct	access:public
+fop	user.h	/^  unsigned short int fop;$/;"	m	struct:user_fpxregs_struct	access:public
+fos	user.h	/^  long int fos;$/;"	m	struct:user_fpregs_struct	access:public
+fos	user.h	/^  long int fos;$/;"	m	struct:user_fpxregs_struct	access:public
+fpregs	ucontext.h	/^    fpregset_t fpregs;$/;"	m	struct:__anon12	access:public
+fpregs	ucontext.h	/^    fpregset_t fpregs;$/;"	m	struct:__anon14	access:public
+fpregset_t	ucontext.h	/^typedef struct _libc_fpstate *fpregset_t;$/;"	t	typeref:struct:_libc_fpstate
+free_dquots	quota.h	/^    u_int32_t free_dquots;$/;"	m	struct:dqstats	access:public
+from_pc	gmon_out.h	/^    char from_pc[sizeof (char *)];	\/* address within caller's body *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+froms	gmon.h	/^	ARCINDEX	*froms;$/;"	m	struct:gmonparam	access:public
+fromssize	gmon.h	/^	u_long		fromssize;$/;"	m	struct:gmonparam	access:public
+fs	user.h	/^  __extension__ unsigned long long int fs;$/;"	m	struct:user_regs_struct	access:public
+fs_base	user.h	/^  __extension__ unsigned long long int fs_base;$/;"	m	struct:user_regs_struct	access:public
+fs_to_dq_blocks	quota.h	60;"	d
+fsblkcnt64_t	types.h	/^typedef __fsblkcnt64_t fsblkcnt64_t; \/* Type to count file system blocks.  *\/$/;"	t
+fsblkcnt_t	statvfs.h	/^typedef __fsblkcnt64_t fsblkcnt_t; \/* Type to count file system blocks.  *\/$/;"	t
+fsblkcnt_t	statvfs.h	/^typedef __fsblkcnt_t fsblkcnt_t; \/* Type to count file system blocks.  *\/$/;"	t
+fsblkcnt_t	types.h	/^typedef __fsblkcnt64_t fsblkcnt_t; \/* Type to count file system blocks.  *\/$/;"	t
+fsblkcnt_t	types.h	/^typedef __fsblkcnt_t fsblkcnt_t; \/* Type to count file system blocks.  *\/$/;"	t
+fsfilcnt64_t	types.h	/^typedef __fsfilcnt64_t fsfilcnt64_t; \/* Type to count file system inodes.  *\/$/;"	t
+fsfilcnt_t	statvfs.h	/^typedef __fsfilcnt64_t fsfilcnt_t; \/* Type to count file system inodes.  *\/$/;"	t
+fsfilcnt_t	statvfs.h	/^typedef __fsfilcnt_t fsfilcnt_t; \/* Type to count file system inodes.  *\/$/;"	t
+fsfilcnt_t	types.h	/^typedef __fsfilcnt64_t fsfilcnt_t; \/* Type to count file system inodes.  *\/$/;"	t
+fsfilcnt_t	types.h	/^typedef __fsfilcnt_t fsfilcnt_t; \/* Type to count file system inodes.  *\/$/;"	t
+fsid_t	types.h	/^typedef __fsid_t fsid_t;$/;"	t
+fstat	stat.h	/^__NTH (fstat (int __fd, struct stat *__statbuf))$/;"	f	signature:(int __fd, struct stat *__statbuf)
+fstat64	stat.h	/^__NTH (fstat64 (int __fd, struct stat64 *__statbuf))$/;"	f	signature:(int __fd, struct stat64 *__statbuf)
+fstatat	stat.h	/^__NTH (fstatat (int __fd, const char *__filename, struct stat *__statbuf,$/;"	f	signature:(int __fd, const char *__filename, struct stat *__statbuf, int __flag)
+fstatat	stat.h	247;"	d
+fstatat64	stat.h	/^__NTH (fstatat64 (int __fd, const char *__filename, struct stat64 *__statbuf,$/;"	f	signature:(int __fd, const char *__filename, struct stat64 *__statbuf, int __flag)
+fstatfs	statfs.h	57;"	d
+fstatvfs	statvfs.h	80;"	d
+ftime	timeb.h	/^extern int ftime (struct timeb *__timebuf);$/;"	p	signature:(struct timeb *__timebuf)
+ftw	ucontext.h	/^  __uint16_t		ftw;$/;"	m	struct:_libc_fpstate	access:public
+ftw	user.h	/^  unsigned short int	ftw;$/;"	m	struct:user_fpregs_struct	access:public
+getrlimit	resource.h	57;"	d
+gid_t	ipc.h	/^typedef __gid_t gid_t;$/;"	t
+gid_t	stat.h	/^typedef __gid_t gid_t;$/;"	t
+gid_t	types.h	/^typedef __gid_t gid_t;$/;"	t
+gmon_cg_arc_record	gmon_out.h	/^struct gmon_cg_arc_record$/;"	s
+gmon_cg_arc_record::count	gmon_out.h	/^    char count[4];			\/* number of arc traversals *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+gmon_cg_arc_record::from_pc	gmon_out.h	/^    char from_pc[sizeof (char *)];	\/* address within caller's body *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+gmon_cg_arc_record::self_pc	gmon_out.h	/^    char self_pc[sizeof (char *)];	\/* address within callee's body *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+gmon_hdr	gmon_out.h	/^struct gmon_hdr$/;"	s
+gmon_hdr::cookie	gmon_out.h	/^    char cookie[4];$/;"	m	struct:gmon_hdr	access:public
+gmon_hdr::spare	gmon_out.h	/^    char spare[3 * 4];$/;"	m	struct:gmon_hdr	access:public
+gmon_hdr::version	gmon_out.h	/^    char version[4];$/;"	m	struct:gmon_hdr	access:public
+gmon_hist_hdr	gmon_out.h	/^struct gmon_hist_hdr$/;"	s
+gmon_hist_hdr::dimen	gmon_out.h	/^    char dimen[15];			\/* phys. dim., usually "seconds" *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmon_hist_hdr::dimen_abbrev	gmon_out.h	/^    char dimen_abbrev;			\/* usually 's' for "seconds" *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmon_hist_hdr::high_pc	gmon_out.h	/^    char high_pc[sizeof (char *)];	\/* max pc address of sampled buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmon_hist_hdr::hist_size	gmon_out.h	/^    char hist_size[4];			\/* size of sample buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmon_hist_hdr::low_pc	gmon_out.h	/^    char low_pc[sizeof (char *)];	\/* base pc address of sample buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmon_hist_hdr::prof_rate	gmon_out.h	/^    char prof_rate[4];			\/* profiling clock rate *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmonparam	gmon.h	/^struct gmonparam {$/;"	s
+gmonparam::froms	gmon.h	/^	ARCINDEX	*froms;$/;"	m	struct:gmonparam	access:public
+gmonparam::fromssize	gmon.h	/^	u_long		fromssize;$/;"	m	struct:gmonparam	access:public
+gmonparam::hashfraction	gmon.h	/^	u_long		hashfraction;$/;"	m	struct:gmonparam	access:public
+gmonparam::highpc	gmon.h	/^	u_long		highpc;$/;"	m	struct:gmonparam	access:public
+gmonparam::kcount	gmon.h	/^	u_short		*kcount;$/;"	m	struct:gmonparam	access:public
+gmonparam::kcountsize	gmon.h	/^	u_long		kcountsize;$/;"	m	struct:gmonparam	access:public
+gmonparam::log_hashfraction	gmon.h	/^	long		log_hashfraction;$/;"	m	struct:gmonparam	access:public
+gmonparam::lowpc	gmon.h	/^	u_long		lowpc;$/;"	m	struct:gmonparam	access:public
+gmonparam::state	gmon.h	/^	long int	state;$/;"	m	struct:gmonparam	access:public
+gmonparam::textsize	gmon.h	/^	u_long		textsize;$/;"	m	struct:gmonparam	access:public
+gmonparam::tolimit	gmon.h	/^	long		tolimit;$/;"	m	struct:gmonparam	access:public
+gmonparam::tos	gmon.h	/^	struct tostruct	*tos;$/;"	m	struct:gmonparam	typeref:struct:gmonparam::tostruct	access:public
+gmonparam::tossize	gmon.h	/^	u_long		tossize;$/;"	m	struct:gmonparam	access:public
+gnu_dev_major	sysmacros.h	/^__NTH (gnu_dev_major (unsigned long long int __dev))$/;"	f	signature:(unsigned long long int __dev)
+gnu_dev_makedev	sysmacros.h	/^__NTH (gnu_dev_makedev (unsigned int __major, unsigned int __minor))$/;"	f	signature:(unsigned int __major, unsigned int __minor)
+gnu_dev_minor	sysmacros.h	/^__NTH (gnu_dev_minor (unsigned long long int __dev))$/;"	f	signature:(unsigned long long int __dev)
+greg_t	ucontext.h	/^__extension__ typedef long long int greg_t;$/;"	t
+greg_t	ucontext.h	/^typedef int greg_t;$/;"	t
+gregs	ucontext.h	/^    gregset_t gregs;$/;"	m	struct:__anon12	access:public
+gregs	ucontext.h	/^    gregset_t gregs;$/;"	m	struct:__anon14	access:public
+gregset_t	ucontext.h	/^typedef greg_t gregset_t[NGREG];$/;"	t
+gs	user.h	/^  __extension__ unsigned long long int gs;$/;"	m	struct:user_regs_struct	access:public
+gs_base	user.h	/^  __extension__ unsigned long long int gs_base;$/;"	m	struct:user_regs_struct	access:public
+hashfraction	gmon.h	/^	u_long		hashfraction;$/;"	m	struct:gmonparam	access:public
+have_bsf	mtio.h	/^    unsigned have_bsf:1;$/;"	m	struct:mtconfiginfo	access:public
+have_bsr	mtio.h	/^    unsigned have_bsr:1;$/;"	m	struct:mtconfiginfo	access:public
+have_dens	mtio.h	/^    unsigned have_dens:1;$/;"	m	struct:mtconfiginfo	access:public
+have_eod	mtio.h	/^    unsigned have_eod:1;$/;"	m	struct:mtconfiginfo	access:public
+have_fsr	mtio.h	/^    unsigned have_fsr:1;$/;"	m	struct:mtconfiginfo	access:public
+have_qfa	mtio.h	/^    unsigned have_qfa:1;$/;"	m	struct:mtconfiginfo	access:public
+have_ras1	mtio.h	/^    unsigned have_ras1:1;$/;"	m	struct:mtconfiginfo	access:public
+have_ras2	mtio.h	/^    unsigned have_ras2:1;$/;"	m	struct:mtconfiginfo	access:public
+have_ras3	mtio.h	/^    unsigned have_ras3:1;$/;"	m	struct:mtconfiginfo	access:public
+have_seek	mtio.h	/^    unsigned have_seek:1;$/;"	m	struct:mtconfiginfo	access:public
+have_tell	mtio.h	/^    unsigned have_tell:1;$/;"	m	struct:mtconfiginfo	access:public
+high_pc	gmon_out.h	/^    char high_pc[sizeof (char *)];	\/* max pc address of sampled buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+highpc	gmon.h	/^	u_long		highpc;$/;"	m	struct:gmonparam	access:public
+hist_size	gmon_out.h	/^    char hist_size[4];			\/* size of sample buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+howmany	param.h	90;"	d
+i387	user.h	/^  struct user_fpregs_struct	i387;$/;"	m	struct:user	typeref:struct:user::user_fpregs_struct	access:public
+id_t	resource.h	/^typedef __id_t id_t;$/;"	t
+id_t	types.h	/^typedef __id_t id_t;$/;"	t
+id_t	wait.h	/^typedef __id_t id_t;$/;"	t
+ifc_type	mtio.h	/^    long int ifc_type;		\/* Interface card type.  *\/$/;"	m	struct:mtconfiginfo	access:public
+inb	io.h	/^inb (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+inb_p	io.h	/^inb_p (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+inl	io.h	/^inl (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+inl_p	io.h	/^inl_p (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+ino64_t	types.h	/^typedef __ino64_t ino64_t;$/;"	t
+ino_t	stat.h	/^typedef __ino64_t ino_t;$/;"	t
+ino_t	stat.h	/^typedef __ino_t ino_t;$/;"	t
+ino_t	types.h	/^typedef __ino64_t ino_t;$/;"	t
+ino_t	types.h	/^typedef __ino_t ino_t;$/;"	t
+inotify_event	inotify.h	/^struct inotify_event$/;"	s
+inotify_event::__flexarr	inotify.h	/^  char name __flexarr;	\/* Name.  *\/$/;"	m	struct:inotify_event	access:public
+inotify_event::cookie	inotify.h	/^  uint32_t cookie;	\/* Cookie to synchronize two events.  *\/$/;"	m	struct:inotify_event	access:public
+inotify_event::len	inotify.h	/^  uint32_t len;		\/* Length (including NULs) of name.  *\/$/;"	m	struct:inotify_event	access:public
+inotify_event::mask	inotify.h	/^  uint32_t mask;	\/* Watch mask.  *\/$/;"	m	struct:inotify_event	access:public
+inotify_event::wd	inotify.h	/^  int wd;		\/* Watch descriptor.  *\/$/;"	m	struct:inotify_event	access:public
+insb	io.h	/^insb (unsigned short int __port, void *__addr, unsigned long int __count)$/;"	f	signature:(unsigned short int __port, void *__addr, unsigned long int __count)
+insl	io.h	/^insl (unsigned short int __port, void *__addr, unsigned long int __count)$/;"	f	signature:(unsigned short int __port, void *__addr, unsigned long int __count)
+insw	io.h	/^insw (unsigned short int __port, void *__addr, unsigned long int __count)$/;"	f	signature:(unsigned short int __port, void *__addr, unsigned long int __count)
+int16_t	types.h	/^typedef	short int int16_t;$/;"	t
+int32_t	types.h	/^typedef	int int32_t;$/;"	t
+int64_t	types.h	/^__extension__ typedef long long int int64_t;$/;"	t
+int64_t	types.h	/^typedef long int int64_t;$/;"	t
+int8_t	types.h	/^typedef	char int8_t;$/;"	t
+inw	io.h	/^inw (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+inw_p	io.h	/^inw_p (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+ipoff	ucontext.h	/^  unsigned long int ipoff;$/;"	m	struct:_libc_fpstate	access:public
+irqnr	mtio.h	/^    unsigned short int irqnr;	\/* IRQ number to use.  *\/$/;"	m	struct:mtconfiginfo	access:public
+isclr	param.h	86;"	d
+isset	param.h	85;"	d
+it_interval	time.h	/^    struct timeval it_interval;$/;"	m	struct:itimerval	typeref:struct:itimerval::timeval	access:public
+it_value	time.h	/^    struct timeval it_value;$/;"	m	struct:itimerval	typeref:struct:itimerval::timeval	access:public
+itimerval	time.h	/^struct itimerval$/;"	s
+itimerval::it_interval	time.h	/^    struct timeval it_interval;$/;"	m	struct:itimerval	typeref:struct:itimerval::timeval	access:public
+itimerval::it_value	time.h	/^    struct timeval it_value;$/;"	m	struct:itimerval	typeref:struct:itimerval::timeval	access:public
+kcount	gmon.h	/^	u_short		*kcount;$/;"	m	struct:gmonparam	access:public
+kcountsize	gmon.h	/^	u_long		kcountsize;$/;"	m	struct:gmonparam	access:public
+key_t	ipc.h	/^typedef __key_t key_t;$/;"	t
+key_t	types.h	/^typedef __key_t key_t;$/;"	t
+len	inotify.h	/^  uint32_t len;		\/* Length (including NULs) of name.  *\/$/;"	m	struct:inotify_event	access:public
+link	gmon.h	/^	ARCINDEX	link;$/;"	m	struct:tostruct	access:public
+loff_t	types.h	/^typedef __loff_t loff_t;$/;"	t
+log_hashfraction	gmon.h	/^	long		log_hashfraction;$/;"	m	struct:gmonparam	access:public
+lookups	quota.h	/^    u_int32_t lookups;$/;"	m	struct:dqstats	access:public
+low_pc	gmon_out.h	/^    char low_pc[sizeof (char *)];	\/* base pc address of sample buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+lowpc	gmon.h	/^	u_long		lowpc;$/;"	m	struct:gmonparam	access:public
+lstat	stat.h	/^__NTH (lstat (const char *__path, struct stat *__statbuf))$/;"	f	signature:(const char *__path, struct stat *__statbuf)
+lstat	stat.h	271;"	d
+lstat64	stat.h	/^__NTH (lstat64 (const char *__path, struct stat64 *__statbuf))$/;"	f	signature:(const char *__path, struct stat64 *__statbuf)
+lwpid_t	procfs.h	/^typedef __pid_t lwpid_t;$/;"	t
+machine	utsname.h	/^    char machine[_UTSNAME_MACHINE_LENGTH];$/;"	m	struct:utsname	access:public
+magic	user.h	/^  __extension__ unsigned long long int	magic;$/;"	m	struct:user	access:public
+magic	user.h	/^  unsigned long int		magic;$/;"	m	struct:user	access:public
+major	sysmacros.h	61;"	d
+makedev	sysmacros.h	63;"	d
+mask	inotify.h	/^  uint32_t mask;	\/* Watch mask.  *\/$/;"	m	struct:inotify_event	access:public
+maxerror	timex.h	/^  long int maxerror;	\/* maximum error (us) (ro) *\/$/;"	m	struct:ntptimeval	access:public
+mcontext_t	ucontext.h	/^  } mcontext_t;$/;"	t	typeref:struct:__anon14
+mcontext_t	ucontext.h	/^} mcontext_t;$/;"	t	typeref:struct:__anon12
+millitm	timeb.h	/^    unsigned short int millitm;	\/* Additional milliseconds.  *\/$/;"	m	struct:timeb	access:public
+minor	sysmacros.h	62;"	d
+mknod	stat.h	/^__NTH (mknod (const char *__path, __mode_t __mode, __dev_t __dev))$/;"	f	signature:(const char *__path, __mode_t __mode, __dev_t __dev)
+mknodat	stat.h	/^__NTH (mknodat (int __fd, const char *__path, __mode_t __mode,$/;"	f	signature:(int __fd, const char *__path, __mode_t __mode, __dev_t __dev)
+mmsghdr	socket.h	/^struct mmsghdr$/;"	s
+mmsghdr::msg_hdr	socket.h	/^    struct msghdr msg_hdr;	\/* Actual message header.  *\/$/;"	m	struct:mmsghdr	typeref:struct:mmsghdr::msghdr	access:public
+mmsghdr::msg_len	socket.h	/^    unsigned int msg_len;	\/* Number of received or sent bytes for the$/;"	m	struct:mmsghdr	access:public
+mode_t	ipc.h	/^typedef __mode_t mode_t;$/;"	t
+mode_t	mman.h	/^typedef __mode_t mode_t;$/;"	t
+mode_t	stat.h	/^typedef __mode_t mode_t;$/;"	t
+mode_t	types.h	/^typedef __mode_t mode_t;$/;"	t
+msg_hdr	socket.h	/^    struct msghdr msg_hdr;	\/* Actual message header.  *\/$/;"	m	struct:mmsghdr	typeref:struct:mmsghdr::msghdr	access:public
+msg_len	socket.h	/^    unsigned int msg_len;	\/* Number of received or sent bytes for the$/;"	m	struct:mmsghdr	access:public
+msgbuf	msg.h	/^struct msgbuf$/;"	s
+msgbuf::mtext	msg.h	/^    char mtext[1];		\/* text of the message *\/$/;"	m	struct:msgbuf	access:public
+msgbuf::mtype	msg.h	/^    __syscall_slong_t mtype;	\/* type of received\/sent message *\/$/;"	m	struct:msgbuf	access:public
+msgrcv	msg.h	/^extern ssize_t msgrcv (int __msqid, void *__msgp, size_t __msgsz,$/;"	p	signature:(int __msqid, void *__msgp, size_t __msgsz, long int __msgtyp, int __msgflg)
+msgsnd	msg.h	/^extern int msgsnd (int __msqid, const void *__msgp, size_t __msgsz,$/;"	p	signature:(int __msqid, const void *__msgp, size_t __msgsz, int __msgflg)
+msync	mman.h	/^extern int msync (void *__addr, size_t __len, int __flags);$/;"	p	signature:(void *__addr, size_t __len, int __flags)
+mt_blkno	mtio.h	/^    __daddr_t mt_blkno;		\/* Current block number.  *\/$/;"	m	struct:mtget	access:public
+mt_blkno	mtio.h	/^    long int mt_blkno;	\/* Current block number.  *\/$/;"	m	struct:mtpos	access:public
+mt_count	mtio.h	/^    int mt_count;		\/* How many of them.  *\/$/;"	m	struct:mtop	access:public
+mt_dsreg	mtio.h	/^    long int mt_dsreg;		\/* Status register.  *\/$/;"	m	struct:mtget	access:public
+mt_erreg	mtio.h	/^    long int mt_erreg;		\/* Error register.  *\/$/;"	m	struct:mtget	access:public
+mt_fileno	mtio.h	/^    __daddr_t mt_fileno;	\/* Number of current file on tape.  *\/$/;"	m	struct:mtget	access:public
+mt_gstat	mtio.h	/^    long int mt_gstat;		\/* Generic (device independent) status.  *\/$/;"	m	struct:mtget	access:public
+mt_op	mtio.h	/^    short int mt_op;		\/* Operations defined below.  *\/$/;"	m	struct:mtop	access:public
+mt_resid	mtio.h	/^    long int mt_resid;		\/* Residual count: (not sure)$/;"	m	struct:mtget	access:public
+mt_tape_info	mtio.h	/^struct mt_tape_info$/;"	s
+mt_tape_info::t_name	mtio.h	/^    char *t_name;		\/* Descriptive name.  *\/$/;"	m	struct:mt_tape_info	access:public
+mt_tape_info::t_type	mtio.h	/^    long int t_type;		\/* Device type id (mt_type).  *\/$/;"	m	struct:mt_tape_info	access:public
+mt_type	mtio.h	/^    long int mt_type;		\/* Drive type.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mt_type	mtio.h	/^    long int mt_type;		\/* Type of magtape device.  *\/$/;"	m	struct:mtget	access:public
+mtconfiginfo	mtio.h	/^struct mtconfiginfo$/;"	s
+mtconfiginfo::debug	mtio.h	/^    unsigned long int debug;	\/* Debugging flags.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::dmanr	mtio.h	/^    unsigned short int dmanr;	\/* DMA channel to use.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_bsf	mtio.h	/^    unsigned have_bsf:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_bsr	mtio.h	/^    unsigned have_bsr:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_dens	mtio.h	/^    unsigned have_dens:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_eod	mtio.h	/^    unsigned have_eod:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_fsr	mtio.h	/^    unsigned have_fsr:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_qfa	mtio.h	/^    unsigned have_qfa:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_ras1	mtio.h	/^    unsigned have_ras1:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_ras2	mtio.h	/^    unsigned have_ras2:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_ras3	mtio.h	/^    unsigned have_ras3:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_seek	mtio.h	/^    unsigned have_seek:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_tell	mtio.h	/^    unsigned have_tell:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::ifc_type	mtio.h	/^    long int ifc_type;		\/* Interface card type.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::irqnr	mtio.h	/^    unsigned short int irqnr;	\/* IRQ number to use.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::mt_type	mtio.h	/^    long int mt_type;		\/* Drive type.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::pad1	mtio.h	/^    unsigned pad1:5;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::port	mtio.h	/^    unsigned short int port;	\/* IO port base address.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::reserved	mtio.h	/^    char reserved[10];$/;"	m	struct:mtconfiginfo	access:public
+mtext	msg.h	/^    char mtext[1];		\/* text of the message *\/$/;"	m	struct:msgbuf	access:public
+mtget	mtio.h	/^struct mtget$/;"	s
+mtget::mt_blkno	mtio.h	/^    __daddr_t mt_blkno;		\/* Current block number.  *\/$/;"	m	struct:mtget	access:public
+mtget::mt_dsreg	mtio.h	/^    long int mt_dsreg;		\/* Status register.  *\/$/;"	m	struct:mtget	access:public
+mtget::mt_erreg	mtio.h	/^    long int mt_erreg;		\/* Error register.  *\/$/;"	m	struct:mtget	access:public
+mtget::mt_fileno	mtio.h	/^    __daddr_t mt_fileno;	\/* Number of current file on tape.  *\/$/;"	m	struct:mtget	access:public
+mtget::mt_gstat	mtio.h	/^    long int mt_gstat;		\/* Generic (device independent) status.  *\/$/;"	m	struct:mtget	access:public
+mtget::mt_resid	mtio.h	/^    long int mt_resid;		\/* Residual count: (not sure)$/;"	m	struct:mtget	access:public
+mtget::mt_type	mtio.h	/^    long int mt_type;		\/* Type of magtape device.  *\/$/;"	m	struct:mtget	access:public
+mtop	mtio.h	/^struct mtop$/;"	s
+mtop::mt_count	mtio.h	/^    int mt_count;		\/* How many of them.  *\/$/;"	m	struct:mtop	access:public
+mtop::mt_op	mtio.h	/^    short int mt_op;		\/* Operations defined below.  *\/$/;"	m	struct:mtop	access:public
+mtpos	mtio.h	/^struct mtpos$/;"	s
+mtpos::mt_blkno	mtio.h	/^    long int mt_blkno;	\/* Current block number.  *\/$/;"	m	struct:mtpos	access:public
+mtype	msg.h	/^    __syscall_slong_t mtype;	\/* type of received\/sent message *\/$/;"	m	struct:msgbuf	access:public
+mxcr_mask	ucontext.h	/^  __uint32_t		mxcr_mask;$/;"	m	struct:_libc_fpstate	access:public
+mxcr_mask	user.h	/^  unsigned int		mxcr_mask;$/;"	m	struct:user_fpregs_struct	access:public
+mxcsr	ucontext.h	/^  __uint32_t		mxcsr;$/;"	m	struct:_libc_fpstate	access:public
+mxcsr	user.h	/^  long int mxcsr;$/;"	m	struct:user_fpxregs_struct	access:public
+mxcsr	user.h	/^  unsigned int		mxcsr;$/;"	m	struct:user_fpregs_struct	access:public
+ncounts	gmon.h	/^  long			ncounts;$/;"	m	struct:__bb	access:public
+next	gmon.h	/^  struct __bb		*next;$/;"	m	struct:__bb	typeref:struct:__bb::__bb	access:public
+nfds_t	poll.h	/^typedef unsigned long int nfds_t;$/;"	t
+nlink_t	stat.h	/^typedef __nlink_t nlink_t;$/;"	t
+nlink_t	types.h	/^typedef __nlink_t nlink_t;$/;"	t
+nodename	utsname.h	/^    char nodename[_UTSNAME_NODENAME_LENGTH];$/;"	m	struct:utsname	access:public
+nr	ptrace.h	/^  __int32_t nr;		\/* How many siginfos to take.  *\/$/;"	m	struct:__ptrace_peeksiginfo_args	access:public
+ntp_gettime	timex.h	65;"	d
+ntptimeval	timex.h	/^struct ntptimeval$/;"	s
+ntptimeval::__glibc_reserved1	timex.h	/^  long int __glibc_reserved1;$/;"	m	struct:ntptimeval	access:public
+ntptimeval::__glibc_reserved2	timex.h	/^  long int __glibc_reserved2;$/;"	m	struct:ntptimeval	access:public
+ntptimeval::__glibc_reserved3	timex.h	/^  long int __glibc_reserved3;$/;"	m	struct:ntptimeval	access:public
+ntptimeval::__glibc_reserved4	timex.h	/^  long int __glibc_reserved4;$/;"	m	struct:ntptimeval	access:public
+ntptimeval::esterror	timex.h	/^  long int esterror;	\/* estimated error (us) (ro) *\/$/;"	m	struct:ntptimeval	access:public
+ntptimeval::maxerror	timex.h	/^  long int maxerror;	\/* maximum error (us) (ro) *\/$/;"	m	struct:ntptimeval	access:public
+ntptimeval::tai	timex.h	/^  long int tai;		\/* TAI offset (ro) *\/$/;"	m	struct:ntptimeval	access:public
+ntptimeval::time	timex.h	/^  struct timeval time;	\/* current time (ro) *\/$/;"	m	struct:ntptimeval	typeref:struct:ntptimeval::timeval	access:public
+off	ptrace.h	/^  __uint64_t off;	\/* From which siginfo to start.  *\/$/;"	m	struct:__ptrace_peeksiginfo_args	access:public
+off64_t	types.h	/^typedef __off64_t off64_t;$/;"	t
+off_t	mman.h	/^typedef __off64_t off_t;$/;"	t
+off_t	mman.h	/^typedef __off_t off_t;$/;"	t
+off_t	stat.h	/^typedef __off64_t off_t;$/;"	t
+off_t	stat.h	/^typedef __off_t off_t;$/;"	t
+off_t	types.h	/^typedef __off64_t off_t;$/;"	t
+off_t	types.h	/^typedef __off_t off_t;$/;"	t
+oldmask	ucontext.h	/^    unsigned long int oldmask;$/;"	m	struct:__anon14	access:public
+openlog	syslog.h	/^extern void openlog (const char *__ident, int __option, int __facility);$/;"	p	signature:(const char *__ident, int __option, int __facility)
+orig_eax	user.h	/^  long int orig_eax;$/;"	m	struct:user_regs_struct	access:public
+orig_rax	user.h	/^  __extension__ unsigned long long int orig_rax;$/;"	m	struct:user_regs_struct	access:public
+osockaddr	socket.h	/^struct osockaddr$/;"	s
+osockaddr::sa_data	socket.h	/^    unsigned char sa_data[14];$/;"	m	struct:osockaddr	access:public
+osockaddr::sa_family	socket.h	/^    unsigned short int sa_family;$/;"	m	struct:osockaddr	access:public
+outb	io.h	/^outb (unsigned char __value, unsigned short int __port)$/;"	f	signature:(unsigned char __value, unsigned short int __port)
+outb_p	io.h	/^outb_p (unsigned char __value, unsigned short int __port)$/;"	f	signature:(unsigned char __value, unsigned short int __port)
+outl	io.h	/^outl (unsigned int __value, unsigned short int __port)$/;"	f	signature:(unsigned int __value, unsigned short int __port)
+outl_p	io.h	/^outl_p (unsigned int __value, unsigned short int __port)$/;"	f	signature:(unsigned int __value, unsigned short int __port)
+outsb	io.h	/^outsb (unsigned short int __port, const void *__addr,$/;"	f	signature:(unsigned short int __port, const void *__addr, unsigned long int __count)
+outsl	io.h	/^outsl (unsigned short int __port, const void *__addr,$/;"	f	signature:(unsigned short int __port, const void *__addr, unsigned long int __count)
+outsw	io.h	/^outsw (unsigned short int __port, const void *__addr,$/;"	f	signature:(unsigned short int __port, const void *__addr, unsigned long int __count)
+outw	io.h	/^outw (unsigned short int __value, unsigned short int __port)$/;"	f	signature:(unsigned short int __value, unsigned short int __port)
+outw_p	io.h	/^outw_p (unsigned short int __value, unsigned short int __port)$/;"	f	signature:(unsigned short int __value, unsigned short int __port)
+pad1	mtio.h	/^    unsigned pad1:5;$/;"	m	struct:mtconfiginfo	access:public
+padding	ucontext.h	/^  __uint32_t		padding[24];$/;"	m	struct:_libc_fpstate	access:public
+padding	ucontext.h	/^  unsigned short int padding[3];$/;"	m	struct:_libc_fpxreg	access:public
+padding	user.h	/^  long int padding[56];$/;"	m	struct:user_fpxregs_struct	access:public
+padding	user.h	/^  unsigned int		padding[24];$/;"	m	struct:user_fpregs_struct	access:public
+pages_allocated	quota.h	/^    u_int32_t pages_allocated;$/;"	m	struct:dqstats	access:public
+pid_t	msg.h	/^typedef __pid_t pid_t;$/;"	t
+pid_t	shm.h	/^typedef __pid_t pid_t;$/;"	t
+pid_t	types.h	/^typedef __pid_t pid_t;$/;"	t
+poll	poll.h	/^extern int poll (struct pollfd *__fds, nfds_t __nfds, int __timeout);$/;"	p	signature:(struct pollfd *__fds, nfds_t __nfds, int __timeout)
+pollfd	poll.h	/^struct pollfd$/;"	s
+pollfd::events	poll.h	/^    short int events;		\/* Types of events poller cares about.  *\/$/;"	m	struct:pollfd	access:public
+pollfd::fd	poll.h	/^    int fd;			\/* File descriptor to poll.  *\/$/;"	m	struct:pollfd	access:public
+pollfd::revents	poll.h	/^    short int revents;		\/* Types of events that actually occurred.  *\/$/;"	m	struct:pollfd	access:public
+port	mtio.h	/^    unsigned short int port;	\/* IO port base address.  *\/$/;"	m	struct:mtconfiginfo	access:public
+powerof2	param.h	99;"	d
+ppoll	poll.h	/^extern int ppoll (struct pollfd *__fds, nfds_t __nfds,$/;"	p	signature:(struct pollfd *__fds, nfds_t __nfds, const struct timespec *__timeout, const __sigset_t *__ss)
+pr_base	profil.h	/^    void *pr_base;		\/* buffer base *\/$/;"	m	struct:prof	access:public
+pr_cstime	procfs.h	/^    struct timeval pr_cstime;		\/* Cumulative system time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+pr_cursig	procfs.h	/^    short int pr_cursig;		\/* Current signal.  *\/$/;"	m	struct:elf_prstatus	access:public
+pr_cutime	procfs.h	/^    struct timeval pr_cutime;		\/* Cumulative user time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+pr_flag	procfs.h	/^    unsigned long int pr_flag;		\/* Flags.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_fname	procfs.h	/^    char pr_fname[16];			\/* Filename of executable.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_fpvalid	procfs.h	/^    int pr_fpvalid;			\/* True if math copro being used.  *\/$/;"	m	struct:elf_prstatus	access:public
+pr_gid	procfs.h	/^    unsigned int pr_gid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_gid	procfs.h	/^    unsigned short int pr_gid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_info	procfs.h	/^    struct elf_siginfo pr_info;		\/* Info associated with signal.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::elf_siginfo	access:public
+pr_nice	procfs.h	/^    char pr_nice;			\/* Nice val.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_off	profil.h	/^    size_t pr_off;		\/* pc offset *\/$/;"	m	struct:prof	access:public
+pr_pgrp	procfs.h	/^    __pid_t pr_pgrp;$/;"	m	struct:elf_prstatus	access:public
+pr_pgrp	procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_pid	procfs.h	/^    __pid_t pr_pid;$/;"	m	struct:elf_prstatus	access:public
+pr_pid	procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_ppid	procfs.h	/^    __pid_t pr_ppid;$/;"	m	struct:elf_prstatus	access:public
+pr_ppid	procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_psargs	procfs.h	/^    char pr_psargs[ELF_PRARGSZ];	\/* Initial part of arg list.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_reg	procfs.h	/^    elf_gregset_t pr_reg;		\/* GP registers.  *\/$/;"	m	struct:elf_prstatus	access:public
+pr_scale	profil.h	/^    unsigned long int pr_scale;	\/* pc scaling (fixed-point number) *\/$/;"	m	struct:prof	access:public
+pr_sid	procfs.h	/^    __pid_t pr_sid;$/;"	m	struct:elf_prstatus	access:public
+pr_sid	procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_sighold	procfs.h	/^    unsigned long int pr_sighold;	\/* Set of held signals.  *\/$/;"	m	struct:elf_prstatus	access:public
+pr_sigpend	procfs.h	/^    unsigned long int pr_sigpend;	\/* Set of pending signals.  *\/$/;"	m	struct:elf_prstatus	access:public
+pr_size	profil.h	/^    size_t pr_size;		\/* buffer size *\/$/;"	m	struct:prof	access:public
+pr_sname	procfs.h	/^    char pr_sname;			\/* Char for pr_state.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_state	procfs.h	/^    char pr_state;			\/* Numeric process state.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_stime	procfs.h	/^    struct timeval pr_stime;		\/* System time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+pr_uid	procfs.h	/^    unsigned int pr_uid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_uid	procfs.h	/^    unsigned short int pr_uid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_utime	procfs.h	/^    struct timeval pr_utime;		\/* User time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+pr_zomb	procfs.h	/^    char pr_zomb;			\/* Zombie.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+preadv	uio.h	88;"	d
+prfpregset_t	procfs.h	/^typedef elf_fpregset_t prfpregset_t;$/;"	t
+prgregset_t	procfs.h	/^typedef elf_gregset_t prgregset_t;$/;"	t
+prioritynames	syslog.h	/^CODE prioritynames[] =$/;"	v
+prof	profil.h	/^struct prof$/;"	s
+prof::pr_base	profil.h	/^    void *pr_base;		\/* buffer base *\/$/;"	m	struct:prof	access:public
+prof::pr_off	profil.h	/^    size_t pr_off;		\/* pc offset *\/$/;"	m	struct:prof	access:public
+prof::pr_scale	profil.h	/^    unsigned long int pr_scale;	\/* pc scaling (fixed-point number) *\/$/;"	m	struct:prof	access:public
+prof::pr_size	profil.h	/^    size_t pr_size;		\/* buffer size *\/$/;"	m	struct:prof	access:public
+prof_rate	gmon_out.h	/^    char prof_rate[4];			\/* profiling clock rate *\/$/;"	m	struct:gmon_hist_hdr	access:public
+prpsinfo_t	procfs.h	/^typedef struct elf_prpsinfo prpsinfo_t;$/;"	t	typeref:struct:elf_prpsinfo
+prstatus_t	procfs.h	/^typedef struct elf_prstatus prstatus_t;$/;"	t	typeref:struct:elf_prstatus
+psaddr_t	procfs.h	/^typedef void *psaddr_t;$/;"	t
+pselect	select.h	/^extern int pselect (int __nfds, fd_set *__restrict __readfds,$/;"	p	signature:(int __nfds, fd_set *__restrict __readfds, fd_set *__restrict __writefds, fd_set *__restrict __exceptfds, const struct timespec *__restrict __timeout, const __sigset_t *__restrict __sigmask)
+ptr	epoll.h	/^  void *ptr;$/;"	m	union:epoll_data
+pwritev	uio.h	89;"	d
+quad_t	types.h	/^typedef __quad_t quad_t;$/;"	t
+r10	user.h	/^  __extension__ unsigned long long int r10;$/;"	m	struct:user_regs_struct	access:public
+r11	user.h	/^  __extension__ unsigned long long int r11;$/;"	m	struct:user_regs_struct	access:public
+r12	user.h	/^  __extension__ unsigned long long int r12;$/;"	m	struct:user_regs_struct	access:public
+r13	user.h	/^  __extension__ unsigned long long int r13;$/;"	m	struct:user_regs_struct	access:public
+r14	user.h	/^  __extension__ unsigned long long int r14;$/;"	m	struct:user_regs_struct	access:public
+r15	user.h	/^  __extension__ unsigned long long int r15;$/;"	m	struct:user_regs_struct	access:public
+r8	user.h	/^  __extension__ unsigned long long int r8;$/;"	m	struct:user_regs_struct	access:public
+r9	user.h	/^  __extension__ unsigned long long int r9;$/;"	m	struct:user_regs_struct	access:public
+raw_config_request	raw.h	/^struct raw_config_request$/;"	s
+raw_config_request::block_major	raw.h	/^  uint64_t block_major;$/;"	m	struct:raw_config_request	access:public
+raw_config_request::block_minor	raw.h	/^  uint64_t block_minor;$/;"	m	struct:raw_config_request	access:public
+raw_config_request::raw_minor	raw.h	/^  int raw_minor;$/;"	m	struct:raw_config_request	access:public
+raw_count	gmon.h	/^	long	raw_count;$/;"	m	struct:rawarc	access:public
+raw_frompc	gmon.h	/^	u_long	raw_frompc;$/;"	m	struct:rawarc	access:public
+raw_minor	raw.h	/^  int raw_minor;$/;"	m	struct:raw_config_request	access:public
+raw_selfpc	gmon.h	/^	u_long	raw_selfpc;$/;"	m	struct:rawarc	access:public
+rawarc	gmon.h	/^struct rawarc {$/;"	s
+rawarc::raw_count	gmon.h	/^	long	raw_count;$/;"	m	struct:rawarc	access:public
+rawarc::raw_frompc	gmon.h	/^	u_long	raw_frompc;$/;"	m	struct:rawarc	access:public
+rawarc::raw_selfpc	gmon.h	/^	u_long	raw_selfpc;$/;"	m	struct:rawarc	access:public
+rax	user.h	/^  __extension__ unsigned long long int rax;$/;"	m	struct:user_regs_struct	access:public
+rbp	user.h	/^  __extension__ unsigned long long int rbp;$/;"	m	struct:user_regs_struct	access:public
+rbx	user.h	/^  __extension__ unsigned long long int rbx;$/;"	m	struct:user_regs_struct	access:public
+rcx	user.h	/^  __extension__ unsigned long long int rcx;$/;"	m	struct:user_regs_struct	access:public
+rdi	user.h	/^  __extension__ unsigned long long int rdi;$/;"	m	struct:user_regs_struct	access:public
+rdp	ucontext.h	/^  __uint64_t		rdp;$/;"	m	struct:_libc_fpstate	access:public
+rdp	user.h	/^  __extension__ unsigned long long int rdp;$/;"	m	struct:user_fpregs_struct	access:public
+rdx	user.h	/^  __extension__ unsigned long long int rdx;$/;"	m	struct:user_regs_struct	access:public
+reads	quota.h	/^    u_int32_t reads;$/;"	m	struct:dqstats	access:public
+recv	socket.h	/^extern ssize_t recv (int __fd, void *__buf, size_t __n, int __flags);$/;"	p	signature:(int __fd, void *__buf, size_t __n, int __flags)
+recvfrom	socket.h	/^extern ssize_t recvfrom (int __fd, void *__restrict __buf, size_t __n,$/;"	p	signature:(int __fd, void *__restrict __buf, size_t __n, int __flags, __SOCKADDR_ARG __addr, socklen_t *__restrict __addr_len)
+recvmmsg	socket.h	/^extern int recvmmsg (int __fd, struct mmsghdr *__vmessages,$/;"	p	signature:(int __fd, struct mmsghdr *__vmessages, unsigned int __vlen, int __flags, struct timespec *__tmo)
+recvmsg	socket.h	/^extern ssize_t recvmsg (int __fd, struct msghdr *__message, int __flags);$/;"	p	signature:(int __fd, struct msghdr *__message, int __flags)
+register_t	types.h	/^typedef int register_t __attribute__ ((__mode__ (__word__)));$/;"	t
+register_t	types.h	/^typedef int register_t;$/;"	t
+regs	user.h	/^  struct user_regs_struct	regs;$/;"	m	struct:user	typeref:struct:user::user_regs_struct	access:public
+release	utsname.h	/^    char release[_UTSNAME_RELEASE_LENGTH];$/;"	m	struct:utsname	access:public
+reserved	mtio.h	/^    char reserved[10];$/;"	m	struct:mtconfiginfo	access:public
+reserved	user.h	/^  int				reserved;$/;"	m	struct:user	access:public
+reserved	user.h	/^  long int reserved;$/;"	m	struct:user_fpxregs_struct	access:public
+revents	poll.h	/^    short int revents;		\/* Types of events that actually occurred.  *\/$/;"	m	struct:pollfd	access:public
+rip	ucontext.h	/^  __uint64_t		rip;$/;"	m	struct:_libc_fpstate	access:public
+rip	user.h	/^  __extension__ unsigned long long int rip;$/;"	m	struct:user_fpregs_struct	access:public
+rip	user.h	/^  __extension__ unsigned long long int rip;$/;"	m	struct:user_regs_struct	access:public
+roundup	param.h	93;"	d
+roundup	param.h	97;"	d
+rsi	user.h	/^  __extension__ unsigned long long int rsi;$/;"	m	struct:user_regs_struct	access:public
+rsp	user.h	/^  __extension__ unsigned long long int rsp;$/;"	m	struct:user_regs_struct	access:public
+sa_data	socket.h	/^    unsigned char sa_data[14];$/;"	m	struct:osockaddr	access:public
+sa_family	socket.h	/^    unsigned short int sa_family;$/;"	m	struct:osockaddr	access:public
+select	select.h	/^extern int select (int __nfds, fd_set *__restrict __readfds,$/;"	p	signature:(int __nfds, fd_set *__restrict __readfds, fd_set *__restrict __writefds, fd_set *__restrict __exceptfds, struct timeval *__restrict __timeout)
+self_pc	gmon_out.h	/^    char self_pc[sizeof (char *)];	\/* address within callee's body *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+selfpc	gmon.h	/^	u_long		selfpc;$/;"	m	struct:tostruct	access:public
+sem_flg	sem.h	/^  short int sem_flg;		\/* operation flag *\/$/;"	m	struct:sembuf	access:public
+sem_num	sem.h	/^  unsigned short int sem_num;	\/* semaphore number *\/$/;"	m	struct:sembuf	access:public
+sem_op	sem.h	/^  short int sem_op;		\/* semaphore operation *\/$/;"	m	struct:sembuf	access:public
+sembuf	sem.h	/^struct sembuf$/;"	s
+sembuf::sem_flg	sem.h	/^  short int sem_flg;		\/* operation flag *\/$/;"	m	struct:sembuf	access:public
+sembuf::sem_num	sem.h	/^  unsigned short int sem_num;	\/* semaphore number *\/$/;"	m	struct:sembuf	access:public
+sembuf::sem_op	sem.h	/^  short int sem_op;		\/* semaphore operation *\/$/;"	m	struct:sembuf	access:public
+send	socket.h	/^extern ssize_t send (int __fd, const void *__buf, size_t __n, int __flags);$/;"	p	signature:(int __fd, const void *__buf, size_t __n, int __flags)
+sendmmsg	socket.h	/^extern int sendmmsg (int __fd, struct mmsghdr *__vmessages,$/;"	p	signature:(int __fd, struct mmsghdr *__vmessages, unsigned int __vlen, int __flags)
+sendmsg	socket.h	/^extern ssize_t sendmsg (int __fd, const struct msghdr *__message,$/;"	p	signature:(int __fd, const struct msghdr *__message, int __flags)
+sendto	socket.h	/^extern ssize_t sendto (int __fd, const void *__buf, size_t __n,$/;"	p	signature:(int __fd, const void *__buf, size_t __n, int __flags, __CONST_SOCKADDR_ARG __addr, socklen_t __addr_len)
+setbit	param.h	83;"	d
+setrlimit	resource.h	77;"	d
+shm_open	mman.h	/^extern int shm_open (const char *__name, int __oflag, mode_t __mode);$/;"	p	signature:(const char *__name, int __oflag, mode_t __mode)
+shm_unlink	mman.h	/^extern int shm_unlink (const char *__name);$/;"	p	signature:(const char *__name)
+si_code	procfs.h	/^    int si_code;			\/* Extra code.  *\/$/;"	m	struct:elf_siginfo	access:public
+si_errno	procfs.h	/^    int si_errno;			\/* Errno.  *\/$/;"	m	struct:elf_siginfo	access:public
+si_signo	procfs.h	/^    int si_signo;			\/* Signal number.  *\/$/;"	m	struct:elf_siginfo	access:public
+signal	user.h	/^  __extension__ long long int		signal;$/;"	m	struct:user	access:public
+signal	user.h	/^  long int			signal;$/;"	m	struct:user	access:public
+signalfd_siginfo	signalfd.h	/^struct signalfd_siginfo$/;"	s
+signalfd_siginfo::__pad	signalfd.h	/^  uint8_t __pad[48];$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_addr	signalfd.h	/^  uint64_t ssi_addr;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_band	signalfd.h	/^  uint32_t ssi_band;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_code	signalfd.h	/^  int32_t ssi_code;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_errno	signalfd.h	/^  int32_t ssi_errno;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_fd	signalfd.h	/^  int32_t ssi_fd;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_int	signalfd.h	/^  int32_t ssi_int;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_overrun	signalfd.h	/^  uint32_t ssi_overrun;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_pid	signalfd.h	/^  uint32_t ssi_pid;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_ptr	signalfd.h	/^  uint64_t ssi_ptr;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_signo	signalfd.h	/^  uint32_t ssi_signo;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_status	signalfd.h	/^  int32_t ssi_status;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_stime	signalfd.h	/^  uint64_t ssi_stime;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_tid	signalfd.h	/^  uint32_t ssi_tid;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_trapno	signalfd.h	/^  uint32_t ssi_trapno;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_uid	signalfd.h	/^  uint32_t ssi_uid;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_utime	signalfd.h	/^  uint64_t ssi_utime;$/;"	m	struct:signalfd_siginfo	access:public
+significand	ucontext.h	/^  unsigned short int significand[4];$/;"	m	struct:_libc_fpreg	access:public
+significand	ucontext.h	/^  unsigned short int significand[4];$/;"	m	struct:_libc_fpxreg	access:public
+sigset_t	epoll.h	/^typedef __sigset_t sigset_t;$/;"	t
+sigset_t	select.h	/^typedef __sigset_t sigset_t;$/;"	t
+sockaddr_un	un.h	/^struct sockaddr_un$/;"	s
+sockaddr_un::__SOCKADDR_COMMON	un.h	/^    __SOCKADDR_COMMON (sun_);$/;"	p	struct:sockaddr_un	access:public	signature:(sun_)
+sockaddr_un::sun_path	un.h	/^    char sun_path[108];		\/* Path name.  *\/$/;"	m	struct:sockaddr_un	access:public
+spare	gmon_out.h	/^    char spare[3 * 4];$/;"	m	struct:gmon_hdr	access:public
+ss	user.h	/^  __extension__ unsigned long long int ss;$/;"	m	struct:user_regs_struct	access:public
+ssi_addr	signalfd.h	/^  uint64_t ssi_addr;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_band	signalfd.h	/^  uint32_t ssi_band;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_code	signalfd.h	/^  int32_t ssi_code;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_errno	signalfd.h	/^  int32_t ssi_errno;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_fd	signalfd.h	/^  int32_t ssi_fd;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_int	signalfd.h	/^  int32_t ssi_int;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_overrun	signalfd.h	/^  uint32_t ssi_overrun;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_pid	signalfd.h	/^  uint32_t ssi_pid;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_ptr	signalfd.h	/^  uint64_t ssi_ptr;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_signo	signalfd.h	/^  uint32_t ssi_signo;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_status	signalfd.h	/^  int32_t ssi_status;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_stime	signalfd.h	/^  uint64_t ssi_stime;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_tid	signalfd.h	/^  uint32_t ssi_tid;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_trapno	signalfd.h	/^  uint32_t ssi_trapno;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_uid	signalfd.h	/^  uint32_t ssi_uid;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_utime	signalfd.h	/^  uint64_t ssi_utime;$/;"	m	struct:signalfd_siginfo	access:public
+ssize_t	msg.h	/^typedef __ssize_t ssize_t;$/;"	t
+ssize_t	types.h	/^typedef __ssize_t ssize_t;$/;"	t
+st_space	user.h	/^  long int st_space [20];$/;"	m	struct:user_fpregs_struct	access:public
+st_space	user.h	/^  long int st_space[32];   \/* 8*16 bytes for each FP-reg = 128 bytes *\/$/;"	m	struct:user_fpxregs_struct	access:public
+st_space	user.h	/^  unsigned int		st_space[32];   \/* 8*16 bytes for each FP-reg = 128 bytes *\/$/;"	m	struct:user_fpregs_struct	access:public
+start_code	user.h	/^  __extension__ unsigned long long int	start_code;$/;"	m	struct:user	access:public
+start_code	user.h	/^  unsigned long int		start_code;$/;"	m	struct:user	access:public
+start_stack	user.h	/^  __extension__ unsigned long long int	start_stack;$/;"	m	struct:user	access:public
+start_stack	user.h	/^  unsigned long int		start_stack;$/;"	m	struct:user	access:public
+stat	stat.h	/^__NTH (stat (const char *__path, struct stat *__statbuf))$/;"	f	signature:(const char *__path, struct stat *__statbuf)
+stat64	stat.h	/^__NTH (stat64 (const char *__path, struct stat64 *__statbuf))$/;"	f	signature:(const char *__path, struct stat64 *__statbuf)
+state	gmon.h	/^	long int	state;$/;"	m	struct:gmonparam	access:public
+status	ucontext.h	/^  unsigned long int status;$/;"	m	struct:_libc_fpstate	access:public
+sun_path	un.h	/^    char sun_path[108];		\/* Path name.  *\/$/;"	m	struct:sockaddr_un	access:public
+suseconds_t	select.h	/^typedef __suseconds_t suseconds_t;$/;"	t
+suseconds_t	time.h	/^typedef __suseconds_t suseconds_t;$/;"	t
+suseconds_t	types.h	/^typedef __suseconds_t suseconds_t;$/;"	t
+sw	ucontext.h	/^  unsigned long int sw;$/;"	m	struct:_libc_fpstate	access:public
+swd	ucontext.h	/^  __uint16_t		swd;$/;"	m	struct:_libc_fpstate	access:public
+swd	user.h	/^  long int swd;$/;"	m	struct:user_fpregs_struct	access:public
+swd	user.h	/^  unsigned short int	swd;$/;"	m	struct:user_fpregs_struct	access:public
+swd	user.h	/^  unsigned short int swd;$/;"	m	struct:user_fpxregs_struct	access:public
+syncs	quota.h	/^    u_int32_t syncs;$/;"	m	struct:dqstats	access:public
+syslog	syslog.h	/^extern void syslog (int __pri, const char *__fmt, ...)$/;"	p	signature:(int __pri, const char *__fmt, ...)
+sysname	utsname.h	/^    char sysname[_UTSNAME_SYSNAME_LENGTH];$/;"	m	struct:utsname	access:public
+t_name	mtio.h	/^    char *t_name;		\/* Descriptive name.  *\/$/;"	m	struct:mt_tape_info	access:public
+t_type	mtio.h	/^    long int t_type;		\/* Device type id (mt_type).  *\/$/;"	m	struct:mt_tape_info	access:public
+tag	ucontext.h	/^  unsigned long int tag;$/;"	m	struct:_libc_fpstate	access:public
+tai	timex.h	/^  long int tai;		\/* TAI offset (ro) *\/$/;"	m	struct:ntptimeval	access:public
+tc_brkc	ttychars.h	/^	char	tc_brkc;	\/* input delimiter (like nl) *\/$/;"	m	struct:ttychars	access:public
+tc_dsuspc	ttychars.h	/^	char	tc_dsuspc;	\/* delayed stop process signal *\/$/;"	m	struct:ttychars	access:public
+tc_eofc	ttychars.h	/^	char	tc_eofc;	\/* end-of-file *\/$/;"	m	struct:ttychars	access:public
+tc_erase	ttychars.h	/^	char	tc_erase;	\/* erase last character *\/$/;"	m	struct:ttychars	access:public
+tc_flushc	ttychars.h	/^	char	tc_flushc;	\/* flush output (toggles) *\/$/;"	m	struct:ttychars	access:public
+tc_intrc	ttychars.h	/^	char	tc_intrc;	\/* interrupt *\/$/;"	m	struct:ttychars	access:public
+tc_kill	ttychars.h	/^	char	tc_kill;	\/* erase entire line *\/$/;"	m	struct:ttychars	access:public
+tc_lnextc	ttychars.h	/^	char	tc_lnextc;	\/* literal next character *\/$/;"	m	struct:ttychars	access:public
+tc_quitc	ttychars.h	/^	char	tc_quitc;	\/* quit *\/$/;"	m	struct:ttychars	access:public
+tc_rprntc	ttychars.h	/^	char	tc_rprntc;	\/* reprint line *\/$/;"	m	struct:ttychars	access:public
+tc_startc	ttychars.h	/^	char	tc_startc;	\/* start output *\/$/;"	m	struct:ttychars	access:public
+tc_stopc	ttychars.h	/^	char	tc_stopc;	\/* stop output *\/$/;"	m	struct:ttychars	access:public
+tc_suspc	ttychars.h	/^	char	tc_suspc;	\/* stop process signal *\/$/;"	m	struct:ttychars	access:public
+tc_werasc	ttychars.h	/^	char	tc_werasc;	\/* word erase *\/$/;"	m	struct:ttychars	access:public
+textsize	gmon.h	/^	u_long		textsize;$/;"	m	struct:gmonparam	access:public
+time	timeb.h	/^    time_t time;		\/* Seconds since epoch, as from `time'.  *\/$/;"	m	struct:timeb	access:public
+time	timex.h	/^  struct timeval time;	\/* current time (ro) *\/$/;"	m	struct:ntptimeval	typeref:struct:ntptimeval::timeval	access:public
+timeb	timeb.h	/^struct timeb$/;"	s
+timeb::dstflag	timeb.h	/^    short int dstflag;		\/* Nonzero if Daylight Savings Time used.  *\/$/;"	m	struct:timeb	access:public
+timeb::millitm	timeb.h	/^    unsigned short int millitm;	\/* Additional milliseconds.  *\/$/;"	m	struct:timeb	access:public
+timeb::time	timeb.h	/^    time_t time;		\/* Seconds since epoch, as from `time'.  *\/$/;"	m	struct:timeb	access:public
+timeb::timezone	timeb.h	/^    short int timezone;		\/* Minutes west of GMT.  *\/$/;"	m	struct:timeb	access:public
+timeradd	time.h	168;"	d
+timerclear	time.h	163;"	d
+timercmp	time.h	164;"	d
+timerisset	time.h	162;"	d
+timersub	time.h	178;"	d
+timezone	time.h	/^struct timezone$/;"	s
+timezone	timeb.h	/^    short int timezone;		\/* Minutes west of GMT.  *\/$/;"	m	struct:timeb	access:public
+timezone::tz_dsttime	time.h	/^    int tz_dsttime;		\/* Nonzero if DST is ever in effect.  *\/$/;"	m	struct:timezone	access:public
+timezone::tz_minuteswest	time.h	/^    int tz_minuteswest;		\/* Minutes west of GMT.  *\/$/;"	m	struct:timezone	access:public
+tms	times.h	/^struct tms$/;"	s
+tms::tms_cstime	times.h	/^    clock_t tms_cstime;		\/* System CPU time of dead children.  *\/$/;"	m	struct:tms	access:public
+tms::tms_cutime	times.h	/^    clock_t tms_cutime;		\/* User CPU time of dead children.  *\/$/;"	m	struct:tms	access:public
+tms::tms_stime	times.h	/^    clock_t tms_stime;		\/* System CPU time.  *\/$/;"	m	struct:tms	access:public
+tms::tms_utime	times.h	/^    clock_t tms_utime;		\/* User CPU time.  *\/$/;"	m	struct:tms	access:public
+tms_cstime	times.h	/^    clock_t tms_cstime;		\/* System CPU time of dead children.  *\/$/;"	m	struct:tms	access:public
+tms_cutime	times.h	/^    clock_t tms_cutime;		\/* User CPU time of dead children.  *\/$/;"	m	struct:tms	access:public
+tms_stime	times.h	/^    clock_t tms_stime;		\/* System CPU time.  *\/$/;"	m	struct:tms	access:public
+tms_utime	times.h	/^    clock_t tms_utime;		\/* User CPU time.  *\/$/;"	m	struct:tms	access:public
+tolimit	gmon.h	/^	long		tolimit;$/;"	m	struct:gmonparam	access:public
+tos	gmon.h	/^	struct tostruct	*tos;$/;"	m	struct:gmonparam	typeref:struct:gmonparam::tostruct	access:public
+tossize	gmon.h	/^	u_long		tossize;$/;"	m	struct:gmonparam	access:public
+tostruct	gmon.h	/^struct tostruct {$/;"	s
+tostruct::count	gmon.h	/^	long		count;$/;"	m	struct:tostruct	access:public
+tostruct::link	gmon.h	/^	ARCINDEX	link;$/;"	m	struct:tostruct	access:public
+tostruct::selfpc	gmon.h	/^	u_long		selfpc;$/;"	m	struct:tostruct	access:public
+ttychars	ttychars.h	/^struct ttychars {$/;"	s
+ttychars::tc_brkc	ttychars.h	/^	char	tc_brkc;	\/* input delimiter (like nl) *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_dsuspc	ttychars.h	/^	char	tc_dsuspc;	\/* delayed stop process signal *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_eofc	ttychars.h	/^	char	tc_eofc;	\/* end-of-file *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_erase	ttychars.h	/^	char	tc_erase;	\/* erase last character *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_flushc	ttychars.h	/^	char	tc_flushc;	\/* flush output (toggles) *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_intrc	ttychars.h	/^	char	tc_intrc;	\/* interrupt *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_kill	ttychars.h	/^	char	tc_kill;	\/* erase entire line *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_lnextc	ttychars.h	/^	char	tc_lnextc;	\/* literal next character *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_quitc	ttychars.h	/^	char	tc_quitc;	\/* quit *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_rprntc	ttychars.h	/^	char	tc_rprntc;	\/* reprint line *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_startc	ttychars.h	/^	char	tc_startc;	\/* start output *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_stopc	ttychars.h	/^	char	tc_stopc;	\/* stop output *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_suspc	ttychars.h	/^	char	tc_suspc;	\/* stop process signal *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_werasc	ttychars.h	/^	char	tc_werasc;	\/* word erase *\/$/;"	m	struct:ttychars	access:public
+ttydefchars	ttydefaults.h	/^cc_t	ttydefchars[NCCS] = {$/;"	v
+twd	user.h	/^  long int twd;$/;"	m	struct:user_fpregs_struct	access:public
+twd	user.h	/^  unsigned short int twd;$/;"	m	struct:user_fpxregs_struct	access:public
+tz_dsttime	time.h	/^    int tz_dsttime;		\/* Nonzero if DST is ever in effect.  *\/$/;"	m	struct:timezone	access:public
+tz_minuteswest	time.h	/^    int tz_minuteswest;		\/* Minutes west of GMT.  *\/$/;"	m	struct:timezone	access:public
+u32	epoll.h	/^  uint32_t u32;$/;"	m	union:epoll_data
+u64	epoll.h	/^  uint64_t u64;$/;"	m	union:epoll_data
+u_ar0	user.h	/^      struct user_regs_struct*	u_ar0;$/;"	m	union:user::__anon18	typeref:struct:user::__anon18::user_regs_struct
+u_ar0	user.h	/^  struct user_regs_struct*	u_ar0;$/;"	m	struct:user	typeref:struct:user::user_regs_struct	access:public
+u_char	types.h	/^typedef __u_char u_char;$/;"	t
+u_comm	user.h	/^  char				u_comm [32];$/;"	m	struct:user	access:public
+u_debugreg	user.h	/^  __extension__ unsigned long long int	u_debugreg [8];$/;"	m	struct:user	access:public
+u_debugreg	user.h	/^  int				u_debugreg [8];$/;"	m	struct:user	access:public
+u_dsize	user.h	/^  __extension__ unsigned long long int	u_dsize;$/;"	m	struct:user	access:public
+u_dsize	user.h	/^  unsigned long int		u_dsize;$/;"	m	struct:user	access:public
+u_fpstate	user.h	/^      struct user_fpregs_struct*	u_fpstate;$/;"	m	union:user::__anon19	typeref:struct:user::__anon19::user_fpregs_struct
+u_fpstate	user.h	/^  struct user_fpregs_struct*	u_fpstate;$/;"	m	struct:user	typeref:struct:user::user_fpregs_struct	access:public
+u_fpvalid	user.h	/^  int				u_fpvalid;$/;"	m	struct:user	access:public
+u_int	types.h	/^typedef __u_int u_int;$/;"	t
+u_int16_t	types.h	/^typedef	unsigned short int u_int16_t;$/;"	t
+u_int32_t	types.h	/^typedef	unsigned int u_int32_t;$/;"	t
+u_int64_t	types.h	/^__extension__ typedef unsigned long long int u_int64_t;$/;"	t
+u_int64_t	types.h	/^typedef unsigned long int u_int64_t;$/;"	t
+u_int8_t	types.h	/^typedef	unsigned char u_int8_t;$/;"	t
+u_long	types.h	/^typedef __u_long u_long;$/;"	t
+u_quad_t	types.h	/^typedef __u_quad_t u_quad_t;$/;"	t
+u_short	types.h	/^typedef __u_short u_short;$/;"	t
+u_ssize	user.h	/^  __extension__ unsigned long long int	u_ssize;$/;"	m	struct:user	access:public
+u_ssize	user.h	/^  unsigned long int		u_ssize;$/;"	m	struct:user	access:public
+u_tsize	user.h	/^  __extension__ unsigned long long int	u_tsize;$/;"	m	struct:user	access:public
+u_tsize	user.h	/^  unsigned long int		u_tsize;$/;"	m	struct:user	access:public
+uc_flags	ucontext.h	/^    unsigned long int uc_flags;$/;"	m	struct:ucontext	access:public
+uc_link	ucontext.h	/^    struct ucontext *uc_link;$/;"	m	struct:ucontext	typeref:struct:ucontext::ucontext	access:public
+uc_mcontext	ucontext.h	/^    mcontext_t uc_mcontext;$/;"	m	struct:ucontext	access:public
+uc_sigmask	ucontext.h	/^    __sigset_t uc_sigmask;$/;"	m	struct:ucontext	access:public
+uc_stack	ucontext.h	/^    stack_t uc_stack;$/;"	m	struct:ucontext	access:public
+ucontext	ucontext.h	/^typedef struct ucontext$/;"	s
+ucontext::__fpregs_mem	ucontext.h	/^    struct _libc_fpstate __fpregs_mem;$/;"	m	struct:ucontext	typeref:struct:ucontext::_libc_fpstate	access:public
+ucontext::uc_flags	ucontext.h	/^    unsigned long int uc_flags;$/;"	m	struct:ucontext	access:public
+ucontext::uc_link	ucontext.h	/^    struct ucontext *uc_link;$/;"	m	struct:ucontext	typeref:struct:ucontext::ucontext	access:public
+ucontext::uc_mcontext	ucontext.h	/^    mcontext_t uc_mcontext;$/;"	m	struct:ucontext	access:public
+ucontext::uc_sigmask	ucontext.h	/^    __sigset_t uc_sigmask;$/;"	m	struct:ucontext	access:public
+ucontext::uc_stack	ucontext.h	/^    stack_t uc_stack;$/;"	m	struct:ucontext	access:public
+ucontext_t	ucontext.h	/^  } ucontext_t;$/;"	t	typeref:struct:ucontext
+uid_t	ipc.h	/^typedef __uid_t uid_t;$/;"	t
+uid_t	stat.h	/^typedef __uid_t uid_t;$/;"	t
+uid_t	types.h	/^typedef __uid_t uid_t;$/;"	t
+uint	types.h	/^typedef unsigned int uint;$/;"	t
+ulong	types.h	/^typedef unsigned long int ulong;$/;"	t
+useconds_t	types.h	/^typedef __useconds_t useconds_t;$/;"	t
+user	user.h	/^struct user$/;"	s
+user::__anon18::__u_ar0_word	user.h	/^      __extension__ unsigned long long int	__u_ar0_word;$/;"	m	union:user::__anon18
+user::__anon18::u_ar0	user.h	/^      struct user_regs_struct*	u_ar0;$/;"	m	union:user::__anon18	typeref:struct:user::__anon18::user_regs_struct
+user::__anon19::__u_fpstate_word	user.h	/^      __extension__ unsigned long long int	__u_fpstate_word;$/;"	m	union:user::__anon19
+user::__anon19::u_fpstate	user.h	/^      struct user_fpregs_struct*	u_fpstate;$/;"	m	union:user::__anon19	typeref:struct:user::__anon19::user_fpregs_struct
+user::i387	user.h	/^  struct user_fpregs_struct	i387;$/;"	m	struct:user	typeref:struct:user::user_fpregs_struct	access:public
+user::magic	user.h	/^  __extension__ unsigned long long int	magic;$/;"	m	struct:user	access:public
+user::magic	user.h	/^  unsigned long int		magic;$/;"	m	struct:user	access:public
+user::regs	user.h	/^  struct user_regs_struct	regs;$/;"	m	struct:user	typeref:struct:user::user_regs_struct	access:public
+user::reserved	user.h	/^  int				reserved;$/;"	m	struct:user	access:public
+user::signal	user.h	/^  __extension__ long long int		signal;$/;"	m	struct:user	access:public
+user::signal	user.h	/^  long int			signal;$/;"	m	struct:user	access:public
+user::start_code	user.h	/^  __extension__ unsigned long long int	start_code;$/;"	m	struct:user	access:public
+user::start_code	user.h	/^  unsigned long int		start_code;$/;"	m	struct:user	access:public
+user::start_stack	user.h	/^  __extension__ unsigned long long int	start_stack;$/;"	m	struct:user	access:public
+user::start_stack	user.h	/^  unsigned long int		start_stack;$/;"	m	struct:user	access:public
+user::u_ar0	user.h	/^  struct user_regs_struct*	u_ar0;$/;"	m	struct:user	typeref:struct:user::user_regs_struct	access:public
+user::u_comm	user.h	/^  char				u_comm [32];$/;"	m	struct:user	access:public
+user::u_debugreg	user.h	/^  __extension__ unsigned long long int	u_debugreg [8];$/;"	m	struct:user	access:public
+user::u_debugreg	user.h	/^  int				u_debugreg [8];$/;"	m	struct:user	access:public
+user::u_dsize	user.h	/^  __extension__ unsigned long long int	u_dsize;$/;"	m	struct:user	access:public
+user::u_dsize	user.h	/^  unsigned long int		u_dsize;$/;"	m	struct:user	access:public
+user::u_fpstate	user.h	/^  struct user_fpregs_struct*	u_fpstate;$/;"	m	struct:user	typeref:struct:user::user_fpregs_struct	access:public
+user::u_fpvalid	user.h	/^  int				u_fpvalid;$/;"	m	struct:user	access:public
+user::u_ssize	user.h	/^  __extension__ unsigned long long int	u_ssize;$/;"	m	struct:user	access:public
+user::u_ssize	user.h	/^  unsigned long int		u_ssize;$/;"	m	struct:user	access:public
+user::u_tsize	user.h	/^  __extension__ unsigned long long int	u_tsize;$/;"	m	struct:user	access:public
+user::u_tsize	user.h	/^  unsigned long int		u_tsize;$/;"	m	struct:user	access:public
+user_fpregs_struct	user.h	/^struct user_fpregs_struct$/;"	s
+user_fpregs_struct::cwd	user.h	/^  long int cwd;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::cwd	user.h	/^  unsigned short int	cwd;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::fcs	user.h	/^  long int fcs;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::fip	user.h	/^  long int fip;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::foo	user.h	/^  long int foo;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::fop	user.h	/^  unsigned short int	fop;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::fos	user.h	/^  long int fos;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::ftw	user.h	/^  unsigned short int	ftw;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::mxcr_mask	user.h	/^  unsigned int		mxcr_mask;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::mxcsr	user.h	/^  unsigned int		mxcsr;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::padding	user.h	/^  unsigned int		padding[24];$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::rdp	user.h	/^  __extension__ unsigned long long int rdp;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::rip	user.h	/^  __extension__ unsigned long long int rip;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::st_space	user.h	/^  long int st_space [20];$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::st_space	user.h	/^  unsigned int		st_space[32];   \/* 8*16 bytes for each FP-reg = 128 bytes *\/$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::swd	user.h	/^  long int swd;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::swd	user.h	/^  unsigned short int	swd;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::twd	user.h	/^  long int twd;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::xmm_space	user.h	/^  unsigned int		xmm_space[64];  \/* 16*16 bytes for each XMM-reg = 256 bytes *\/$/;"	m	struct:user_fpregs_struct	access:public
+user_fpxregs_struct	user.h	/^struct user_fpxregs_struct$/;"	s
+user_fpxregs_struct::cwd	user.h	/^  unsigned short int cwd;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::fcs	user.h	/^  long int fcs;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::fip	user.h	/^  long int fip;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::foo	user.h	/^  long int foo;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::fop	user.h	/^  unsigned short int fop;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::fos	user.h	/^  long int fos;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::mxcsr	user.h	/^  long int mxcsr;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::padding	user.h	/^  long int padding[56];$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::reserved	user.h	/^  long int reserved;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::st_space	user.h	/^  long int st_space[32];   \/* 8*16 bytes for each FP-reg = 128 bytes *\/$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::swd	user.h	/^  unsigned short int swd;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::twd	user.h	/^  unsigned short int twd;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::xmm_space	user.h	/^  long int xmm_space[32];  \/* 8*16 bytes for each XMM-reg = 128 bytes *\/$/;"	m	struct:user_fpxregs_struct	access:public
+user_regs_struct	user.h	/^struct user_regs_struct$/;"	s
+user_regs_struct::cs	user.h	/^  __extension__ unsigned long long int cs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::ds	user.h	/^  __extension__ unsigned long long int ds;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::eax	user.h	/^  long int eax;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::ebp	user.h	/^  long int ebp;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::ebx	user.h	/^  long int ebx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::ecx	user.h	/^  long int ecx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::edi	user.h	/^  long int edi;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::edx	user.h	/^  long int edx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::eflags	user.h	/^  __extension__ unsigned long long int eflags;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::eflags	user.h	/^  long int eflags;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::eip	user.h	/^  long int eip;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::es	user.h	/^  __extension__ unsigned long long int es;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::esi	user.h	/^  long int esi;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::esp	user.h	/^  long int esp;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::fs	user.h	/^  __extension__ unsigned long long int fs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::fs_base	user.h	/^  __extension__ unsigned long long int fs_base;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::gs	user.h	/^  __extension__ unsigned long long int gs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::gs_base	user.h	/^  __extension__ unsigned long long int gs_base;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::orig_eax	user.h	/^  long int orig_eax;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::orig_rax	user.h	/^  __extension__ unsigned long long int orig_rax;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r10	user.h	/^  __extension__ unsigned long long int r10;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r11	user.h	/^  __extension__ unsigned long long int r11;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r12	user.h	/^  __extension__ unsigned long long int r12;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r13	user.h	/^  __extension__ unsigned long long int r13;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r14	user.h	/^  __extension__ unsigned long long int r14;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r15	user.h	/^  __extension__ unsigned long long int r15;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r8	user.h	/^  __extension__ unsigned long long int r8;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r9	user.h	/^  __extension__ unsigned long long int r9;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rax	user.h	/^  __extension__ unsigned long long int rax;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rbp	user.h	/^  __extension__ unsigned long long int rbp;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rbx	user.h	/^  __extension__ unsigned long long int rbx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rcx	user.h	/^  __extension__ unsigned long long int rcx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rdi	user.h	/^  __extension__ unsigned long long int rdi;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rdx	user.h	/^  __extension__ unsigned long long int rdx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rip	user.h	/^  __extension__ unsigned long long int rip;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rsi	user.h	/^  __extension__ unsigned long long int rsi;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rsp	user.h	/^  __extension__ unsigned long long int rsp;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::ss	user.h	/^  __extension__ unsigned long long int ss;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xcs	user.h	/^  long int xcs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xds	user.h	/^  long int xds;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xes	user.h	/^  long int xes;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xfs	user.h	/^  long int xfs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xgs	user.h	/^  long int xgs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xss	user.h	/^  long int xss;$/;"	m	struct:user_regs_struct	access:public
+ushort	types.h	/^typedef unsigned short int ushort;$/;"	t
+utsname	utsname.h	/^struct utsname$/;"	s
+utsname::__domainname	utsname.h	/^    char __domainname[_UTSNAME_DOMAIN_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::domainname	utsname.h	/^    char domainname[_UTSNAME_DOMAIN_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::machine	utsname.h	/^    char machine[_UTSNAME_MACHINE_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::nodename	utsname.h	/^    char nodename[_UTSNAME_NODENAME_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::release	utsname.h	/^    char release[_UTSNAME_RELEASE_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::sysname	utsname.h	/^    char sysname[_UTSNAME_SYSNAME_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::version	utsname.h	/^    char version[_UTSNAME_VERSION_LENGTH];$/;"	m	struct:utsname	access:public
+version	gmon_out.h	/^    char version[4];$/;"	m	struct:gmon_hdr	access:public
+version	utsname.h	/^    char version[_UTSNAME_VERSION_LENGTH];$/;"	m	struct:utsname	access:public
+vm_idsrss	vtimes.h	/^  unsigned int vm_idsrss;$/;"	m	struct:vtimes	access:public
+vm_inblk	vtimes.h	/^  int vm_inblk;$/;"	m	struct:vtimes	access:public
+vm_ixrss	vtimes.h	/^  unsigned int vm_ixrss;$/;"	m	struct:vtimes	access:public
+vm_majflt	vtimes.h	/^  int vm_majflt;$/;"	m	struct:vtimes	access:public
+vm_maxrss	vtimes.h	/^  int vm_maxrss;$/;"	m	struct:vtimes	access:public
+vm_minflt	vtimes.h	/^  int vm_minflt;$/;"	m	struct:vtimes	access:public
+vm_nswap	vtimes.h	/^  int vm_nswap;$/;"	m	struct:vtimes	access:public
+vm_oublk	vtimes.h	/^  int vm_oublk;$/;"	m	struct:vtimes	access:public
+vm_stime	vtimes.h	/^  int vm_stime;$/;"	m	struct:vtimes	access:public
+vm_utime	vtimes.h	/^  int vm_utime;$/;"	m	struct:vtimes	access:public
+vsyslog	syslog.h	/^extern void vsyslog (int __pri, const char *__fmt, __gnuc_va_list __ap)$/;"	p	signature:(int __pri, const char *__fmt, __gnuc_va_list __ap)
+vtimes	vtimes.h	/^struct vtimes$/;"	s
+vtimes::vm_idsrss	vtimes.h	/^  unsigned int vm_idsrss;$/;"	m	struct:vtimes	access:public
+vtimes::vm_inblk	vtimes.h	/^  int vm_inblk;$/;"	m	struct:vtimes	access:public
+vtimes::vm_ixrss	vtimes.h	/^  unsigned int vm_ixrss;$/;"	m	struct:vtimes	access:public
+vtimes::vm_majflt	vtimes.h	/^  int vm_majflt;$/;"	m	struct:vtimes	access:public
+vtimes::vm_maxrss	vtimes.h	/^  int vm_maxrss;$/;"	m	struct:vtimes	access:public
+vtimes::vm_minflt	vtimes.h	/^  int vm_minflt;$/;"	m	struct:vtimes	access:public
+vtimes::vm_nswap	vtimes.h	/^  int vm_nswap;$/;"	m	struct:vtimes	access:public
+vtimes::vm_oublk	vtimes.h	/^  int vm_oublk;$/;"	m	struct:vtimes	access:public
+vtimes::vm_stime	vtimes.h	/^  int vm_stime;$/;"	m	struct:vtimes	access:public
+vtimes::vm_utime	vtimes.h	/^  int vm_utime;$/;"	m	struct:vtimes	access:public
+wait	wait.h	/^extern __pid_t wait (__WAIT_STATUS __stat_loc);$/;"	p	signature:(__WAIT_STATUS __stat_loc)
+waitid	wait.h	/^extern int waitid (idtype_t __idtype, __id_t __id, siginfo_t *__infop,$/;"	p	signature:(idtype_t __idtype, __id_t __id, siginfo_t *__infop, int __options)
+waitpid	wait.h	/^extern __pid_t waitpid (__pid_t __pid, int *__stat_loc, int __options);$/;"	p	signature:(__pid_t __pid, int *__stat_loc, int __options)
+wd	inotify.h	/^  int wd;		\/* Watch descriptor.  *\/$/;"	m	struct:inotify_event	access:public
+writes	quota.h	/^    u_int32_t writes;$/;"	m	struct:dqstats	access:public
+xcs	user.h	/^  long int xcs;$/;"	m	struct:user_regs_struct	access:public
+xds	user.h	/^  long int xds;$/;"	m	struct:user_regs_struct	access:public
+xes	user.h	/^  long int xes;$/;"	m	struct:user_regs_struct	access:public
+xfs	user.h	/^  long int xfs;$/;"	m	struct:user_regs_struct	access:public
+xgs	user.h	/^  long int xgs;$/;"	m	struct:user_regs_struct	access:public
+xmm_space	user.h	/^  long int xmm_space[32];  \/* 8*16 bytes for each XMM-reg = 128 bytes *\/$/;"	m	struct:user_fpxregs_struct	access:public
+xmm_space	user.h	/^  unsigned int		xmm_space[64];  \/* 16*16 bytes for each XMM-reg = 256 bytes *\/$/;"	m	struct:user_fpregs_struct	access:public
+xss	user.h	/^  long int xss;$/;"	m	struct:user_regs_struct	access:public
+zero_word	gmon.h	/^  long			zero_word;$/;"	m	struct:__bb	access:public

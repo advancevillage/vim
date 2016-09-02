@@ -131,4 +131,4 @@ set incsearch
 "setting tags
 set tags+=g:vim_home/tags/cpptags
 set tags+=g:vim_home/tags/opencvtags
-
+set tags+=g:vim_home/tags/systags
