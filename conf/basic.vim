@@ -126,3 +126,9 @@ set matchtime=1
 "set ignorecase
 "在搜索时输入的词句的逐字符高亮
 set incsearch 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"setting tags
+set tags+=g:vim_home/tags/cpptags
+set tags+=g:vim_home/tags/opencvtags
+
