@@ -91,6 +91,15 @@
 ![个性化配置VIM效果动图](http://obp7hxe1q.bkt.clouddn.com/vimconf.gif)
 
 ---
+###安装
+    (1)执行centos-vim-install.sh脚本，安装配置环境(只适合centos)
+    (2)随便用vim打开一个文件，在vim环境中执行命令:PlugInstall
+    (3)进入plugged/YouCompleteMe目录中
+        git submodule update --init --recursive
+    (4)执行python脚本 ./install.py --clang-completer
+    
+
+---
 ###LICIENCE
 
 CUG@2016 SUN-HE
