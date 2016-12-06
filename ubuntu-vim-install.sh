@@ -51,3 +51,5 @@ else
     git clone https://github.com/advancevillage/vim.git ~/.vim
 fi
 
+#if you run install.py --all, you need install xbuild
+#apt-get install -y mono-xbuild
