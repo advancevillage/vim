@@ -1,7 +1,7 @@
-##配置自己风格的VIM
+配置自己风格的VIM
 
 
-###目录结构
+目录结构
 
 	vim 
 	 |------autoload (插件管理器plug.vim)
@@ -33,7 +33,7 @@
 	 |			|------opencvtags
 
 
-###VIM补充知识
+VIM补充知识
 
 (1)当vim启动时，vim会自动的加载配置文件vimrc,读取并执行该内容。注意加载路		径/etc/vimrc(所有用户共用), $HOME/.vimrc(当前用户), ~/.vim/vimrc(当前用户)
 
@@ -54,7 +54,7 @@
 	execute ':so' g:vim_home."/conf/basic.vim"
 
 
-###[应用的插件(插件链接在doc/README.md)](https://github.com/advancevillage/vim/tree/master/doc)
+[应用的插件(插件链接在doc/README.md)](https://github.com/advancevillage/vim/tree/master/doc)
 
 	外观类:
 	(1)主题背景:  molokai
@@ -67,7 +67,7 @@
 	(7)关键字高亮显示: vim-cpp-enhanced-highlight
 	(8)语法错误: syntastic
 
-##加载过程
+加载过程
 
 设置一个全局变量,VIM自动加载vimrc文件,所以从vimrc设置使它自动加载其他vim脚本
 定义一个全局变量,使VIM从当前目录下.vim加载配置文件
@@ -93,12 +93,12 @@
 	execute ':so' g:vim_home."/conf/pluginmanager.vim"
 ---
 
-###效果
+效果
 ![个性化配置VIM效果动图](http://obp7hxe1q.bkt.clouddn.com/vimconf.gif)
 
 ---
 
-###安装
+安装
 
     (1)执行centos-vim-install.sh脚本，安装配置环境(只适合centos)
 
@@ -118,6 +118,6 @@
 
 ---
 
-##LICIENCE
+LICIENCE
 
     CUG@2016 SUN-HE
