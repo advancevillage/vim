@@ -1,6 +1,8 @@
 ##配置自己风格的VIM
----
+
+
 ###目录结构
+
 	vim 
 	 |------autoload (插件管理器plug.vim)
 	 |		 	|------plug.vim
@@ -30,7 +32,7 @@
 	 |			|
 	 |			|------opencvtags
 
----
+
 ###VIM补充知识
 
 (1)当vim启动时，vim会自动的加载配置文件vimrc,读取并执行该内容。注意加载路		径/etc/vimrc(所有用户共用), $HOME/.vimrc(当前用户), ~/.vim/vimrc(当前用户)
