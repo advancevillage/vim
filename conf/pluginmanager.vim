@@ -20,6 +20,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'Yggdroot/indentLine'
 "YouCompleteMe
 Plug 'Valloric/YouCompleteMe'
+"vim-gutentags
+Plug 'ludovicchabant/vim-gutentags'
 call plug#end()
 
 let g:plugins = [
@@ -27,6 +29,7 @@ let g:plugins = [
     \'nerdtree',
     \'vim-airline',
     \'indentLine',
+    \'vim-gutentags',
     \'YouCompleteMe',
     \]
 
