@@ -22,6 +22,12 @@ Plug 'Yggdroot/indentLine'
 Plug 'Valloric/YouCompleteMe'
 "vim-gutentags
 Plug 'ludovicchabant/vim-gutentags'
+"vim-json-format
+Plug 'forevernull/vim-json-format'
+"fatih/vim-go
+Plug 'fatih/vim-go'
+"Blackrush/vim-gocode
+Plug 'Blackrush/vim-gocode'
 call plug#end()
 
 let g:plugins = [
@@ -31,6 +37,7 @@ let g:plugins = [
     \'indentLine',
     \'vim-gutentags',
     \'YouCompleteMe',
+    \'vim-gocode',
     \]
 
 for value in g:plugins 

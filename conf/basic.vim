@@ -126,9 +126,22 @@ set matchtime=1
 "set ignorecase
 "在搜索时输入的词句的逐字符高亮
 set incsearch 
+"设置字体
+set guifont=SpaceMono-Boldtalic
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "setting tags
-set tags+=g:vim_home/tags/cpptags
-set tags+=g:vim_home/tags/opencvtags
-set tags+=g:vim_home/tags/systags
+"set tags+=g:vim_home/tags/cpptags
+"set tags+=g:vim_home/tags/opencvtags
+"set tags+=g:vim_home/tags/systags
+"set tags+=g:vim_home/tags/wiwo_common_tags
+"set tags+=g:vim_home/tags/umessage_tags
+"set tags+=g:vim_home/tags/utraffic_manager_tags
+"
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"airline
+"双字显示
+set ambiwidth=double
+let laststatus=2
+let g:airline_powerline_fonts=1 
+let g:airline_theme="dark"

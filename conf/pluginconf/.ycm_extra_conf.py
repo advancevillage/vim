@@ -16,9 +16,21 @@ flags = [
 'c++',
 '-I',
 '-isystem',
-'/usr/include',
+'/usr/include/',
 '-isystem',
-'/usr/include/c++/4.8.5/'
+'/usr/local/include/',
+'-isystem',
+'/usr/include/c++/5/',
+'-isystem',
+'/usr/include/x86_64-linux-gnu/c++/5/',
+'-isystem',
+'/usr/lib/gcc/x86_64-linux-gnu/5/include/',
+'-isystem',
+'/usr/include/x86_64-linux-gnu/'
+'-isystem',
+'/home/richard/wiwo/common/',
+'-isystem',
+'/home/richard/message/'
 ]
 
 
