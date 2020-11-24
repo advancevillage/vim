@@ -31,7 +31,7 @@ set mouse=a
 "去掉讨厌的关于vi一致性模式，避免一些Bug和局限
 set nocompatible
 "取消闪烁
-set novisualbell
+set visualbell
 "命令行的高度，默认值是1,设置2
 set cmdheight=2
 "增强模式中的命令自动完成的操作
@@ -43,6 +43,7 @@ set wildmenu
 set backspace=indent,eol,start
 "语法高亮
 set syntax=on
+colo pablo
 "256色
 set t_Co=256
 "语法可用
@@ -103,6 +104,13 @@ set shiftwidth=4
 set expandtab
 "带有如下符号的单词不要被换行分割
 set iskeyword+=_,@,$,%,#,-
+" Allow backspace to delete indentation and inserted text
+" i.e. how it works in most programs
+set backspace=indent,eol,start
+" indent  allow backspacing over autoindent
+" eol     allow backspacing over line breaks (join lines)
+" start   allow backspacing over the start of insert; CTRL-W and CTRL-U
+"        stop once at the start of insert.
 "允许backspace和光标跨越行边界
 set whichwrap+=<,>,h,l
 "不让vim发出滴滴声
@@ -128,20 +136,7 @@ set matchtime=1
 set incsearch 
 "设置字体
 set guifont=SpaceMono-Boldtalic
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"setting tags
-"set tags+=g:vim_home/tags/cpptags
-"set tags+=g:vim_home/tags/opencvtags
-"set tags+=g:vim_home/tags/systags
-"set tags+=g:vim_home/tags/wiwo_common_tags
-"set tags+=g:vim_home/tags/umessage_tags
-"set tags+=g:vim_home/tags/utraffic_manager_tags
-"
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"airline
 "双字显示
 set ambiwidth=double
-let laststatus=2
-let g:airline_powerline_fonts=1 
-let g:airline_theme="dark"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd Filetype go setlocal tabstop=4 shiftwidth=4 softtabstop=4

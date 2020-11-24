@@ -5,7 +5,7 @@ nmap <leader>ft :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 "设置目录树在界面的位置left OR right
-let g:NERDTreeWinPos = "right"  
+let g:NERDTreeWinPos = "left"  
 "设置目录目录树是否显示隐藏文件夹
 "let g:NERDTreeShowHidden = 1
 "设置自动清除缓存

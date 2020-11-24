@@ -6,38 +6,22 @@
 call plug#begin(g:vim_home.'/plugged')
 "vim-airline
 Plug 'vim-airline/vim-airline'
-"scrooloose/nerdtree
-Plug 'scrooloose/nerdtree'
+"preservim/nerdtree
+Plug 'preservim/nerdtree'
 "tomasr/molokai
 Plug 'tomasr/molokai'
-"vim-multiple-cursors
-"Plug 'terryma/vim-multiple-cursors'
-"syntastic
-"Plug 'scrooloose/syntastic'
-"auto-pairs
-Plug 'jiangmiao/auto-pairs'
-"indentLine
-Plug 'Yggdroot/indentLine'
-"YouCompleteMe
-Plug 'Valloric/YouCompleteMe'
-"vim-gutentags
-Plug 'ludovicchabant/vim-gutentags'
-"vim-json-format
-Plug 'forevernull/vim-json-format'
 "fatih/vim-go
 Plug 'fatih/vim-go'
-"Blackrush/vim-gocode
-Plug 'Blackrush/vim-gocode'
+"tpope/vim-fugitive
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 let g:plugins = [
     \'molokai',
     \'nerdtree',
     \'vim-airline',
-    \'indentLine',
-    \'vim-gutentags',
-    \'YouCompleteMe',
-    \'vim-gocode',
+    \'vim-go',
+    \'vim-fugitive',
     \]
 
 for value in g:plugins 
