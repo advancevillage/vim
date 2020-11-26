@@ -11,9 +11,13 @@ Plug 'preservim/nerdtree'
 "tomasr/molokai
 Plug 'tomasr/molokai'
 "fatih/vim-go
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go',{ 'do': ':GoUpdateBinaries' }
 "tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
+"mdempsky/gocode
+Plug 'mdempsky/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
+"YCM
+Plug 'ycm-core/YouCompleteMe'
 call plug#end()
 
 let g:plugins = [
@@ -22,6 +26,7 @@ let g:plugins = [
     \'vim-airline',
     \'vim-go',
     \'vim-fugitive',
+    \'YouCompleteMe',
     \]
 
 for value in g:plugins 

@@ -7,7 +7,7 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 "设置目录树在界面的位置left OR right
 let g:NERDTreeWinPos = "left"  
 "设置目录目录树是否显示隐藏文件夹
-"let g:NERDTreeShowHidden = 1
+let g:NERDTreeShowHidden = 0
 "设置自动清除缓存
 let g:NERDTreeAutoDeleteBuffer = 1
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree")&& b:NERDTree.isTabTree()) | q | endif
