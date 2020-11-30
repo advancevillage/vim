@@ -18,6 +18,10 @@ Plug 'tpope/vim-fugitive'
 Plug 'mdempsky/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 "YCM
 Plug 'ycm-core/YouCompleteMe'
+"vim-delve
+Plug 'sebdah/vim-delve'
+"mileszs/ack.vim 搜索
+Plug 'mileszs/ack.vim'
 call plug#end()
 
 let g:plugins = [
@@ -26,6 +30,8 @@ let g:plugins = [
     \'vim-airline',
     \'vim-go',
     \'vim-fugitive',
+    \'vim-delve',
+    \'ack',
     \'YouCompleteMe',
     \]
 

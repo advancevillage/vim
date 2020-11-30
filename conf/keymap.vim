@@ -24,11 +24,11 @@ map <leader>sp :split<CR>
 map <leader>vsp :vsplit<CR>
 map <leader>cl  :close<CR>
 "翻页
-map <leader>d  <C-F>
-map <leader>u  <C-B>
+map nn  <C-F>
+map uu  <C-B>
 "括号自动补全
-inoremap ' ''<ESC>i
-inoremap " ""<ESC>i
-inoremap ( ()<ESC>i
-inoremap [ []<ESC>i
-inoremap { {<CR>}<ESC>0
+""inoremap ' ''<ESC>i
+""inoremap " ""<ESC>i
+""inoremap ( ()<ESC>i
+""inoremap [ []<ESC>i
+""inoremap { {<CR>}<ESC>0

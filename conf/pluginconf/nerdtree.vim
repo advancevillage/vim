@@ -10,6 +10,7 @@ let g:NERDTreeWinPos = "left"
 let g:NERDTreeShowHidden = 0
 "设置自动清除缓存
 let g:NERDTreeAutoDeleteBuffer = 1
+autocmd VimEnter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree")&& b:NERDTree.isTabTree()) | q | endif
 
 

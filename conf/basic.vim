@@ -18,6 +18,8 @@
 set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=utf-8,ucs-bom,cp936,gbk,gck2312,gb18030
+"折叠
+set foldmethod=marker
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "-->显示设置
@@ -28,6 +30,7 @@ set number
 set ruler
 "鼠标可以任意位置
 set mouse=a
+set paste
 "去掉讨厌的关于vi一致性模式，避免一些Bug和局限
 set nocompatible
 "取消闪烁
