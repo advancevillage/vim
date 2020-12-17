@@ -26,9 +26,5 @@ map <leader>cl  :close<CR>
 "翻页
 map nn  <C-F>
 map uu  <C-B>
-"括号自动补全
-""inoremap ' ''<ESC>i
-""inoremap " ""<ESC>i
-""inoremap ( ()<ESC>i
-""inoremap [ []<ESC>i
-""inoremap { {<CR>}<ESC>0
+"代码折叠
+map <leader>z za

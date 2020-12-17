@@ -19,7 +19,8 @@ set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=utf-8,ucs-bom,cp936,gbk,gck2312,gb18030
 "折叠
-set foldmethod=marker
+set foldmethod=syntax
+set foldlevelstart=99
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "-->显示设置
@@ -29,7 +30,9 @@ set number
 "显示标尺
 set ruler
 "鼠标可以任意位置
-set mouse=a
+"mac osx  set mouse=r
+"linux  set mouse=a
+set mouse=r
 set paste
 "去掉讨厌的关于vi一致性模式，避免一些Bug和局限
 set nocompatible
