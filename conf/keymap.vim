@@ -15,8 +15,9 @@ nnoremap <leader>hw  <C-W>h
 nnoremap <leader>jw  <C-W>j
 nnoremap <leader>kw  <C-W>k
 nnoremap <leader><tab> :bn<CR>
+nnoremap <leader><tab><tab> :bp<CR>
 
-map <leader>tn :tabnew<CR>
+nnoremap <leader>tn :tabnew<Space><Space><Space>
 map <leader>tc :tabclose<CR>
 map <leader>tm :tabmove<CR>
 
