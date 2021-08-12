@@ -21,4 +21,4 @@ let g:ycm_max_num_candidates = 20
 let g:ycm_show_diagnostics_ui = 1
 let g:ycm_enable_diagnostic_signs = 1
 let g:ycm_enable_diagnostic_highlighting = 0
-"let g:ycm_global_ycm_extra_conf=g:vim_home.'/conf/pluginconf/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf=g:vim_home.'/conf/pluginconf/.ycm_extra_conf.py'

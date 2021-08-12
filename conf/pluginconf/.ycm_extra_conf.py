@@ -1,6 +1,11 @@
 import os
 import ycm_core
 
+# 编译参数
+# /usr/include        系统标准头文件位置
+# /usr/local/include  安装库的头文件位置
+# -I                  非标准位置的头文件修饰符
+# -isystem             
 flags = [
 '-Wall',
 '-Wextra',
@@ -11,26 +16,13 @@ flags = [
 '-fexceptions',
 '-DNDEBUG',
 '-DUSE_CLANG_COMPLETER',
-'-std=c++11',
+'-std=c11',
 '-x',
-'c++',
-'-I',
+'c',
 '-isystem',
 '/usr/include/',
 '-isystem',
 '/usr/local/include/',
-'-isystem',
-'/usr/include/c++/5/',
-'-isystem',
-'/usr/include/x86_64-linux-gnu/c++/5/',
-'-isystem',
-'/usr/lib/gcc/x86_64-linux-gnu/5/include/',
-'-isystem',
-'/usr/include/x86_64-linux-gnu/'
-'-isystem',
-'/home/richard/wiwo/common/',
-'-isystem',
-'/home/richard/message/'
 ]
 
 
