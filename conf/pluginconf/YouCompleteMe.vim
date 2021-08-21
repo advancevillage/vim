@@ -6,7 +6,10 @@ nnoremap <leader>def  :YcmCompleter GoToDefinition<CR>
 "设置颜色
 highlight Pmenu ctermfg=15  ctermbg=0   guifg=#005f87 guibg=#EEE8D5
 highlight PmenuSel ctermfg=15 ctermbg=8 guifg=#AFD700 guibg=#106900
+"关闭预览窗口
+set completeopt=menu,menuone
 "设置属性
+let g:ycm_add_preview_to_completeopt = 0
 let g:ycm_server_python_interpreter='/usr/bin/python3'
 let g:ycm_complete_in_comments=1
 let g:ycm_confirm_extra_conf=0
@@ -24,3 +27,4 @@ let g:ycm_enable_diagnostic_highlighting = 0
 let g:ycm_semantic_triggers = {}
 let g:ycm_semantic_triggers.c = ['->', '.', '(', '[', '&', 're!\w{2}']
 let g:ycm_global_ycm_extra_conf=g:vim_home.'/conf/pluginconf/.ycm_extra_conf.py'
+let g:ycm_complete_in_strings=1
