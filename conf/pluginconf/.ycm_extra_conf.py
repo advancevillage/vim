@@ -7,23 +7,15 @@ import ycm_core
 # -I                  非标准位置的头文件修饰符
 # -isystem             
 flags = [
-'-Wall',
-'-Wextra',
-'-Werror',
-'-Wc++98-compat',
-'-Wno-long-long',
-'-Wno-variadic-macros',
-'-fexceptions',
-'-DNDEBUG',
-'-DUSE_CLANG_COMPLETER',
 '-std=c11',
 '-x',
 'c',
-'-I',
 '-isystem',
 '/usr/include/',
 '-isystem',
 '/usr/local/include/',
+'-isystem',
+'.'
 ]
 
 
