@@ -10,14 +10,11 @@ flags = [
 '-std=c11',
 '-x',
 'c',
-'-I',
-'.',
 '-isystem',
 '/usr/include/',
 '-isystem',
 '/usr/local/include/',
 '-isystem',
-'.'
 ]
 
 
