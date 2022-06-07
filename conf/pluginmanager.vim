@@ -22,6 +22,8 @@ Plug 'ycm-core/YouCompleteMe'
 Plug 'sebdah/vim-delve'
 "mileszs/ack.vim 搜索
 Plug 'mileszs/ack.vim'
+"p4
+Plug 'dex/p4.vim'
 call plug#end()
 
 let g:plugins = [

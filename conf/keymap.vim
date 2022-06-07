@@ -5,10 +5,13 @@ let mapleader=";"
 "重映射<ESC>
 inoremap  <leader>; <Esc>
 
-nmap <leader>q  :q<CR>
-nmap <leader>w  :w!<CR>
-nmap <leader>Q  :qa<CR>
-nmap <leader>W  :wq<CR>
+nmap <leader>q   :q<CR>
+nmap <leader>w   :w!<CR>
+nmap <leader>Q   :qa<CR>
+nmap <leader>W   :wq<CR>
+nmap <leader>d   :cq<CR>
+nmap <leader>x   :%!xxd<CR>
+nmap <leader>xx  :%!xxd -r<CR>
 
 nnoremap <leader>lw  <C-W>l
 nnoremap <leader>hw  <C-W>h
