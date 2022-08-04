@@ -23,7 +23,12 @@ Plug 'sebdah/vim-delve'
 "mileszs/ack.vim 搜索
 Plug 'mileszs/ack.vim'
 "p4
-Plug 'dex/p4.vim'
+"Plug 'dex/p4.vim'
+"mysql 
+Plug 'NLKNguyen/pipe.vim'
+Plug 'NLKNguyen/pipe-mysql.vim'
+"git blame
+Plug 'zivyangll/git-blame.vim'
 call plug#end()
 
 let g:plugins = [
@@ -35,6 +40,8 @@ let g:plugins = [
     \'vim-delve',
     \'ack',
     \'YouCompleteMe',
+    \'pipe-mysql',
+    \'git-blame',
     \]
 
 for value in g:plugins 
