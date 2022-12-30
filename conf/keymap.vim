@@ -10,8 +10,11 @@ nmap <leader>w   :w!<CR>
 nmap <leader>Q   :qa<CR>
 nmap <leader>W   :wq<CR>
 nmap <leader>d   :cq<CR>
+" 十六进制转换
 nmap <leader>x   :%!xxd<CR>
 nmap <leader>xx  :%!xxd -r<CR>
+" 文件行倒序
+nmap <leader>r   :g/^/m0<CR>
 
 nnoremap <leader>lw  <C-W>l
 nnoremap <leader>hw  <C-W>h
@@ -27,6 +30,7 @@ map <leader>tm :tabmove<CR>
 map <leader>sp :split<CR>
 map <leader>vsp :vsplit<CR>
 map <leader>cl  :close<CR>
+
 "翻页
 map nn  <C-F>
 map uu  <C-B>
