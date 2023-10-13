@@ -28,3 +28,5 @@ let g:ycm_semantic_triggers = {}
 let g:ycm_semantic_triggers.c = ['->', '.', '(', '[', '&', 're!\w{2}']
 let g:ycm_global_ycm_extra_conf=g:vim_home.'/conf/pluginconf/.ycm_extra_conf.py'
 let g:ycm_complete_in_strings=1
+let g:ycm_server_keep_logfiles = 1 
+let g:ycm_server_log_level = 'debug'

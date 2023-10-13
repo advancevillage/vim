@@ -118,6 +118,45 @@ VIM补充知识
 
 ---
 
+修改git-blame插件代码
+```
+#file: .vim/plugged/git-blame.vim/autoload/gitblame.vim
+function! gitblame#echo()
+    let l:blank = ' '
+    let l:file = expand('%')
+    let l:line = line('.')
+    let l:gb = gitblame#commit_summary(l:file, l:line)
+    if has_key(l:gb, 'error')
+        let l:echoMsg = '['.l:gb['error'].']'
+        let l:hcommit = ''
+        let l:history = ''
+    else
+        let l:echoMsg = '['.l:gb['commit_hash'][0:8].'] '.l:gb['summary'] .l:blank .l:gb['author_mail'] .l:blank .l:gb['author'] .l:blank .'('.l:gb['author_time'].')'
+        let l:hcommit = l:gb['commit_hash']
+        let l:history = split(s:system('cd "$(dirname "'.l:file.'")"; git show "'.l:hcommit.'" "$(basename "'.l:file.'")"'), "\n")
+
+        echo l:echoMsg
+        echo l:file
+        echo l:hcommit
+
+        for line in l:history
+            echo line
+        endfor
+
+    endif
+    if (g:GBlameVirtualTextEnable)
+       let l:ns = nvim_create_namespace('gitBlame'.b:GBlameVirtualTextCounter)
+       let b:GBlameVirtualTextCounter = (b:GBlameVirtualTextCounter + 1)%50
+       let l:line = line('.')
+       let l:buffer = bufnr('')
+       call nvim_buf_set_virtual_text(l:buffer, l:ns, l:line-1, [[g:GBlameVirtualTextPrefix.l:echoMsg, 'GBlameMSG']], {})
+       call timer_start(g:GBlameVirtualTextDelay, { tid -> nvim_buf_clear_namespace(l:buffer, l:ns, 0, -1)})
+    endif
+
+endfunction
+```
+
+
 LICIENCE
 
     CUG@2016 SUN-HE
