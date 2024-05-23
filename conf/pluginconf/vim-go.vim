@@ -1,6 +1,7 @@
 "plugin: vim-go
 "定义快捷键 <leader>在keymap.vim中定义,为 ";"
 nmap <leader>gd  :GoDef<CR>
+nmap <leader>gi  :GoImplements<CR>
 nmap <leader>gim :GoImport<CR>
 nmap <leader>gf  :GoFmt<CR>
 nmap <leader>gb  :GoBuild<CR>

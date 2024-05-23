@@ -24,6 +24,13 @@ Plug 'sebdah/vim-delve'
 Plug 'mileszs/ack.vim'
 "git blame
 Plug 'zivyangll/git-blame.vim'
+"LateX
+Plug 'gu-fan/mathematic.vim'
+"copilot
+Plug 'github/copilot.vim'
+"文件检索
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 let g:plugins = [
@@ -36,6 +43,9 @@ let g:plugins = [
     \'ack',
     \'YouCompleteMe',
     \'git-blame',
+    \'mathematic',
+    \'copilot',
+    \'fzf',
     \]
 
 for value in g:plugins 

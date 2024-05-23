@@ -10,7 +10,7 @@ highlight PmenuSel ctermfg=15 ctermbg=8 guifg=#AFD700 guibg=#106900
 set completeopt=menu,menuone
 "设置属性
 let g:ycm_add_preview_to_completeopt = 0
-let g:ycm_server_python_interpreter='/usr/bin/python3'
+let g:ycm_server_python_interpreter='/usr/local/bin/python3'
 let g:ycm_complete_in_comments=1
 let g:ycm_confirm_extra_conf=0
 let g:ycm_collect_identifiers_from_tags_files=1

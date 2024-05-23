@@ -36,3 +36,11 @@ map nn  <C-F>
 map uu  <C-B>
 "代码折叠
 map <leader>z za
+
+" 正则匹配复制
+function! RegexCopy (m) 
+    let @+ .= a:m . "\n"
+    return a:m
+endfunction
+
+map <leader>r :let @+ = ''<CR>:%s/regex/\=RegexCopy(submatch(0))/g
