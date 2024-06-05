@@ -9,15 +9,14 @@ Plug 'vim-airline/vim-airline'
 "preservim/nerdtree
 Plug 'preservim/nerdtree'
 "tomasr/molokai
-Plug 'tomasr/molokai'
-"fatih/vim-go
+"Plug 'tomasr/molokai'
+Plug 'joshdick/onedark.vim', { 'as': 'onedark' }
+"fatih/vim-go upgrade to lsp
 Plug 'fatih/vim-go',{ 'do': ':GoUpdateBinaries' }
 "tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
-"mdempsky/gocode
-Plug 'mdempsky/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
-"YCM
-Plug 'ycm-core/YouCompleteMe'
+"YCM upgrade to lsp mode
+"Plug 'ycm-core/YouCompleteMe'
 "vim-delve
 Plug 'sebdah/vim-delve'
 "mileszs/ack.vim 搜索
@@ -31,21 +30,28 @@ Plug 'github/copilot.vim'
 "文件检索
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+"lsp
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
 call plug#end()
 
+
+"\'molokai',
+"\'YouCompleteMe',
 let g:plugins = [
-    \'molokai',
+    \'onedark',
+    \'vim-go',
     \'nerdtree',
     \'vim-airline',
-    \'vim-go',
     \'vim-fugitive',
     \'vim-delve',
     \'ack',
-    \'YouCompleteMe',
     \'git-blame',
     \'mathematic',
     \'copilot',
     \'fzf',
+    \'lsp',
     \]
 
 for value in g:plugins 
