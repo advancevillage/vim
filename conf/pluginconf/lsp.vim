@@ -25,6 +25,10 @@ function! s:on_lsp_buffer_enabled() abort
     setlocal signcolumn=yes
     if exists('+tagfunc') | setlocal tagfunc=lsp#tagfunc | endif
     let g:lsp_format_sync_timeout = 1000
+    nmap <buffer> <leader>gd  <plug>(lsp-definition)
+    nmap <buffer> <leader>ga  <plug>(lsp-implementation)
+    nmap <buffer> <leader>gdd <C-o>
+
     autocmd! BufWritePre *.rs,*.go call execute('LspDocumentFormatSync')
     
     " refer to doc to add more commands

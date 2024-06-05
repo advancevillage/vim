@@ -1,13 +1,13 @@
 "plugin: vim-go
 "定义快捷键 <leader>在keymap.vim中定义,为 ";"
-nmap <leader>gd  :GoDef<CR>
-nmap <leader>gi  :GoImplements<CR>
-nmap <leader>gim :GoImport<CR>
-nmap <leader>gf  :GoFmt<CR>
-nmap <leader>gb  :GoBuild<CR>
-nmap <leader>gin :GoInstall<CR>
-nmap <leader>gt  :GoTest<CR>
-nmap <leader>gdd <C-t>
+"nmap <leader>gd  :GoDef<CR>
+"nmap <leader>gi  :GoImplements<CR>
+"nmap <leader>gim :GoImport<CR>
+"nmap <leader>gf  :GoFmt<CR>
+"nmap <leader>gb  :GoBuild<CR>
+"nmap <leader>gin :GoInstall<CR>
+"nmap <leader>gt  :GoTest<CR>
+"nmap <leader>gdd <C-t>
 "vim-go 设置
 let g:go_fmt_experimental = 1
 let g:go_fmt_command = "goimports"
@@ -26,7 +26,6 @@ let g:go_highlight_diagnostic_warnings = 0
 "校验
 let g:go_metalinter_enabled = ['vet', 'golint', 'errcheck']
 let g:go_metalinter_deadline = "5s"
-let g:go_def_mode = 'godef'
 let g:go_decls_includes = "func,type"
 let g:go_list_type = "quickfix"
 " Run :GoBuild or :GoTestCompile based on the go file
