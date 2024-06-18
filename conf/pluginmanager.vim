@@ -11,7 +11,7 @@ Plug 'preservim/nerdtree'
 "tomasr/molokai
 "Plug 'tomasr/molokai'
 Plug 'joshdick/onedark.vim', { 'as': 'onedark' }
-"fatih/vim-go upgrade to lsp
+"fatih/vim-go upgrade to lsp 有点卡
 Plug 'fatih/vim-go',{ 'do': ':GoUpdateBinaries' }
 "tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
@@ -40,12 +40,13 @@ call plug#end()
 "\'molokai',
 "\'YouCompleteMe',
 let g:plugins = [
+    \'fold',
     \'onedark',
-    \'vim-go',
     \'nerdtree',
     \'vim-airline',
     \'vim-fugitive',
     \'vim-delve',
+    \'vim-go',
     \'ack',
     \'git-blame',
     \'mathematic',

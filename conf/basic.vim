@@ -18,8 +18,9 @@
 set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=utf-8,ucs-bom,cp936,gbk,gck2312,gb18030
+
 "折叠
-set foldmethod=syntax
+set foldenable
 set foldlevelstart=99
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -146,15 +147,4 @@ set guifont=SpaceMono-Boldtalic
 set ambiwidth=double
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd Filetype go setlocal tabstop=4 shiftwidth=4 softtabstop=4
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"-->Diff设置
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"" 新增的行
-"hi DiffAdd    ctermbg=235  ctermfg=108  guibg=#262626 guifg=#87af87 cterm=reverse gui=reverse
-"" 变化的行
-"hi DiffChange ctermbg=235  ctermfg=103  guibg=#262626 guifg=#8787af cterm=reverse gui=reverse
-"" 删除的行
-"hi DiffDelete ctermbg=235  ctermfg=131  guibg=#262626 guifg=#af5f5f cterm=reverse gui=reverse
-"" 变化的文字
-"hi DiffText   ctermbg=235  ctermfg=208  guibg=#262626 guifg=#ff8700 cterm=reverse gui=reverse
-
+autocmd FileType go setlocal foldmethod=syntax

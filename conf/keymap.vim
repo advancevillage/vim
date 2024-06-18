@@ -34,8 +34,6 @@ map <leader>cl  :close<CR>
 "翻页
 map nn  <C-F>
 map uu  <C-B>
-"代码折叠
-map <leader>z za
 
 " 正则匹配复制
 function! RegexCopy (m) 
