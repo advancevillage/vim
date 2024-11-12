@@ -50,9 +50,9 @@ let g:plugins = [
     \'ack',
     \'git-blame',
     \'mathematic',
-    \'copilot',
     \'fzf',
     \'lsp',
+    \'copilot',
     \]
 
 for value in g:plugins 
