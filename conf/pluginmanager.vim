@@ -13,6 +13,7 @@ Plug 'preservim/nerdtree'
 Plug 'joshdick/onedark.vim', { 'as': 'onedark' }
 "fatih/vim-go upgrade to lsp 有点卡
 Plug 'fatih/vim-go',{ 'do': ':GoUpdateBinaries' }
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 "tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
 "YCM upgrade to lsp mode
