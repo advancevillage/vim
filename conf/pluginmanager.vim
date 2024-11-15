@@ -11,12 +11,12 @@ Plug 'preservim/nerdtree'
 "tomasr/molokai
 "Plug 'tomasr/molokai'
 Plug 'joshdick/onedark.vim', { 'as': 'onedark' }
-"fatih/vim-go upgrade to lsp 有点卡
+"fatih/vim-go
 Plug 'fatih/vim-go',{ 'do': ':GoUpdateBinaries' }
-Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 "tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
 "YCM upgrade to lsp mode
+"YCM 太慢
 "Plug 'ycm-core/YouCompleteMe'
 "vim-delve
 Plug 'sebdah/vim-delve'
@@ -24,8 +24,6 @@ Plug 'sebdah/vim-delve'
 Plug 'mileszs/ack.vim'
 "git blame
 Plug 'zivyangll/git-blame.vim'
-"LateX
-Plug 'gu-fan/mathematic.vim'
 "copilot
 Plug 'github/copilot.vim'
 "文件检索
@@ -38,8 +36,6 @@ Plug 'prabirshrestha/asyncomplete-lsp.vim'
 call plug#end()
 
 
-"\'molokai',
-"\'YouCompleteMe',
 let g:plugins = [
     \'fold',
     \'onedark',
@@ -50,7 +46,6 @@ let g:plugins = [
     \'vim-go',
     \'ack',
     \'git-blame',
-    \'mathematic',
     \'fzf',
     \'lsp',
     \'copilot',
