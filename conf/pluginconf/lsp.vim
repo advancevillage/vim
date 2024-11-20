@@ -2,6 +2,7 @@ let g:lsp_document_highlight_enabled = 1
 
 " 配置 golang server
 if executable('gopls')
+  " ln -sf /Users/sun/go/bin/gopls /usr/local/bin/gopls
   au User lsp_setup call lsp#register_server({
         \ 'name': 'gopls',
         \ 'cmd': {server_info->['gopls']},
@@ -12,6 +13,7 @@ endif
 " 配置 python3 server
 if executable('pylsp')
     " python3 -m pip install python-lsp-server
+    " ln -sf /Users/sun/Library/Python/3.11/bin/pylsp /usr/local/bin/pylsp
     au User lsp_setup call lsp#register_server({
         \ 'name': 'pylsp',
         \ 'cmd': {server_info->['pylsp']},
@@ -39,7 +41,7 @@ function! s:on_lsp_buffer_enabled() abort
     nmap <buffer> <leader>ga  <plug>(lsp-implementation)
     nmap <buffer> <leader>gb  <C-o>
 
-    autocmd! BufWritePre *.rs,*.go call execute('LspDocumentFormatSync')
+    autocmd! BufWritePre *.rs,*.go,*.py call execute('LspDocumentFormatSync')
     
     " refer to doc to add more commands
 endfunction
