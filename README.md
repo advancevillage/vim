@@ -91,10 +91,6 @@ VIM补充知识
 第三步在pluginmanager.vim脚本中的g:plugins数组中添加xxx;第四步生效vimrc脚本
 
 	execute ':so' g:vim_home."/conf/pluginmanager.vim"
----
-
-效果
-![个性化配置VIM效果动图](http://obp7hxe1q.bkt.clouddn.com/vimconf.gif)
 
 ---
 

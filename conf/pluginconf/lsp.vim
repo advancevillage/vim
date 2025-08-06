@@ -21,6 +21,26 @@ if executable('pylsp')
         \ })
 endif
 
+" 配置 bash server
+if executable('bash-language-server')
+    " npm i -g bash-language-server
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'bash-language-server',
+        \ 'cmd': {server_info->['bash-language-server', 'start']},
+        \ 'allowlist': ['sh'],
+        \ })
+endif
+
+" 配置 js server
+if executable('typescript-language-server')
+    " yarn global add typescript typescript-language-server
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'typescript-language-server',
+        \ 'cmd': {server_info->['typescript-language-server', 'start']},
+        \ 'allowlist': ['js', 'ts'],
+        \ })
+endif
+
 " 自动补全配置
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"

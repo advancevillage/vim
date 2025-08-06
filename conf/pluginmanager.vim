@@ -12,7 +12,7 @@ Plug 'preservim/nerdtree'
 "Plug 'tomasr/molokai'
 Plug 'joshdick/onedark.vim', { 'as': 'onedark' }
 "fatih/vim-go
-Plug 'fatih/vim-go',{ 'do': ':GoUpdateBinaries' }
+Plug 'fatih/vim-go',{'do':':GoUpdateBinaries', 'tag': 'v1.28'}
 "tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
 "YCM upgrade to lsp mode
