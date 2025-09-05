@@ -26,6 +26,7 @@ Plug 'mileszs/ack.vim'
 Plug 'zivyangll/git-blame.vim'
 "copilot
 Plug 'github/copilot.vim'
+Plug 'madox2/vim-ai'
 "文件检索
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -35,7 +36,6 @@ Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 call plug#end()
-
 
 let g:plugins = [
     \'fold',
@@ -50,6 +50,7 @@ let g:plugins = [
     \'fzf',
     \'lsp',
     \'copilot',
+    \'vimai'
     \]
 
 for value in g:plugins 
