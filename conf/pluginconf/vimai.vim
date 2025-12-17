@@ -1,5 +1,5 @@
-" openai
-let g:vim_ai_token_file_path = '~/.config/openai.token'
+" doubao
+let g:vim_ai_name = "doubao"
 let g:vim_ai_roles_config_file = '~/.vim/roles.ini'
 
 " trigger chat

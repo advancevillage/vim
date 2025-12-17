@@ -53,6 +53,7 @@ set syntax=on
 colo pablo
 "256色
 set t_Co=256
+set t_ut=
 "语法可用
 set syntax=enable
 "去掉启动时的援助提示

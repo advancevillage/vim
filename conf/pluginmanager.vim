@@ -9,8 +9,9 @@ Plug 'vim-airline/vim-airline'
 "preservim/nerdtree
 Plug 'preservim/nerdtree'
 "tomasr/molokai
-"Plug 'tomasr/molokai'
-Plug 'joshdick/onedark.vim', { 'as': 'onedark' }
+Plug 'tomasr/molokai'
+"Plug 'joshdick/onedark.vim', { 'as': 'onedark' }
+"Plug 'tomasiser/vim-code-dark'
 "fatih/vim-go
 Plug 'fatih/vim-go',{'do':':GoUpdateBinaries', 'tag': 'v1.28'}
 "tpope/vim-fugitive
@@ -41,7 +42,7 @@ call plug#end()
 
 let g:plugins = [
     \'fold',
-    \'onedark',
+    \'molokai',
     \'nerdtree',
     \'vim-airline',
     \'vim-fugitive',
