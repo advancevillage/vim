@@ -9,8 +9,8 @@ Plug 'vim-airline/vim-airline'
 "preservim/nerdtree
 Plug 'preservim/nerdtree'
 "tomasr/molokai
-Plug 'tomasr/molokai'
-"Plug 'joshdick/onedark.vim', { 'as': 'onedark' }
+"Plug 'tomasr/molokai'
+Plug 'joshdick/onedark.vim', { 'as': 'onedark' }
 "Plug 'tomasiser/vim-code-dark'
 "fatih/vim-go
 Plug 'fatih/vim-go',{'do':':GoUpdateBinaries', 'tag': 'v1.28'}
@@ -27,6 +27,8 @@ Plug 'mileszs/ack.vim'
 Plug 'zivyangll/git-blame.vim'
 "copilot
 Plug 'github/copilot.vim'
+"claude
+Plug 'pasky/claude.vim',{'branch': 'main'}
 " 国外
 "Plug 'madox2/vim-ai'
 Plug 'chenxuan520/vim-ai-doubao', {'on': ['AIChat', 'AI', 'AIEdit', 'AIConfigEdit']}
@@ -42,7 +44,7 @@ call plug#end()
 
 let g:plugins = [
     \'fold',
-    \'molokai',
+    \'onedark',
     \'nerdtree',
     \'vim-airline',
     \'vim-fugitive',
@@ -53,6 +55,7 @@ let g:plugins = [
     \'fzf',
     \'lsp',
     \'copilot',
+    \'claude',
     \'vimai'
     \]
 
