@@ -27,11 +27,8 @@ Plug 'mileszs/ack.vim'
 Plug 'zivyangll/git-blame.vim'
 "copilot
 Plug 'github/copilot.vim'
-"claude
-Plug 'pasky/claude.vim',{'branch': 'main'}
 " 国外
 "Plug 'madox2/vim-ai'
-Plug 'chenxuan520/vim-ai-doubao', {'on': ['AIChat', 'AI', 'AIEdit', 'AIConfigEdit']}
 "文件检索
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -55,7 +52,6 @@ let g:plugins = [
     \'fzf',
     \'lsp',
     \'copilot',
-    \'claude',
     \'vimai'
     \]
 
