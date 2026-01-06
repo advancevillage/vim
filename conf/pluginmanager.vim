@@ -27,8 +27,8 @@ Plug 'mileszs/ack.vim'
 Plug 'zivyangll/git-blame.vim'
 "copilot
 Plug 'github/copilot.vim'
-" 国外
-"Plug 'madox2/vim-ai'
+" vim-ai
+Plug 'advancevillage/vim-ai'
 "文件检索
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
